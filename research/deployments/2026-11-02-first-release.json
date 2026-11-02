@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "project_id": "appgprj_6ae83714bccc819191c29deb2c1e9c6e",
+  "source_commit": "8514921ac8120caae9e4c9a94759344b456c5b52",
+  "version_id": "appgprj_6ae83714bccc819191c29deb2c1e9c6e~appgver_8513020d3fb08191ade73065818d3a25",
+  "version_number": 1,
+  "deployment_id": "appgdep_6ae8560e566481918b63be56b64e241d",
+  "status": "succeeded",
+  "url": "https://whyqaraan.cometgleam256.chatgpt.site",
+  "access_mode": "public",
+  "access_revision": 2,
+  "verified_at": "2026-11-02T09:21:35.258876+00:00",
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000003e44820886d534d9d0850959",
+    "content_hash": "sha256:e2d788fb835ffb1f3e919a94fb99c29542cd5c13603869e5800a9cba1ab23aae",
+    "size_bytes": 2457600,
+    "file_count": 93
+  },
+  "local_archive_sha256": "bdc62c3a0c358fcd3ebfb4b4e962c6754d401d0fa95c25e6ded56bc47f45ec50",
+  "artifact_matches_browser_verified_files": true,
+  "publication_method": "Sites native saved-version deployment; exact source pushed by the Sites workflow helper.",
+  "notes": [
+    "The upload credential expired after the verified build; renewed credentials pushed the unchanged local commit successfully.",
+    "Transient connector/file-upload transport failures were retried after checking saved versions to avoid duplicate creation.",
+    "Public access was confirmed by the native access response; deployment success and URL were confirmed by get_deployment_status.",
+    "This receipt is recorded after publication; source_commit identifies the exact deployed website source."
+  ]
+}
