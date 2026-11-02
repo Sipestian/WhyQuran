@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "chromosome-controls": {
+      "body_sha256": "2c4f4530f5b844c3ee20d7c7f028099ad7e9c146c96b21aeee7c2dc9b034ba7f",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة بحثية داخلية مستقلة: أعيد إنشاء جميع الأحواض ومراجع10000سحب ومجاميعها وبواقيها وجداولها من المصدرين دون استيراد run.py أو وحدة corpus؛ طابقت4/5/10/10، وفحصت المصادر وحدود المقارنة وحوض الآيات الست. نجحت4اختبارات للتدقيق و8للتنفيذ و33للمشروع؛ لا تغيير للمتن.",
+      "review_document": "research/reviews/2026-11-02-followup-family.md",
+      "reviewed_draft_sha256": "4af5db21f7a0f1d02b5d9d998d1a584ffb3a592f78545ef6568ee9292a31c31d"
+    }
+  }
+}

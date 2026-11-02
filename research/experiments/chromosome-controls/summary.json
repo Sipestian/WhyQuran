@@ -1,0 +1,273 @@
+{
+  "id": "chromosome-controls-v1",
+  "kind": "descriptive_reference_comparison",
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n",
+  "protocol_commit": "eacece6f9cc3a0f5782457db542e0e6336477eea",
+  "protocol_sha256": "9be400bbd565dc7b173c3b4083277d27f4cdac2368267240c13e3f5161c2d50b",
+  "seed": 20261102,
+  "replicates": 10000,
+  "primary": {
+    "rule": "C3",
+    "divisor": 46,
+    "event": "both_groups",
+    "count": 10,
+    "denominator": 10000,
+    "fraction": 0.001
+  },
+  "rules": {
+    "C0": {
+      "original_totals": {
+        "A": 845,
+        "B": 516
+      },
+      "events": {
+        "A_divisible_by_46": {
+          "count": 206,
+          "denominator": 10000,
+          "fraction": 0.0206
+        },
+        "B_divisible_by_46": {
+          "count": 283,
+          "denominator": 10000,
+          "fraction": 0.0283
+        },
+        "both_divisible_by_46": {
+          "count": 4,
+          "denominator": 10000,
+          "fraction": 0.0004
+        },
+        "both_divisible_by_23": {
+          "count": 13,
+          "denominator": 10000,
+          "fraction": 0.0013
+        },
+        "both_divisible_by_23_but_not_both_by_46": {
+          "count": 9,
+          "denominator": 10000,
+          "fraction": 0.0009
+        }
+      },
+      "sum_distribution": {
+        "A": {
+          "min": 778,
+          "median": 842.0,
+          "max": 926
+        },
+        "B": {
+          "min": 478,
+          "median": 514.0,
+          "max": 551
+        }
+      }
+    },
+    "C1": {
+      "original_totals": {
+        "A": 838,
+        "B": 509
+      },
+      "events": {
+        "A_divisible_by_46": {
+          "count": 237,
+          "denominator": 10000,
+          "fraction": 0.0237
+        },
+        "B_divisible_by_46": {
+          "count": 243,
+          "denominator": 10000,
+          "fraction": 0.0243
+        },
+        "both_divisible_by_46": {
+          "count": 5,
+          "denominator": 10000,
+          "fraction": 0.0005
+        },
+        "both_divisible_by_23": {
+          "count": 15,
+          "denominator": 10000,
+          "fraction": 0.0015
+        },
+        "both_divisible_by_23_but_not_both_by_46": {
+          "count": 10,
+          "denominator": 10000,
+          "fraction": 0.001
+        }
+      },
+      "sum_distribution": {
+        "A": {
+          "min": 751,
+          "median": 829.0,
+          "max": 919
+        },
+        "B": {
+          "min": 458,
+          "median": 505.0,
+          "max": 552
+        }
+      }
+    },
+    "C2": {
+      "original_totals": {
+        "A": 831,
+        "B": 509
+      },
+      "events": {
+        "A_divisible_by_46": {
+          "count": 224,
+          "denominator": 10000,
+          "fraction": 0.0224
+        },
+        "B_divisible_by_46": {
+          "count": 260,
+          "denominator": 10000,
+          "fraction": 0.026
+        },
+        "both_divisible_by_46": {
+          "count": 10,
+          "denominator": 10000,
+          "fraction": 0.001
+        },
+        "both_divisible_by_23": {
+          "count": 30,
+          "denominator": 10000,
+          "fraction": 0.003
+        },
+        "both_divisible_by_23_but_not_both_by_46": {
+          "count": 20,
+          "denominator": 10000,
+          "fraction": 0.002
+        }
+      },
+      "sum_distribution": {
+        "A": {
+          "min": 750,
+          "median": 824.0,
+          "max": 912
+        },
+        "B": {
+          "min": 457,
+          "median": 502.0,
+          "max": 546
+        }
+      }
+    },
+    "C3": {
+      "original_totals": {
+        "A": 828,
+        "B": 506
+      },
+      "events": {
+        "A_divisible_by_46": {
+          "count": 236,
+          "denominator": 10000,
+          "fraction": 0.0236
+        },
+        "B_divisible_by_46": {
+          "count": 219,
+          "denominator": 10000,
+          "fraction": 0.0219
+        },
+        "both_divisible_by_46": {
+          "count": 10,
+          "denominator": 10000,
+          "fraction": 0.001
+        },
+        "both_divisible_by_23": {
+          "count": 25,
+          "denominator": 10000,
+          "fraction": 0.0025
+        },
+        "both_divisible_by_23_but_not_both_by_46": {
+          "count": 15,
+          "denominator": 10000,
+          "fraction": 0.0015
+        }
+      },
+      "sum_distribution": {
+        "A": {
+          "min": 747,
+          "median": 818.0,
+          "max": 908
+        },
+        "B": {
+          "min": 455,
+          "median": 498.0,
+          "max": 544
+        }
+      }
+    }
+  },
+  "number_of_jointly_matching_rules_histogram": {
+    "0": 9971,
+    "1": 29,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "any_rule_joint46": {
+    "count": 29,
+    "denominator": 10000,
+    "fraction": 0.0029
+  },
+  "all_rules_joint46": {
+    "count": 0,
+    "denominator": 10000,
+    "fraction": 0.0
+  },
+  "pool_summary": [
+    {
+      "bin_id": 0,
+      "bounds": [
+        0,
+        19
+      ],
+      "required": 5,
+      "size": 1155
+    },
+    {
+      "bin_id": 1,
+      "bounds": [
+        20,
+        39
+      ],
+      "required": 2,
+      "size": 1634
+    },
+    {
+      "bin_id": 2,
+      "bounds": [
+        40,
+        59
+      ],
+      "required": 3,
+      "size": 1349
+    },
+    {
+      "bin_id": 5,
+      "bounds": [
+        100,
+        119
+      ],
+      "required": 3,
+      "size": 303
+    },
+    {
+      "bin_id": 13,
+      "bounds": [
+        260,
+        279
+      ],
+      "required": 1,
+      "size": 6
+    }
+  ],
+  "interpretation_ar": "نسب وصفية داخل المرجع المثبت؛ ليست احتمال المعجزة أو المصادفة، ولا تمثل طريقة اختيار ألفاظ صاحب الدعوى.",
+  "limitations_ar": [
+    "التصميممشروطبنصواحدوروايةورسمينوقواعدمعلومة،لااختبارلكلالقراءاتأوالمخطوطات.",
+    "مطابقةالطبقاتتقللالفروقفيالأطوالولاتثبتتبادلمجموعاتالآياتدلاليا.",
+    "الأصلانتقيبألفاظبعينها،بينماالمرجعيسحبآيات؛لايمثلفضاءأزواجالألفاظالطبيعية.",
+    "معرفةالنتيجةالأصليةوسجلتعديلC3لاتزولبتجميدمقارنةلاحقة.",
+    "العددالصغيرأوالكبيرللموافقاتلايثبتقصدًاوراثيًّاولاينفيقيمةالمعنىالديني؛يصفهذاالمرجعفقط.",
+    "لاتستخرجاحتمالمصادفةعالمياولامعاملBayesولانموذجتوليدلغة،ولاتستنتجأنالبواقيمنتظمة.",
+    "لايزالمصطلحالرسمالأولفيالدعوىيحتاجتحقيقاتاريخيامستقلا،ولاتجيبالمقارنةالحاليةعنه."
+  ]
+}

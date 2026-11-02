@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-02",
+  "status": "verified_for_publication",
+  "scope": "second_research_batch",
+  "articles": 37,
+  "topics": 43,
+  "evidence_records": 41,
+  "queries": 50,
+  "new_articles": [
+    "rahman-refrain-context",
+    "divorce-terms-and-schools",
+    "chromosome-controls"
+  ],
+  "tests": {
+    "python_core": 33,
+    "experiment": 8,
+    "independent_audit": 4,
+    "node_site": 35,
+    "total": 80
+  },
+  "astro_diagnostics": {
+    "errors": 0,
+    "warnings": 0,
+    "hints": 0
+  },
+  "build": {
+    "html_pages": 43,
+    "valid_local_links": 844,
+    "largest_html_bytes": 73423,
+    "browser_javascript_bytes": 0,
+    "file_count": 102,
+    "total_bytes": 2660533
+  },
+  "browser": {
+    "cases": 14,
+    "widths": [
+      390,
+      1440
+    ],
+    "overflows": 0,
+    "runtime_errors": 0,
+    "broken_images": 0,
+    "report": "research/reviews/2026-11-02-followup-browser.json"
+  },
+  "release_coverage": "passed",
+  "independent_experiment_audit": "research/reviews/2026-11-02-controls-independent-result.json",
+  "dist_manifest": "research/reviews/2026-11-02-followup-dist-manifest.json",
+  "notes_ar": [
+    "فحصت صور المقالات الثلاثة بصريا؛ لا تغييرات مطلوبة.",
+    "لم يتغير محرك العد أو بوابات النشر؛ اجتازت الاختبارات القائمة وفحص أثر الإنتاج وروابطه وخريطة الموقع.",
+    "تباطأت مرحلة Astro بسبب انتظار قراءات الملفات مع ضغط I/O مرتفع على المضيف؛ اكتملت دون تعديل التطبيق أو إعادة تشغيل الفحص.",
+    "تبقى تجربة الصبغيات مقارنة وصفية داخل النص المثبت، لا اكتشافا وراثيا مثبتا."
+  ]
+}

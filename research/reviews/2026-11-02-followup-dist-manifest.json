@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-02",
+  "files": [
+    {
+      "path": "404.html",
+      "bytes": 2868,
+      "sha256": "eaf01a6848efb0f2f5a624e0ec8469f0208d6254d7fe64bfda9f191f2785600e"
+    },
+    {
+      "path": "_astro/Base.D1XW_Dr3.css",
+      "bytes": 11057,
+      "sha256": "bd485634594b41a7782b7d4340610d7d0f678888f0a36576e7b98d75aa86f767"
+    },
+    {
+      "path": "articles/chromosome-controls/index.html",
+      "bytes": 19317,
+      "sha256": "cb301b46d77861d70d9549e8e3a3c04ff37ddc51e279be51934e4a3b6a9b0594"
+    },
+    {
+      "path": "articles/chromosomes-and-counts/index.html",
+      "bytes": 19041,
+      "sha256": "38970259272b00bf1ec2a0a3b94b4c46708ba95ac1e715459ff6aea61fa99345"
+    },
+    {
+      "path": "articles/cosmic-expansion/index.html",
+      "bytes": 13898,
+      "sha256": "15ea08335494b73929b1e9416c015ab0536bb4c3ee56d1eca37e73ee96d4b311"
+    },
+    {
+      "path": "articles/cosmic-origins/index.html",
+      "bytes": 13624,
+      "sha256": "33f69cb98411010af37820421b07582de2320aaba9eddc8d0fd2266ff6f0cb5d"
+    },
+    {
+      "path": "articles/day-month-counts/index.html",
+      "bytes": 15510,
+      "sha256": "0c94c6d959f59ebdac81335abe7b2ea8b5765f02a6a1dd0a38ce59dc722120fa"
+    },
+    {
+      "path": "articles/divorce-terms-and-schools/index.html",
+      "bytes": 22131,
+      "sha256": "a495103188a6309ae9a12dc474b8dbee21a0f56d127cf8ab8bf62b7e6c35884b"
+    },
+    {
+      "path": "articles/divorce-wording/index.html",
+      "bytes": 19315,
+      "sha256": "76cae59e09fc1617d2ee54abe9daa09a4b8c0805fce2eeb19b1d229fe77187b6"
+    },
+    {
+      "path": "articles/dna-amshaj/index.html",
+      "bytes": 14629,
+      "sha256": "a391592fa9f048972053dbe06699bc2f90046d6d5e9a2391a481161f7f427cf3"
+    },
+    {
+      "path": "articles/embryology-and-language/index.html",
+      "bytes": 13662,
+      "sha256": "54613c31bebd3ff75dfaa0070a390682e50f79b805ba4a9a5ee30170a991b9a8"
+    },
+    {
+      "path": "articles/fluid-and-context/index.html",
+      "bytes": 13241,
+      "sha256": "9c7f2bae89df56ab46538290d6b882c39666bfabbee230684cfa2c06760e15a9"
+    },
+    {
+      "path": "articles/iddah-and-context/index.html",
+      "bytes": 20840,
+      "sha256": "2704447b93c806adf3f6f100bdcbc76bfb8aa6af5cf352222bf4b97d973bc2ac"
+    },
+    {
+      "path": "articles/index.html",
+      "bytes": 29247,
+      "sha256": "87586deb14dbc1b509ac51a59751ad191dcfc4775719a7488b85d8f56a8e639c"
+    },
+    {
+      "path": "articles/iron-from-stars/index.html",
+      "bytes": 14060,
+      "sha256": "b0c069e41b14e0a80f4e043b7043a3e2c5d24e2cff0e36fdd12efca741c4ba64"
+    },
+    {
+      "path": "articles/letters-and-readings/index.html",
+      "bytes": 12350,
+      "sha256": "a33ea314fd3eb9fad2f7844aeedffb03b9bbe5aa3b8fed08b89a5ce08aa333b8"
+    },
+    {
+      "path": "articles/marriage-covenant/index.html",
+      "bytes": 18539,
+      "sha256": "697345bcf4b0664c163d58384e1bc2ea702aff08dc24f5d3d59a788c384e5e54"
+    },
+    {
+      "path": "articles/moon-and-modern-science/index.html",
+      "bytes": 18114,
+      "sha256": "616028ca7db659a065e3dcc3ecf13f273408475b29bd2db3f367c73d396306b2"
+    },
+    {
+      "path": "articles/mountains-and-context/index.html",
+      "bytes": 13460,
+      "sha256": "af88db0230b997c3a8210dc566ebf16bed51f6e1aa2fadd4a726da589774d0ac"
+    },
+    {
+      "path": "articles/names-and-context/index.html",
+      "bytes": 13958,
+      "sha256": "5e99c4f9fc1cfdc2708da2628e1c2505aef169ca702569adbfd56f7b680e8f90"
+    },
+    {
+      "path": "articles/nineteen-and-counting/index.html",
+      "bytes": 12879,
+      "sha256": "1ba9ae49708c44f6466f59cb9218d4c09afe55e337ec79d48a4730550c752f58"
+    },
+    {
+      "path": "articles/nur-diya-siraj/index.html",
+      "bytes": 21475,
+      "sha256": "bee7fd6a367fa01ef2aaf96e81cd7a556e0c6d2c512ed5b8c5d1f4584b6b2b05"
+    },
+    {
+      "path": "articles/opening-letters/index.html",
+      "bytes": 13695,
+      "sha256": "3b297ba57d1c7f507745dc9ca000eec0aa10355aa8a275e0aa576839949c58ec"
+    },
+    {
+      "path": "articles/orbits-and-language/index.html",
+      "bytes": 15280,
+      "sha256": "f554f1e1e23770c8013b83c25e9d7b8d98d933eee91f6cdc83206ddd18f138ea"
+    },
+    {
+      "path": "articles/quran-nazm/index.html",
+      "bytes": 20587,
+      "sha256": "b9e3c0c6265bafca54b2765224c0e30a29080eb6fd998ef8e13605993240da68"
+    },
+    {
+      "path": "articles/rahman-refrain-context/index.html",
+      "bytes": 17244,
+      "sha256": "d8e663f8c8d092aa24738856bf6560d1d4fa52b73a3907df70b8c55046fb456b"
+    },
+    {
+      "path": "articles/reading-family-law/index.html",
+      "bytes": 19923,
+      "sha256": "33fdf2d5707a05509d177defd87131060cebadfdbd4294183b52831903c05d9a"
+    },
+    {
+      "path": "articles/sanah-and-aam/index.html",
+      "bytes": 14422,
+      "sha256": "16c6a227d857d67d88711aee845d0c03c0fb96209c9729f1e1823c2689dd805f"
+    },
+    {
+      "path": "articles/science-in-the-last-century/index.html",
+      "bytes": 24961,
+      "sha256": "80a712f6070bd938d700c25da485f00413b83d83d7d44f481d4b6c5dbd07cdd3"
+    },
+    {
+      "path": "articles/sea-boundaries/index.html",
+      "bytes": 12662,
+      "sha256": "f3200940047ca3ceec7f4916af2274d4fc3e951c039ccb5b3fb622b77438693f"
+    },
+    {
+      "path": "articles/sex-development/index.html",
+      "bytes": 22705,
+      "sha256": "59d19b23a150c3c2909b9ef1c83a188adb1f5356cba8ac032e9ca78324645763"
+    },
+    {
+      "path": "articles/spider-house/index.html",
+      "bytes": 13065,
+      "sha256": "d07ccab81c00ca95fa2fd76a51b1ff656fff996ddf0a5772d14643665831352d"
+    },
+    {
+      "path": "articles/story-variation/index.html",
+      "bytes": 13334,
+      "sha256": "ba2e9508c29475b06e9e9cc3a9af1e5c6cccb704d3eec0ba13bc034ae1b78fb7"
+    },
+    {
+      "path": "articles/testing-discovery-claims/index.html",
+      "bytes": 15238,
+      "sha256": "b558ce5de4d730a65c4fa5fe1a303696942f9fe16871ff776aaf35cc0f19732b"
+    },
+    {
+      "path": "articles/universe-words/index.html",
+      "bytes": 14498,
+      "sha256": "74d4b85de598ff88415a781c3e6c43124a61cb530da6e657e4f1d8df929cb040"
+    },
+    {
+      "path": "articles/wall-and-ability/index.html",
+      "bytes": 16237,
+      "sha256": "2dd4f0b58dc4ead600fcd45d63588c99d5437ddb185ca84279ae7de4b715e415"
+    },
+    {
+      "path": "articles/water-and-life/index.html",
+      "bytes": 16322,
+      "sha256": "8e0d68988a25ff0c9ef8099ca0b17ac5b4316eb89f2c4fc60fab26d5cfa7b74b"
+    },
+    {
+      "path": "articles/why-tastati-tasti/index.html",
+      "bytes": 16748,
+      "sha256": "fa0044998217de7dbf13245570101abf33a09598d89ed9381538e5f1c00dbbbd"
+    },
+    {
+      "path": "articles/word-counts/index.html",
+      "bytes": 11204,
+      "sha256": "e3c81bf7dc52f7c4f06b6bc94dca203067451dc52c0718d91a1b4c26649b6933"
+    },
+    {
+      "path": "articles/zawj-and-imraa/index.html",
+      "bytes": 20113,
+      "sha256": "2b7c8bdb2b05f72edb6666c2baced9ec02fc9689e2d513124209796948377f0c"
+    },
+    {
+      "path": "counts/index.html",
+      "bytes": 23710,
+      "sha256": "74ab7662d07bd4d13583bff3fe630dd44d8bb154882576cf1da15fd87ac4402c"
+    },
+    {
+      "path": "downloads/audit.json",
+      "bytes": 1027,
+      "sha256": "b8f56a4893bac484912e25a6d1b9fe1193fe7dfeaa2bca7d3d1ce3d24001e925"
+    },
+    {
+      "path": "downloads/characters-simple-clean.json",
+      "bytes": 28334,
+      "sha256": "cce0817ac65471a07249182ed092341dfdc23dbbc2cff3424f9b61ee3ff6da00"
+    },
+    {
+      "path": "downloads/characters-uthmani.json",
+      "bytes": 32605,
+      "sha256": "5ff337cd1b121f8647239b0da8402ad3402fe7a2ac3bc54b8123056ed23aa465"
+    },
+    {
+      "path": "downloads/chromosome-controls-protocol.json",
+      "bytes": 19400,
+      "sha256": "9be400bbd565dc7b173c3b4083277d27f4cdac2368267240c13e3f5161c2d50b"
+    },
+    {
+      "path": "downloads/chromosome-controls.json",
+      "bytes": 7898,
+      "sha256": "e2cf79e4dec4d5c3209cc2833c4b1054e4a216d34e3045e90fad8480903165b5"
+    },
+    {
+      "path": "downloads/day-month.json",
+      "bytes": 114465,
+      "sha256": "c249c0b72eec1fc0b7f07809669d4c69df1ec98e0e339f24fd44ddc6492ce637"
+    },
+    {
+      "path": "downloads/divorce-terms-schools.json",
+      "bytes": 49963,
+      "sha256": "a12a5328cebbc762bd3c70b8d1c2c188736adcd1b2ae6b72d0d92bb538ff4c86"
+    },
+    {
+      "path": "downloads/light-wording.json",
+      "bytes": 137022,
+      "sha256": "4a3b3638ab9e15ac6cf39585cdaf9babe5a4d3ff8427d6f2df3c033f117dca8f"
+    },
+    {
+      "path": "downloads/rahman-context.json",
+      "bytes": 102634,
+      "sha256": "a727450f64b538b1d9b06df7f983aa04c227e143348f02f6a94209bd40920e76"
+    },
+    {
+      "path": "downloads/repetition-summary.json",
+      "bytes": 3503,
+      "sha256": "4ad5406ea6c029ab209f11d21174ec7cb5dbc8e9553404bedffb13fd655dd29b"
+    },
+    {
+      "path": "downloads/universe.json",
+      "bytes": 915523,
+      "sha256": "187a61d2a9e5fb9fcf2a9bfb8037cc115e4810e0fd7ca0a5284a2149f87da694"
+    },
+    {
+      "path": "downloads/wife-wording.json",
+      "bytes": 117305,
+      "sha256": "929cd90d5c2df80ecb30675b6e27e2f75b1290187e64347da1608149423324f2"
+    },
+    {
+      "path": "evidence/cosmic-origins.json",
+      "bytes": 8464,
+      "sha256": "c439fb97f12c3ed1ad75467ea2fa8a53bbe99e93eb98828925a5619c87a7f655"
+    },
+    {
+      "path": "evidence/counts-adam-isa.json",
+      "bytes": 3602,
+      "sha256": "b36991347a1f9e5e0e2e3d931b27882f4b57e642dfb9df906e9379ee3d53806d"
+    },
+    {
+      "path": "evidence/counts-day-month.json",
+      "bytes": 9594,
+      "sha256": "2106a78fc86ff2a46d7d104c5e1624d311f4797322eee8124ca427aebb0c9455"
+    },
+    {
+      "path": "evidence/counts-rahman-refrain.json",
+      "bytes": 2936,
+      "sha256": "c0f0b342567a3bdec70da4a1affd08f77bd253d762c64d9b5bdd55a7f0944920"
+    },
+    {
+      "path": "evidence/counts-universe-terms.json",
+      "bytes": 9754,
+      "sha256": "5da86118a87aa9e9d6197ffa9515f34ec93b626e0a658c7ec33ee328a67b0d97"
+    },
+    {
+      "path": "evidence/counts-written-units.json",
+      "bytes": 3837,
+      "sha256": "c07cd5dffd7fd4e544de01bb38fb6a8de23c335eac1faef35be47f203e14a3f4"
+    },
+    {
+      "path": "evidence/embryology-and-language.json",
+      "bytes": 7892,
+      "sha256": "be8c6d6c4bf73aeb70a485cb89f82605e5047e4ee0d06450ce5c123c6649ba5e"
+    },
+    {
+      "path": "evidence/family-divorce-terms-schools.json",
+      "bytes": 13833,
+      "sha256": "797039322ffc66f511c81025ebb0247a4eeedc179117ff5d18cad55211cd2bb7"
+    },
+    {
+      "path": "evidence/family-divorce-wording-context.json",
+      "bytes": 10380,
+      "sha256": "d0e10dbeeb2457572e6507b8b15c1074bd9a820eb25204f134afb0bd1c24f454"
+    },
+    {
+      "path": "evidence/family-iddah-contextual-synthesis.json",
+      "bytes": 13112,
+      "sha256": "885fc00e9071da8f997490d3553a476702a85980b5fc8fc132f1b5b8871acd48"
+    },
+    {
+      "path": "evidence/family-iddah-source-comparison.json",
+      "bytes": 10944,
+      "sha256": "691496403699d596d826fea482979a38380fd1b3dc7638a0149492a16422f6c8"
+    },
+    {
+      "path": "evidence/family-law-reading-method.json",
+      "bytes": 9189,
+      "sha256": "c42ceb7f3380f4d4cc0a36285ed4e429c83a0327b4f926a525b1d9f7a52f3929"
+    },
+    {
+      "path": "evidence/family-marriage-ethics.json",
+      "bytes": 8164,
+      "sha256": "1d22670c2f23ad370a4c5452e97569ae3a89e3c41a7cc39bda9e6f3a6ba4c1bd"
+    },
+    {
+      "path": "evidence/fluid-and-context.json",
+      "bytes": 7452,
+      "sha256": "fbd65e54a36d9e8824f3643e2be92d21c5cf711a9884111d13c8b76e8d9d9e9c"
+    },
+    {
+      "path": "evidence/mountains-and-context.json",
+      "bytes": 7616,
+      "sha256": "6aaf6b659bb8923d2e0dd833a778ff1272a54c3500bd7a5752dda190120abc95"
+    },
+    {
+      "path": "evidence/names-and-context.json",
+      "bytes": 8201,
+      "sha256": "6424e7383f9d89d846abd6c88aecf2889477480a1371da717ce20def17e939b2"
+    },
+    {
+      "path": "evidence/nineteen-and-counting.json",
+      "bytes": 5760,
+      "sha256": "be5e66ff7ae8bda66a935539dbd21f2194ec3d3cdfb03221d015f7d8ad868f64"
+    },
+    {
+      "path": "evidence/orbits-and-language.json",
+      "bytes": 6844,
+      "sha256": "f8f90e23fcd6f42639e168caedaddd66b27decef7e42412c59b38dced59c9fe9"
+    },
+    {
+      "path": "evidence/science-chromosome-claims.json",
+      "bytes": 10788,
+      "sha256": "0b6c387aa699f04d604a74eb40c300b9519553ead3ae945ddaa224b53bc343d1"
+    },
+    {
+      "path": "evidence/science-chromosome-controls.json",
+      "bytes": 8333,
+      "sha256": "0db3c5ffc135417366a752bb7f50e3a7ad85a2363d16a8d52dcdf8ebb301c066"
+    },
+    {
+      "path": "evidence/science-cosmic-expansion.json",
+      "bytes": 8293,
+      "sha256": "e8bfa400b9a766f139df841b3d12b0c42ea66987c774cd1ec0baff93d9e5fc47"
+    },
+    {
+      "path": "evidence/science-dna-inheritance.json",
+      "bytes": 12352,
+      "sha256": "bc17de6bb6c56602b98631233c7d6c7e273544b7a8d2ae1ba65b46904340e72f"
+    },
+    {
+      "path": "evidence/science-iron-origin.json",
+      "bytes": 9348,
+      "sha256": "7b08acccc41a01d1da29c8ad5e2fa7c6071e2f678d1077c2df48cba88837da39"
+    },
+    {
+      "path": "evidence/science-moon-history.json",
+      "bytes": 7021,
+      "sha256": "663d20279ff2e6e4a962cb5423f82f1d6173eca59c248b16c724752545826335"
+    },
+    {
+      "path": "evidence/science-moon-light.json",
+      "bytes": 7264,
+      "sha256": "b49a9451eab9429e71821bcdd811e0963b358cd835fad1058e39c9a07ef1179f"
+    },
+    {
+      "path": "evidence/science-moon-splitting.json",
+      "bytes": 5309,
+      "sha256": "dec088fb64154512f3c42d8a758396414c283043074679c2b18f00fad420a07d"
+    },
+    {
+      "path": "evidence/science-sex-development.json",
+      "bytes": 10622,
+      "sha256": "fdca63a734e652915c2a565f7664e7e6880380b3ef2436bbe96f439e8a96501d"
+    },
+    {
+      "path": "evidence/science-water-life.json",
+      "bytes": 7076,
+      "sha256": "df1ee7de3b19dd8eda59ca144f84de35fe38c463118e4be61c39278cae898f76"
+    },
+    {
+      "path": "evidence/sea-boundaries.json",
+      "bytes": 5651,
+      "sha256": "499e41051f566061e49a6db074e0d857bc7ec5831f5f7234cc78590a556d0dca"
+    },
+    {
+      "path": "evidence/spider-house.json",
+      "bytes": 5881,
+      "sha256": "0e166f8948bce2c07afa9845684299cfde7f7baaa47bd909a5565275db71f37e"
+    },
+    {
+      "path": "evidence/water-and-life.json",
+      "bytes": 6527,
+      "sha256": "2dfe397d207c2953331cfda41919f400cdfac1e281cf707e9f581ee1cc4936a0"
+    },
+    {
+      "path": "evidence/wording-kahf-istatau.json",
+      "bytes": 6529,
+      "sha256": "7c6a17207da14f1a407e2b95cb4e153471c0f9aedb9381d38c101826bda590ab"
+    },
+    {
+      "path": "evidence/wording-kahf-tastati.json",
+      "bytes": 6652,
+      "sha256": "16de2fcd35fbff74c8832b9c5e57d7cc7a3c820c78651780a6b95117378fc5ef"
+    },
+    {
+      "path": "evidence/wording-light-context.json",
+      "bytes": 19844,
+      "sha256": "9dc3e57c3f867d57333e407203dd1d1774e5d0b21577726a62225934888ca647"
+    },
+    {
+      "path": "evidence/wording-nazm-method.json",
+      "bytes": 7891,
+      "sha256": "a318fd9308668bd5919e838ace4dca39cdf44a5e3e5bbe23cbdba878c2c5f18f"
+    },
+    {
+      "path": "evidence/wording-opening-letters.json",
+      "bytes": 6202,
+      "sha256": "a22c9b97f6ce0763a7ef0ae9b9b51c4c409700a937bf975a5f2af9fcc9a3923f"
+    },
+    {
+      "path": "evidence/wording-rahman-context.json",
+      "bytes": 11252,
+      "sha256": "c8a86e8fc2a68349738247f95c178c81363bda38cc08f86b19fb683030096494"
+    },
+    {
+      "path": "evidence/wording-sanah-aam.json",
+      "bytes": 8321,
+      "sha256": "4821bf86ea35387832d82bb217cb5e2909e2472875af0b41ce784dade7146fc4"
+    },
+    {
+      "path": "evidence/wording-story-variation.json",
+      "bytes": 5711,
+      "sha256": "aecf94774c63f84290236fa179e9458f0b7e9a179ae80cd34000a65ade005b45"
+    },
+    {
+      "path": "evidence/wording-wall-ability-full.json",
+      "bytes": 6306,
+      "sha256": "f9e58df95b55996ee825dec9158f239640f7e1be9cf47294d1bfac04516e89d6"
+    },
+    {
+      "path": "evidence/wording-wife-context.json",
+      "bytes": 11734,
+      "sha256": "2935c8e918ac3909d3274b4f63befcfe7522a618fd7834289514f7b325010b18"
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 285,
+      "sha256": "e56384b94f911251de7e39af24513e961a14205fd88f324e81d77f91dd161fca"
+    },
+    {
+      "path": "index.html",
+      "bytes": 7676,
+      "sha256": "e023ee9a3f55473a379b73b58eea80fd7e76a01c1e8340185be9eb0a2d688d93"
+    },
+    {
+      "path": "methodology/index.html",
+      "bytes": 7567,
+      "sha256": "5380dec9e6bdd8fabc46e9da6fb9b0f3de362e9b62275b4172d0fd9915464835"
+    },
+    {
+      "path": "release.json",
+      "bytes": 18939,
+      "sha256": "9defa6191adf011748cfc99bf79f00e891218d7027a3de34cfbb528be57e19f6"
+    },
+    {
+      "path": "research/index.html",
+      "bytes": 73423,
+      "sha256": "fd8b059474de4f987af975aee1295bc4361603538434d54cd22a28784bf03324"
+    },
+    {
+      "path": "robots.txt",
+      "bytes": 89,
+      "sha256": "3cc3b34f5c56569295ff8e1cb9160e15ec712c1c9c8431a753d92c654a97dd96"
+    },
+    {
+      "path": "sitemap.xml",
+      "bytes": 4089,
+      "sha256": "9d63bf5a12dea0bb6bbf9bb96f5b748df6340f75686b6b3d5cb38cd26ac4c25d"
+    },
+    {
+      "path": "source-license.txt",
+      "bytes": 1142,
+      "sha256": "1fd12577b02bc965c39812238bac91fea4dbd76f824335a238e35f21c8eb980b"
+    }
+  ],
+  "file_count": 102,
+  "total_bytes": 2660533,
+  "browser_javascript_bytes": 0
+}

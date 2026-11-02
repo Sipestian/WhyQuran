@@ -4,7 +4,7 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getArticles } from '../lib/articles';
 import { backlog, number } from '../lib/data';
 const articles = await getArticles();
-const featured = ['why-tastati-tasti', 'day-month-counts', 'chromosomes-and-counts']
+const featured = ['rahman-refrain-context', 'divorce-terms-and-schools', 'chromosome-controls']
   .flatMap(id => articles.filter(article => article.id === id));
 ---
 <Base title="قراءة تبدأ بالسؤال" description="دفتر بحث عربي في ألفاظ القرآن وسياقاتها وأعدادها، مع المصادر وحدود الاستنتاج.">

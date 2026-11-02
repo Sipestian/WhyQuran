@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "draws_checked": 10000,
+  "full_seed_replay": true,
+  "independent_character_recount": true,
+  "all_saved_results_recomputed": true,
+  "membership_overlap_exclusion_and_strata": true,
+  "nested_23_46_events": true,
+  "note_ar": "تحقق برمجي داخلي كامل؛ المراجعة المستقلة مطلوبة قبل النشر، ولا يثبت صلاحية مرجع لغوي أو قصد نصي."
+}

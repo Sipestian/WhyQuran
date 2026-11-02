@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "divorce-terms-and-schools": {
+      "body_sha256": "3228dc69fc28110c776e9fd3e308ddbcc4a3e1a8b4c165bd23a4f15642cd5c21",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة للمصادر الأربعة والتفاسير والسياقات، وإعادة عد خام14/7/7 وتغطية28 مشمولا و40 مستبعدا. عولج تضمين المصادر ووصف الباحث الآلي. لا عيب مهم باق؛ النسب مقيدة بالمصنفين والنسخ المقروءة، والعرض ليس فتوى. مراجعة روابط الإدماج محدودة ولا تشمل تقويم تجربة الصبغيات.",
+      "review_document": "research/reviews/2026-11-02-followup-arabic.md",
+      "reviewed_draft_sha256": "fb5e883814b0399b0643ac7012b72a2dd5e412a0ea80b70847d26275b960e570"
+    }
+  }
+}

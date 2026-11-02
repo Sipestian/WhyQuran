@@ -1,0 +1,2029 @@
+{
+  "id": "rahman-context",
+  "schema_version": 1,
+  "reader_id": "arabic_wording",
+  "reviewed_by": [
+    "arabic_wording"
+  ],
+  "evidence_record": "wording-rahman-context",
+  "corpus": "simple-clean",
+  "corpus_sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+  "companion_corpus": "uthmani",
+  "companion_corpus_sha256": "bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8",
+  "include_opening_basmalas": false,
+  "queries": [
+    {
+      "id": "rahman-refrain-anchor",
+      "title_ar": "مرساة لازمة الرحمن للتعليق السياقي",
+      "terms": [
+        "فبأي"
+      ],
+      "surah": 55,
+      "include_opening_basmalas": false,
+      "expected_count": 31,
+      "scope_note_ar": "الكلمة الكاملة فبأي في سورة الرحمن؛ يتحقق سكربت الدراسة من أن كل وقوع يفتتح العبارة الكاملة، ولا يحل هذا محل استعلام العبارة السابق."
+    }
+  ],
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n",
+  "companion_source_notice_ar": "النصوص العثمانية من المصدر المثبت نفسه؛ إشعار النسخة العثمانية محفوظ في companion_source_notice.",
+  "companion_source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Uthmani, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n",
+  "method_ar": "كل وقوع يراجع بمرساة الكلمة الأولى وبالمطابقة الكاملة للعبارة؛ المواقع 1-based من كلمات المصدر الخام. السياق السابق يبدأ بعد اللازمة الماضية وينتهي قبل الحالية؛ أول نطاق 55:1–12. جميع نصوص المصدر في الحقول المنسوخة محفوظة كما هي.",
+  "reading_scope_ar": "استعمال سجل القراءة الكاملة السابق arabic_wording مع قراءة ظاهرة جديدة لسورة الرحمن 1–78 فقط؛ لا ادعاء قراءة كاملة جديدة أو سياق غير منقطع.",
+  "semantic_method_ar": "لا حصص عددية مسبقة للموضوعات. التصنيف الدلالي ووظيفة الاستفهام تحليل الباحث الآلي المستند إلى النص والتفسير، يحتاج مراجعة مستقلة، ولا تثبته مطابقة البرنامج. يميز المخاطب في اللازمة عن الأشخاص المذكورين أو المخاطبين في المشهد السابق.",
+  "scope_limit_ar": "كل صف وقوع واحد من 31، لا 31 نعمة حسية مستقلة. المقاطع المستخرجة لا تدعي الاستقلال النحوي؛ المتن بعد آخر لازمة محفوظ في الخاتمة.",
+  "occurrences": [
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:13",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 1,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": null,
+      "preceding_context_start_ref": "55:1",
+      "preceding_context_end_ref": "55:12",
+      "preceding_context": [
+        {
+          "verse_ref": "55:1",
+          "source_text": "بسم الله الرحمن الرحيم الرحمن",
+          "uthmani_text": "بِسْمِ ٱللَّهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ ٱلرَّحْمَٰنُ"
+        },
+        {
+          "verse_ref": "55:2",
+          "source_text": "علم القرآن",
+          "uthmani_text": "عَلَّمَ ٱلْقُرْءَانَ"
+        },
+        {
+          "verse_ref": "55:3",
+          "source_text": "خلق الإنسان",
+          "uthmani_text": "خَلَقَ ٱلْإِنسَٰنَ"
+        },
+        {
+          "verse_ref": "55:4",
+          "source_text": "علمه البيان",
+          "uthmani_text": "عَلَّمَهُ ٱلْبَيَانَ"
+        },
+        {
+          "verse_ref": "55:5",
+          "source_text": "الشمس والقمر بحسبان",
+          "uthmani_text": "ٱلشَّمْسُ وَٱلْقَمَرُ بِحُسْبَانٍ"
+        },
+        {
+          "verse_ref": "55:6",
+          "source_text": "والنجم والشجر يسجدان",
+          "uthmani_text": "وَٱلنَّجْمُ وَٱلشَّجَرُ يَسْجُدَانِ"
+        },
+        {
+          "verse_ref": "55:7",
+          "source_text": "والسماء رفعها ووضع الميزان",
+          "uthmani_text": "وَٱلسَّمَآءَ رَفَعَهَا وَوَضَعَ ٱلْمِيزَانَ"
+        },
+        {
+          "verse_ref": "55:8",
+          "source_text": "ألا تطغوا في الميزان",
+          "uthmani_text": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ"
+        },
+        {
+          "verse_ref": "55:9",
+          "source_text": "وأقيموا الوزن بالقسط ولا تخسروا الميزان",
+          "uthmani_text": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ"
+        },
+        {
+          "verse_ref": "55:10",
+          "source_text": "والأرض وضعها للأنام",
+          "uthmani_text": "وَٱلْأَرْضَ وَضَعَهَا لِلْأَنَامِ"
+        },
+        {
+          "verse_ref": "55:11",
+          "source_text": "فيها فاكهة والنخل ذات الأكمام",
+          "uthmani_text": "فِيهَا فَٰكِهَةٌ وَٱلنَّخْلُ ذَاتُ ٱلْأَكْمَامِ"
+        },
+        {
+          "verse_ref": "55:12",
+          "source_text": "والحب ذو العصف والريحان",
+          "uthmani_text": "وَٱلْحَبُّ ذُو ٱلْعَصْفِ وَٱلرَّيْحَانُ"
+        }
+      ],
+      "topic_ar": "تعليم القرآن والبيان والخلق والعدل والرزق",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "أمر المخاطبين بالعدل في 8–9، مع أخبار التعليم والخلق والتسخير.",
+      "interrogative_function_ar": "تقرير أصل الإنعام وتوجيه السامع إلى الاعتراف به بعد افتتاح متعدد الموضوعات.",
+      "classification_uncertainty_ar": "المقطع ليس رزقا ماديا فقط؛ التعليم والتكليف بالعدل داخله. تعيين مخاطبي اللازمة مختلف فيه.",
+      "wider_context_refs": [
+        "55:1",
+        "55:12"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:16",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 2,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:13",
+      "preceding_context_start_ref": "55:14",
+      "preceding_context_end_ref": "55:15",
+      "preceding_context": [
+        {
+          "verse_ref": "55:14",
+          "source_text": "خلق الإنسان من صلصال كالفخار",
+          "uthmani_text": "خَلَقَ ٱلْإِنسَٰنَ مِن صَلْصَٰلٍ كَٱلْفَخَّارِ"
+        },
+        {
+          "verse_ref": "55:15",
+          "source_text": "وخلق الجان من مارج من نار",
+          "uthmani_text": "وَخَلَقَ ٱلْجَآنَّ مِن مَّارِجٍ مِّن نَّارٍ"
+        }
+      ],
+      "topic_ar": "بدء خلق الإنسان والجان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "الإنسان والجان مذكوران بصيغة الخبر، لا بوصفهما جوابا للسؤال.",
+      "interrogative_function_ar": "تجديد التقرير بخلق الجنسين، وربط الاعتراف بالمنعم بأصل الوجود.",
+      "classification_uncertainty_ar": "خبر الخلق قرينة الجمهور على التثنية، بينما اختيار ابن عاشور للمخاطب مختلف.",
+      "wider_context_refs": [
+        "55:13",
+        "55:16"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:18",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 3,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:16",
+      "preceding_context_start_ref": "55:17",
+      "preceding_context_end_ref": "55:17",
+      "preceding_context": [
+        {
+          "verse_ref": "55:17",
+          "source_text": "رب المشرقين ورب المغربين",
+          "uthmani_text": "رَبُّ ٱلْمَشْرِقَيْنِ وَرَبُّ ٱلْمَغْرِبَيْنِ"
+        }
+      ],
+      "topic_ar": "ربوبية المشرقين والمغربين",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر عن ربوبية الله؛ لا نداء جديد في الآية 17.",
+      "interrogative_function_ar": "تقرير الربوبية والنعم المتصلة بتدبير العالم.",
+      "classification_uncertainty_ar": "لا يختزل التصنيف المشرقين والمغربين في تفسير فلكي واحد أو يفصل القدرة عن النعمة.",
+      "wider_context_refs": [
+        "55:14",
+        "55:18"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:21",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 4,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:18",
+      "preceding_context_start_ref": "55:19",
+      "preceding_context_end_ref": "55:20",
+      "preceding_context": [
+        {
+          "verse_ref": "55:19",
+          "source_text": "مرج البحرين يلتقيان",
+          "uthmani_text": "مَرَجَ ٱلْبَحْرَيْنِ يَلْتَقِيَانِ"
+        },
+        {
+          "verse_ref": "55:20",
+          "source_text": "بينهما برزخ لا يبغيان",
+          "uthmani_text": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ"
+        }
+      ],
+      "topic_ar": "التقاء البحرين والبرزخ",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر عن البحرين والبرزخ.",
+      "interrogative_function_ar": "تجديد التقرير بما عرض من خلق البحرين وحدودهما.",
+      "classification_uncertainty_ar": "تفسير البحرين والبرزخ خارج حسم هذا الجدول؛ ليس وصفا لحاجز يمنع كل امتزاج.",
+      "wider_context_refs": [
+        "55:19",
+        "55:23"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:23",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 5,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:21",
+      "preceding_context_start_ref": "55:22",
+      "preceding_context_end_ref": "55:22",
+      "preceding_context": [
+        {
+          "verse_ref": "55:22",
+          "source_text": "يخرج منهما اللؤلؤ والمرجان",
+          "uthmani_text": "يَخْرُجُ مِنْهُمَا ٱللُّؤْلُؤُ وَٱلْمَرْجَانُ"
+        }
+      ],
+      "topic_ar": "اللؤلؤ والمرجان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر خروج اللؤلؤ والمرجان؛ الضمير يعيد إلى البحرين.",
+      "interrogative_function_ar": "تخصيص الاعتراف بمنفعة مذكورة بعد عرض البحرين.",
+      "classification_uncertainty_ar": "النطاق السابق آية واحدة لكنه يعتمد على مرجع الضمير في 19–20.",
+      "wider_context_refs": [
+        "55:19",
+        "55:23"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:25",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 6,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:23",
+      "preceding_context_start_ref": "55:24",
+      "preceding_context_end_ref": "55:24",
+      "preceding_context": [
+        {
+          "verse_ref": "55:24",
+          "source_text": "وله الجوار المنشآت في البحر كالأعلام",
+          "uthmani_text": "وَلَهُ ٱلْجَوَارِ ٱلْمُنشَـَٔاتُ فِى ٱلْبَحْرِ كَٱلْأَعْلَٰمِ"
+        }
+      ],
+      "topic_ar": "السفن في البحر",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر ملك الجوار المنشآت لله.",
+      "interrogative_function_ar": "تقرير النعمة المتصلة بالجوار في البحر بعد ذكر ما يخرج منه.",
+      "classification_uncertainty_ar": "الملاحة والمنفعة فهم للسياق؛ لا يدعي الجدول قياس أثر تجريبي للتكرار.",
+      "wider_context_refs": [
+        "55:19",
+        "55:25"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:28",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 7,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:25",
+      "preceding_context_start_ref": "55:26",
+      "preceding_context_end_ref": "55:27",
+      "preceding_context": [
+        {
+          "verse_ref": "55:26",
+          "source_text": "كل من عليها فان",
+          "uthmani_text": "كُلُّ مَنْ عَلَيْهَا فَانٍ"
+        },
+        {
+          "verse_ref": "55:27",
+          "source_text": "ويبقى وجه ربك ذو الجلال والإكرام",
+          "uthmani_text": "وَيَبْقَىٰ وَجْهُ رَبِّكَ ذُو ٱلْجَلَٰلِ وَٱلْإِكْرَامِ"
+        }
+      ],
+      "topic_ar": "فناء الخلق وبقاء الله",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر عن فناء من على الأرض وبقاء وجه الرب؛ كاف ربك مفردة.",
+      "interrogative_function_ar": "إعادة التقرير والتذكير بحدود الخلق وبقاء المنعم، مع إبقاء محل تعلق النعمة مختلفا فيه.",
+      "classification_uncertainty_ar": "ابن عاشور ينفي أن الفناء نفسه نعمة أو أن اللازمة تذييل خاص له؛ لا تصنف كنفع دنيوي محسوس.",
+      "wider_context_refs": [
+        "55:24",
+        "55:30"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "ashur-55-28",
+        "qurtubi-55-13"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:30",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 8,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:28",
+      "preceding_context_start_ref": "55:29",
+      "preceding_context_end_ref": "55:29",
+      "preceding_context": [
+        {
+          "verse_ref": "55:29",
+          "source_text": "يسأله من في السماوات والأرض كل يوم هو في شأن",
+          "uthmani_text": "يَسْـَٔلُهُۥ مَن فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ كُلَّ يَوْمٍ هُوَ فِى شَأْنٍ"
+        }
+      ],
+      "topic_ar": "افتقار الخلق وتدبير شؤونهم",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر سؤال من في السماوات والأرض ودوام الشأن.",
+      "interrogative_function_ar": "تقرير الافتقار والاعتراف بالمدبر بعد ذكر البقاء والفناء.",
+      "classification_uncertainty_ar": "السؤال المذكور هنا سؤال الخلق لربهم؛ ليس هو استفهام اللازمة، ولا يساوي كل شأن رخاء فرديا.",
+      "wider_context_refs": [
+        "55:26",
+        "55:31"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:32",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 9,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:30",
+      "preceding_context_start_ref": "55:31",
+      "preceding_context_end_ref": "55:31",
+      "preceding_context": [
+        {
+          "verse_ref": "55:31",
+          "source_text": "سنفرغ لكم أيه الثقلان",
+          "uthmani_text": "سَنَفْرُغُ لَكُمْ أَيُّهَ ٱلثَّقَلَانِ"
+        }
+      ],
+      "topic_ar": "الوعيد بالجزاء للثقلين",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "الثقلان مخاطبان صراحة في سنفرغ لكم.",
+      "interrogative_function_ar": "تجديد التقرير في مقام تهديد ينبه السامع إلى المحاسبة.",
+      "classification_uncertainty_ar": "ابن عاشور يفصل مخاطبي اللازمة عن الثقلين في المشهد، وينفي تذييلها لجملة التهديد؛ الإنذار نعمة عند توجيه آخر.",
+      "wider_context_refs": [
+        "55:29",
+        "55:36"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "ashur-55-31",
+        "ashur-55-32",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:34",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 10,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:32",
+      "preceding_context_start_ref": "55:33",
+      "preceding_context_end_ref": "55:33",
+      "preceding_context": [
+        {
+          "verse_ref": "55:33",
+          "source_text": "يا معشر الجن والإنس إن استطعتم أن تنفذوا من أقطار السماوات والأرض فانفذوا لا تنفذون إلا بسلطان",
+          "uthmani_text": "يَٰمَعْشَرَ ٱلْجِنِّ وَٱلْإِنسِ إِنِ ٱسْتَطَعْتُمْ أَن تَنفُذُوا۟ مِنْ أَقْطَارِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ فَٱنفُذُوا۟ لَا تَنفُذُونَ إِلَّا بِسُلْطَٰنٍ"
+        }
+      ],
+      "topic_ar": "تحدي النفاذ وعدم الخروج عن السلطان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "نداء صريح للجن والإنس في الآية 33.",
+      "interrogative_function_ar": "تقرير العجز أمام السلطان في سياق الحساب، مع إنكار الجحود.",
+      "classification_uncertainty_ar": "لا ينقل الشرط إلى تجربة سفر فضائي؛ علاقة النعمة بالوعيد تفسيرية وليست منفعة حسية مباشرة.",
+      "wider_context_refs": [
+        "55:31",
+        "55:36"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:36",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 11,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:34",
+      "preceding_context_start_ref": "55:35",
+      "preceding_context_end_ref": "55:35",
+      "preceding_context": [
+        {
+          "verse_ref": "55:35",
+          "source_text": "يرسل عليكما شواظ من نار ونحاس فلا تنتصران",
+          "uthmani_text": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ"
+        }
+      ],
+      "topic_ar": "الشواظ والنحاس وعدم الانتصار",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "ضمير عليكما وتنتصران يعيد إلى المخاطبين في 33.",
+      "interrogative_function_ar": "إعادة التقرير مع تصعيد الإنذار بنفي القدرة على الامتناع.",
+      "classification_uncertainty_ar": "المشهد وعيد؛ تفسير نعمة الإخبار والنجاة لا يجعل العذاب نفعا محسوسا للمعذب.",
+      "wider_context_refs": [
+        "55:31",
+        "55:45"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:38",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 12,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:36",
+      "preceding_context_start_ref": "55:37",
+      "preceding_context_end_ref": "55:37",
+      "preceding_context": [
+        {
+          "verse_ref": "55:37",
+          "source_text": "فإذا انشقت السماء فكانت وردة كالدهان",
+          "uthmani_text": "فَإِذَا ٱنشَقَّتِ ٱلسَّمَآءُ فَكَانَتْ وَرْدَةً كَٱلدِّهَانِ"
+        }
+      ],
+      "topic_ar": "انشقاق السماء في مشهد القيامة",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر شرطي يبدأ فإذا؛ لا مخاطب جديد في الآية 37.",
+      "interrogative_function_ar": "اعتراض للتقرير والتوبيخ داخل عرض مشهد القيامة، بحسب ابن عاشور.",
+      "classification_uncertainty_ar": "الجملة الشرطية تمتد إلى ما بعد اللازمة؛ حد الاستخراج ليس نهاية المعنى أو الجواب.",
+      "wider_context_refs": [
+        "55:37",
+        "55:41"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "ashur-55-38",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:40",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 13,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:38",
+      "preceding_context_start_ref": "55:39",
+      "preceding_context_end_ref": "55:39",
+      "preceding_context": [
+        {
+          "verse_ref": "55:39",
+          "source_text": "فيومئذ لا يسأل عن ذنبه إنس ولا جان",
+          "uthmani_text": "فَيَوْمَئِذٍ لَّا يُسْـَٔلُ عَن ذَنۢبِهِۦٓ إِنسٌ وَلَا جَآنٌّ"
+        }
+      ],
+      "topic_ar": "نفي السؤال عن الذنب في المشهد",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "إنس وجان مذكوران في خبر نفي السؤال، لا في نداء.",
+      "interrogative_function_ar": "تجديد التقرير أثناء تصوير المحاسبة التي لا تتوقف على إقرار المجرم.",
+      "classification_uncertainty_ar": "الزمخشري يذكر تعدد المواطن أو الفرق بين سؤال الاستعلام والتوبيخ؛ لا يعمم نفي السؤال على كل موقف.",
+      "wider_context_refs": [
+        "55:37",
+        "55:42"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:42",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 14,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:40",
+      "preceding_context_start_ref": "55:41",
+      "preceding_context_end_ref": "55:41",
+      "preceding_context": [
+        {
+          "verse_ref": "55:41",
+          "source_text": "يعرف المجرمون بسيماهم فيؤخذ بالنواصي والأقدام",
+          "uthmani_text": "يُعْرَفُ ٱلْمُجْرِمُونَ بِسِيمَٰهُمْ فَيُؤْخَذُ بِٱلنَّوَٰصِى وَٱلْأَقْدَامِ"
+        }
+      ],
+      "topic_ar": "معرفة المجرمين والأخذ بالنواصي والأقدام",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "المجرمون في صيغة الغائب؛ السامع يحذر من مآلهم.",
+      "interrogative_function_ar": "إعادة التقرير بعد بيان انكشاف حال المجرمين وأخذهم.",
+      "classification_uncertainty_ar": "بيان الوعيد والعدل أو نعمة الإنذار وجه تفسيري؛ السمة ليست نعمة مادية مستقلة.",
+      "wider_context_refs": [
+        "55:39",
+        "55:45"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:45",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 15,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:42",
+      "preceding_context_start_ref": "55:43",
+      "preceding_context_end_ref": "55:44",
+      "preceding_context": [
+        {
+          "verse_ref": "55:43",
+          "source_text": "هذه جهنم التي يكذب بها المجرمون",
+          "uthmani_text": "هَٰذِهِۦ جَهَنَّمُ ٱلَّتِى يُكَذِّبُ بِهَا ٱلْمُجْرِمُونَ"
+        },
+        {
+          "verse_ref": "55:44",
+          "source_text": "يطوفون بينها وبين حميم آن",
+          "uthmani_text": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ ءَانٍ"
+        }
+      ],
+      "topic_ar": "جهنم والحميم وتكذيب المجرمين",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "المجرمون مذكورون في الغيبة؛ هذه تعرض ما كانوا يكذبون به.",
+      "interrogative_function_ar": "ختم مقطع الوعيد بتقرير يواجه التكذيب المذكور صراحة في 43.",
+      "classification_uncertainty_ar": "الطبري يوجه النعمة إلى عقوبة الكافر وتكريم المؤمن، والزمخشري إلى الإنذار والنجاة؛ لا دعوى اتحاد التعليل.",
+      "wider_context_refs": [
+        "55:41",
+        "55:46"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "tabari-55-45",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:47",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 16,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:45",
+      "preceding_context_start_ref": "55:46",
+      "preceding_context_end_ref": "55:46",
+      "preceding_context": [
+        {
+          "verse_ref": "55:46",
+          "source_text": "ولمن خاف مقام ربه جنتان",
+          "uthmani_text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِۦ جَنَّتَانِ"
+        }
+      ],
+      "topic_ar": "الوعد بجنتين لمن خاف مقام ربه",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "الوعد متعلق بمن خاف بصيغة عامة، لا بتبديل مخاطبي اللازمة إلى أهل الجنة وحدهم.",
+      "interrogative_function_ar": "الانتقال بالتقرير من الوعيد إلى الترغيب في الوعد المرتبط بالخوف من المقام.",
+      "classification_uncertainty_ar": "معنى المقام ووجه تثنية الجنتين لهما توجيهات؛ الجدول لا يحسمها من العدد.",
+      "wider_context_refs": [
+        "55:43",
+        "55:48"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:49",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 17,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:47",
+      "preceding_context_start_ref": "55:48",
+      "preceding_context_end_ref": "55:48",
+      "preceding_context": [
+        {
+          "verse_ref": "55:48",
+          "source_text": "ذواتا أفنان",
+          "uthmani_text": "ذَوَاتَآ أَفْنَانٍ"
+        }
+      ],
+      "topic_ar": "أفنان الجنتين",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "ذواتا وصف للجنتين المذكورتين في 46.",
+      "interrogative_function_ar": "تجديد التقرير بتفصيل الوعد بعد إجمال الجنتين.",
+      "classification_uncertainty_ar": "الأفنان تفسر بالأغصان أو ألوان النعم؛ لا يختار الجدول معنى واحدا لمجرد تخصيص صف.",
+      "wider_context_refs": [
+        "55:46",
+        "55:49"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:51",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 18,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:49",
+      "preceding_context_start_ref": "55:50",
+      "preceding_context_end_ref": "55:50",
+      "preceding_context": [
+        {
+          "verse_ref": "55:50",
+          "source_text": "فيهما عينان تجريان",
+          "uthmani_text": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ"
+        }
+      ],
+      "topic_ar": "العينان الجاريتان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "فيهما يعيد إلى الجنتين.",
+      "interrogative_function_ar": "تقرير تفصيل الماء الجاري ضمن نعيم الوعد.",
+      "classification_uncertainty_ar": "الوصف يعتمد على ذكر الجنتين خارج المقطع السابق الضيق؛ لا يعد استفهاما عن مقدار الماء.",
+      "wider_context_refs": [
+        "55:46",
+        "55:51"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:53",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 19,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:51",
+      "preceding_context_start_ref": "55:52",
+      "preceding_context_end_ref": "55:52",
+      "preceding_context": [
+        {
+          "verse_ref": "55:52",
+          "source_text": "فيهما من كل فاكهة زوجان",
+          "uthmani_text": "فِيهِمَا مِن كُلِّ فَٰكِهَةٍ زَوْجَانِ"
+        }
+      ],
+      "topic_ar": "صنفان من كل فاكهة",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "فيهما يعود إلى الجنتين، وزوجان وصف لصنفين.",
+      "interrogative_function_ar": "تقرير وفرة الفاكهة وتنوعها في تفصيل الوعد.",
+      "classification_uncertainty_ar": "لا يخلط هذا التثنية مع تثنية المخاطب أو يستخرج منها قانون عد للجنان.",
+      "wider_context_refs": [
+        "55:46",
+        "55:53"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:55",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 20,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:53",
+      "preceding_context_start_ref": "55:54",
+      "preceding_context_end_ref": "55:54",
+      "preceding_context": [
+        {
+          "verse_ref": "55:54",
+          "source_text": "متكئين على فرش بطائنها من إستبرق وجنى الجنتين دان",
+          "uthmani_text": "مُتَّكِـِٔينَ عَلَىٰ فُرُشٍۭ بَطَآئِنُهَا مِنْ إِسْتَبْرَقٍ وَجَنَى ٱلْجَنَّتَيْنِ دَانٍ"
+        }
+      ],
+      "topic_ar": "الفرش وقرب الجنى",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "متكئين حال أهل الوعد، لا نداء جديد لهم.",
+      "interrogative_function_ar": "تجديد التقرير بما يصف الراحة وقرب الثمر.",
+      "classification_uncertainty_ar": "متكئين متصل بمن خاف في السياق الأوسع؛ لا يستقل النطاق عن أصحاب الوعد.",
+      "wider_context_refs": [
+        "55:46",
+        "55:55"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:57",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 21,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:55",
+      "preceding_context_start_ref": "55:56",
+      "preceding_context_end_ref": "55:56",
+      "preceding_context": [
+        {
+          "verse_ref": "55:56",
+          "source_text": "فيهن قاصرات الطرف لم يطمثهن إنس قبلهم ولا جان",
+          "uthmani_text": "فِيهِنَّ قَٰصِرَٰتُ ٱلطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ"
+        }
+      ],
+      "topic_ar": "قاصرات الطرف وانتفاء الطمث السابق",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "وصف من في الجنان، مع ذكر الإنس والجان في نفي الطمث.",
+      "interrogative_function_ar": "تقرير تفصيل من النعيم الموعود مع إعادة مواجهة الجحود.",
+      "classification_uncertainty_ar": "الضمير في فيهن ومرجع قبلهم يحتاجان السياق السابق؛ المخاطب في اللازمة لا يساوي كل موصوف داخل المشهد.",
+      "wider_context_refs": [
+        "55:46",
+        "55:59"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:59",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 22,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:57",
+      "preceding_context_start_ref": "55:58",
+      "preceding_context_end_ref": "55:58",
+      "preceding_context": [
+        {
+          "verse_ref": "55:58",
+          "source_text": "كأنهن الياقوت والمرجان",
+          "uthmani_text": "كَأَنَّهُنَّ ٱلْيَاقُوتُ وَٱلْمَرْجَانُ"
+        }
+      ],
+      "topic_ar": "تشبيه بالياقوت والمرجان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "ضمير كأنهن يعود إلى الموصوفات في 56.",
+      "interrogative_function_ar": "تجديد التقرير بتفصيل الوصف والتشبيه في الوعد.",
+      "classification_uncertainty_ar": "النطاق المفصول باللازمة السابقة لا يحتوي مرجع الضمير وحده؛ لا يحول التشبيه إلى تصنيف مادي حرفي.",
+      "wider_context_refs": [
+        "55:56",
+        "55:59"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:61",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 23,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:59",
+      "preceding_context_start_ref": "55:60",
+      "preceding_context_end_ref": "55:60",
+      "preceding_context": [
+        {
+          "verse_ref": "55:60",
+          "source_text": "هل جزاء الإحسان إلا الإحسان",
+          "uthmani_text": "هَلْ جَزَآءُ ٱلْإِحْسَٰنِ إِلَّا ٱلْإِحْسَٰنُ"
+        }
+      ],
+      "topic_ar": "قاعدة جزاء الإحسان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "استفهام عام عن الجزاء، بعد تفاصيل الوعد.",
+      "interrogative_function_ar": "تقرير تال لتقرير: السؤال في 60 يقصر الجزاء على الإحسان، واللازمة تعيد الاعتراف بالآلاء.",
+      "classification_uncertainty_ar": "هذه خاتمة في الجزاء وليست صورة حسية جديدة؛ إدراجها في ثمانية الجنتين يعتمد السياق الأوسع.",
+      "wider_context_refs": [
+        "55:46",
+        "55:61"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:63",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 24,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:61",
+      "preceding_context_start_ref": "55:62",
+      "preceding_context_end_ref": "55:62",
+      "preceding_context": [
+        {
+          "verse_ref": "55:62",
+          "source_text": "ومن دونهما جنتان",
+          "uthmani_text": "وَمِن دُونِهِمَا جَنَّتَانِ"
+        }
+      ],
+      "topic_ar": "جنتان من دونهما",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر عن جنتين أخريين متعلق بما سبق.",
+      "interrogative_function_ar": "فتح تفصيل جديد للوعد مع بقاء صيغة التقرير نفسها.",
+      "classification_uncertainty_ar": "معنى دونهما وعلاقة مراتب الجنان مختلف فيهما؛ لا يثبت عدد اللوازم وحده هوية أهل كل زوج.",
+      "wider_context_refs": [
+        "55:46",
+        "55:63"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:65",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 25,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:63",
+      "preceding_context_start_ref": "55:64",
+      "preceding_context_end_ref": "55:64",
+      "preceding_context": [
+        {
+          "verse_ref": "55:64",
+          "source_text": "مدهامتان",
+          "uthmani_text": "مُدْهَآمَّتَانِ"
+        }
+      ],
+      "topic_ar": "شدة الخضرة",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "مدهامتان وصف للجنتين في 62.",
+      "interrogative_function_ar": "تجديد التقرير بتفصيل لون الجنتين وامتلائهما بالخضرة.",
+      "classification_uncertainty_ar": "الصفة متصلة بموصوف سبق اللازمة؛ ليست جملة مستقلة عن المقطع الأعلى.",
+      "wider_context_refs": [
+        "55:62",
+        "55:65"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:67",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 26,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:65",
+      "preceding_context_start_ref": "55:66",
+      "preceding_context_end_ref": "55:66",
+      "preceding_context": [
+        {
+          "verse_ref": "55:66",
+          "source_text": "فيهما عينان نضاختان",
+          "uthmani_text": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ"
+        }
+      ],
+      "topic_ar": "العينان النضاختان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "فيهما يعيد إلى الجنتين في 62.",
+      "interrogative_function_ar": "تقرير وصف الماء في التفصيل الثاني للجنان.",
+      "classification_uncertainty_ar": "مقارنة نضاختان بتجريان تفسيرية؛ لا يستخرج فرق رتبة الجنتين من القياس المادي وحده.",
+      "wider_context_refs": [
+        "55:50",
+        "55:51",
+        "55:62",
+        "55:67"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:69",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 27,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:67",
+      "preceding_context_start_ref": "55:68",
+      "preceding_context_end_ref": "55:68",
+      "preceding_context": [
+        {
+          "verse_ref": "55:68",
+          "source_text": "فيهما فاكهة ونخل ورمان",
+          "uthmani_text": "فِيهِمَا فَٰكِهَةٌ وَنَخْلٌ وَرُمَّانٌ"
+        }
+      ],
+      "topic_ar": "الفاكهة والنخل والرمان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "خبر عن الجنتين المشار إليهما في فيهما.",
+      "interrogative_function_ar": "تجديد التقرير بذكر الفاكهة وتخصيص النخل والرمان.",
+      "classification_uncertainty_ar": "عطف النخل والرمان له توجيهات؛ لا يلزم أنهما خارج جنس الفاكهة في كل استعمال.",
+      "wider_context_refs": [
+        "55:52",
+        "55:53",
+        "55:62",
+        "55:69"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:71",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 28,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:69",
+      "preceding_context_start_ref": "55:70",
+      "preceding_context_end_ref": "55:70",
+      "preceding_context": [
+        {
+          "verse_ref": "55:70",
+          "source_text": "فيهن خيرات حسان",
+          "uthmani_text": "فِيهِنَّ خَيْرَٰتٌ حِسَانٌ"
+        }
+      ],
+      "topic_ar": "خيرات حسان",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "فيهن يعيد إلى سياق الجنان، والموصوف مؤنث.",
+      "interrogative_function_ar": "تقرير تفصيل من نعيم الجنان بعد ذكر الفاكهة.",
+      "classification_uncertainty_ar": "لا يستقل الوصف عن ما بعده من حور؛ اللازمة تفصل اللفظ دون أن تقطع العلاقات.",
+      "wider_context_refs": [
+        "55:62",
+        "55:75"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:73",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 29,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:71",
+      "preceding_context_start_ref": "55:72",
+      "preceding_context_end_ref": "55:72",
+      "preceding_context": [
+        {
+          "verse_ref": "55:72",
+          "source_text": "حور مقصورات في الخيام",
+          "uthmani_text": "حُورٌ مَّقْصُورَٰتٌ فِى ٱلْخِيَامِ"
+        }
+      ],
+      "topic_ar": "حور مقصورات في الخيام",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "وصف متصل بخيرات حسان.",
+      "interrogative_function_ar": "تجديد التقرير بتفصيل الوصف السابق.",
+      "classification_uncertainty_ar": "النطاق الآلي لا يحتوي الموصوف السابق كله؛ معنى القصر يقرأ في التفسير دون إسقاط اجتماعي آلي.",
+      "wider_context_refs": [
+        "55:70",
+        "55:75"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:75",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 30,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:73",
+      "preceding_context_start_ref": "55:74",
+      "preceding_context_end_ref": "55:74",
+      "preceding_context": [
+        {
+          "verse_ref": "55:74",
+          "source_text": "لم يطمثهن إنس قبلهم ولا جان",
+          "uthmani_text": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَآنٌّ"
+        }
+      ],
+      "topic_ar": "انتفاء الطمث السابق",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "ضمائر الإناث وأصحاب الجنتين مستفادة من السياق؛ الإنس والجان في خبر النفي.",
+      "interrogative_function_ar": "إعادة التقرير مع وصف سبق نظيره في 56 ضمن التفصيل الأول.",
+      "classification_uncertainty_ar": "تشابه العبارة لا يجعل السياقين وقوعا واحدا، ولا يغير مخاطبي اللازمة إلى الموصوفات.",
+      "wider_context_refs": [
+        "55:56",
+        "55:57",
+        "55:70",
+        "55:75"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    },
+    {
+      "query_id": "rahman-refrain-anchor",
+      "verse_ref": "55:77",
+      "source_word_position": 1,
+      "source_token": "فبأي",
+      "ordinal": 31,
+      "source_text": "فبأي آلاء ربكما تكذبان",
+      "uthmani_text": "فَبِأَىِّ ءَالَآءِ رَبِّكُمَا تُكَذِّبَانِ",
+      "phrase_source_tokens": [
+        {
+          "source_word_position": 1,
+          "source_token": "فبأي"
+        },
+        {
+          "source_word_position": 2,
+          "source_token": "آلاء"
+        },
+        {
+          "source_word_position": 3,
+          "source_token": "ربكما"
+        },
+        {
+          "source_word_position": 4,
+          "source_token": "تكذبان"
+        }
+      ],
+      "previous_refrain_ref": "55:75",
+      "preceding_context_start_ref": "55:76",
+      "preceding_context_end_ref": "55:76",
+      "preceding_context": [
+        {
+          "verse_ref": "55:76",
+          "source_text": "متكئين على رفرف خضر وعبقري حسان",
+          "uthmani_text": "مُتَّكِـِٔينَ عَلَىٰ رَفْرَفٍ خُضْرٍ وَعَبْقَرِىٍّ حِسَانٍ"
+        }
+      ],
+      "topic_ar": "الرفرف والعبقري والاتكاء",
+      "speaker_ar": "خطاب الله في السورة؛ تسجل صيغة الحكاية أو المشهد في خانة السياق عند الحاجة.",
+      "addressee_ar": "الإنس والجن على توجيه الطبري والجمهور.",
+      "addressee_alternative_ar": "المؤمنون والكافرون من الإنسان في اختيار ابن عاشور للازمة؛ يفرق ذلك من مخاطبي المشهد السابق.",
+      "preceding_context_addressee_ar": "متكئين يصف أهل الوعد؛ ليس نداء مستقلا.",
+      "interrogative_function_ar": "آخر تقرير ضمن وصف النعيم، يعقبه تمجيد ختامي في 78.",
+      "classification_uncertainty_ar": "معنى الرفرف والعبقري يحتاج التفسير؛ 78 خاتمة مستقلة بعد آخر لازمة ولا تسقط من قراءة السورة.",
+      "wider_context_refs": [
+        "55:62",
+        "55:78"
+      ],
+      "analysis_provenance_ar": "وصف الموضوع والوظيفة المحلية صياغة تحليلية للباحث من النص؛ تعيين المخاطب والتوجيهات المختلف فيها منسوبة للمصادر المبينة، ولا تدعي إجماعها على جميع تفاصيل الصف.",
+      "source_ids": [
+        "tanzil-rahman",
+        "tabari-55-13",
+        "ashur-55-13",
+        "zamakhshari-rahman"
+      ]
+    }
+  ],
+  "trailing_context": [
+    {
+      "verse_ref": "55:78",
+      "source_text": "تبارك اسم ربك ذي الجلال والإكرام",
+      "uthmani_text": "تَبَٰرَكَ ٱسْمُ رَبِّكَ ذِى ٱلْجَلَٰلِ وَٱلْإِكْرَامِ"
+    }
+  ],
+  "published_partition_comparison": {
+    "source_id": "qasimi-55-78",
+    "secondary_primary_discussion_source_id": "razi-55-13",
+    "pre_registered_semantic_classes": false,
+    "numerical_causation_proven": false,
+    "attribution_ar": "التقسيم الصريح منقول في خاتمة تفسير القاسمي عن متشابه القرآن؛ لم يقرأ الكتاب المنقول عنه مباشرة. للرازي وجوه متعددة في العدد لا تسوى بحكم واحد.",
+    "groups": [
+      {
+        "title_ar": "من افتتاح السورة إلى الشأن",
+        "start_ref": "55:1",
+        "end_ref": "55:30",
+        "count": 8,
+        "refrain_refs": [
+          "55:13",
+          "55:16",
+          "55:18",
+          "55:21",
+          "55:23",
+          "55:25",
+          "55:28",
+          "55:30"
+        ],
+        "semantic_fit_ar": "يشمل التعليم والتكليف والخلق والرزق والفناء والبقاء والافتقار؛ ليس ثماني منافع حسية متجانسة."
+      },
+      {
+        "title_ar": "الوعيد والحساب",
+        "start_ref": "55:31",
+        "end_ref": "55:45",
+        "count": 7,
+        "refrain_refs": [
+          "55:32",
+          "55:34",
+          "55:36",
+          "55:38",
+          "55:40",
+          "55:42",
+          "55:45"
+        ],
+        "semantic_fit_ar": "سبع لوازم، لكن بعض المقاطع تهديد أو انشقاق أو حساب؛ ذكر جهنم الصريح قرب النهاية."
+      },
+      {
+        "title_ar": "وعد الجنتين الأوليين",
+        "start_ref": "55:46",
+        "end_ref": "55:61",
+        "count": 8,
+        "refrain_refs": [
+          "55:47",
+          "55:49",
+          "55:51",
+          "55:53",
+          "55:55",
+          "55:57",
+          "55:59",
+          "55:61"
+        ],
+        "semantic_fit_ar": "سبع لوازم بعد الوعد وتفاصيله، ثم الثامنة بعد قاعدة جزاء الإحسان؛ ليست كلها صورا حسية."
+      },
+      {
+        "title_ar": "وصف الجنتين من دونهما",
+        "start_ref": "55:62",
+        "end_ref": "55:77",
+        "count": 8,
+        "refrain_refs": [
+          "55:63",
+          "55:65",
+          "55:67",
+          "55:69",
+          "55:71",
+          "55:73",
+          "55:75",
+          "55:77"
+        ],
+        "semantic_fit_ar": "ثماني لوازم بعد افتتاح الوعد الثاني وأوصاف تتصل نحويا عبرها؛ لا يثبت العدد وحده ترتيب أهل الجنان."
+      }
+    ]
+  },
+  "sources": [
+    {
+      "id": "tanzil-rahman",
+      "title": "نص تنزيل المثبت — سورة الرحمن كاملة",
+      "url": "https://tanzil.net/#55:1",
+      "kind": "quran",
+      "locator": "data/source/tanzil-simple-clean.txt وtanzil-uthmani.txt؛ 55:1–78؛ data/manifest.json",
+      "supports_ar": "النص ومواضع اللازمة والكلمات وحدود المقاطع، دون توليد التصنيف الدلالي آليا.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-55-13",
+      "title": "الطبري — الرحمن 13",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura55-aya13.html",
+      "kind": "tafsir",
+      "locator": "تفسير الآلاء ومخاطبي ضمير التثنية",
+      "supports_ar": "تفسير النعم وتوجيه الخطاب للجن والإنس، مع نقل تفسير القدرة عن ابن زيد.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "qurtubi-55-13",
+      "title": "القرطبي — الرحمن 13",
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura55-aya13.html",
+      "kind": "tafsir",
+      "locator": "فقرات الخطاب والتقرير والتذكير بالنعم",
+      "supports_ar": "نسبة مخاطبة الثقلين إلى الجمهور وبيان وجه تجدد التقرير بتعدد النعم.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "zamakhshari-qamar-40",
+      "title": "الزمخشري — الكشاف، القمر 40",
+      "url": "https://www.islamicbook.ws/qbook/alkshaf-017.html",
+      "kind": "tafsir",
+      "locator": "القمر 33–40، سؤال فائدة تكرير فذوقوا ولقد يسرنا؛ الجزء 17 تقسيم إلكتروني",
+      "supports_ar": "تجدد الاتعاظ والتنبيه مع إعادة العبارة، والاستشهاد بلازمة الرحمن؛ قرئ المقطع نفسه.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "zamakhshari-rahman",
+      "title": "الزمخشري — الكشاف، الرحمن 29–78",
+      "url": "https://www.islamicbook.ws/qbook/alkshaf-018.html",
+      "kind": "tafsir",
+      "locator": "الرحمن 31–45 ثم 46–78؛ الجزء 18 تقسيم إلكتروني",
+      "supports_ar": "التهديد في سنفرغ، ولطف الإنذار والنجاة في تفسير ذكر العذاب، وتوجيهات ألفاظ الجنان والجزاء.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ashur-55-13",
+      "title": "ابن عاشور — الرحمن 13",
+      "url": "https://quran.com/ar/ar-rahman/13/tafsirs/arabic-tanweer-tafseer",
+      "kind": "tafsir",
+      "locator": "النص تحت عنوان التحرير والتنوير، ص243–244 في العارض",
+      "supports_ar": "التقرير، واختيار المؤمنين والكافرين من الإنسان لمخاطبي اللازمة خلاف توجيه الجمهور.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ashur-55-28",
+      "title": "ابن عاشور — الرحمن 28",
+      "url": "https://quran-tafsir.net/ashour/sura55-aya28.html",
+      "kind": "tafsir",
+      "locator": "الفقرة بعد آية اللازمة",
+      "supports_ar": "رفض جعل اللازمة تذييلا خاصا للفناء أو جعل الفناء نفسه نعمة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ashur-55-31",
+      "title": "ابن عاشور — الرحمن 31",
+      "url": "https://quran-tafsir.net/ashour/sura55-aya31.html",
+      "kind": "tafsir",
+      "locator": "الانتقال من الحياة العاجلة إلى الآخرة والجزاء؛ معنى الثقلين",
+      "supports_ar": "تحديد التحول إلى التهديد والجزاء وتمييز مخاطبي المشهد من اختيار مخاطبي اللازمة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ashur-55-32",
+      "title": "ابن عاشور — الرحمن 32",
+      "url": "https://quran-tafsir.net/ashour/sura55-aya32.html",
+      "kind": "tafsir",
+      "locator": "الفقرة بعد آية اللازمة",
+      "supports_ar": "فصل اللازمة عن خطاب الثقلين السابق وعن تذييل جملة التهديد.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ashur-55-38",
+      "title": "ابن عاشور — الرحمن 38",
+      "url": "https://quran-tafsir.net/ashour/sura55-aya38.html",
+      "kind": "tafsir",
+      "locator": "الاعتراض بين الشرط وجوابه",
+      "supports_ar": "وصف اللازمة بأنها جملة معترضة للتقرير والتوبيخ، فلا تنتهي الوحدة النحوية عند حد المقطع الآلي.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-55-45",
+      "title": "الطبري — الرحمن 45",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura55-aya45.html",
+      "kind": "tafsir",
+      "locator": "توجيه النعم عقب ذكر جهنم والحميم",
+      "supports_ar": "ربط النعمة بعقوبة أهل الكفر وتكريم أهل الإيمان، بوصفه تفسيرا منسوبا.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "razi-55-13",
+      "title": "الرازي — مفاتيح الغيب، الرحمن 13",
+      "url": "https://quran-tafsir.net/alrazy/sura55-aya13.html",
+      "kind": "tafsir",
+      "locator": "المبحث الرابع: حكمة التكرير وكونه إحدى وثلاثين مرة",
+      "supports_ar": "تعدد التعليلات العددية، والتحذير من التكلف، وتضعيف وجه معين لا جميع الوجوه، وذكر ثماني مرات قبل آيات التخويف وسبع بعدها.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "qasimi-55-78",
+      "title": "القاسمي — محاسن التأويل، خاتمة الرحمن 78",
+      "url": "https://quran-tafsir.net/qasimi/sura55-aya78.html",
+      "kind": "tafsir",
+      "locator": "فائدة في سر التكرير؛ النقل الأخير عن شيخ الإسلام في متشابه القرآن",
+      "supports_ar": "ورود تقسيم 8/7/8/8 صراحة وربطه بأبواب الجنان والنار في النقل؛ توثيق مباشر للقاسمي لا لكتاب المنقول عنه.",
+      "accessed_at": "2026-11-02"
+    }
+  ],
+  "limitations_ar": [
+    "الخلاف في المخاطب وتعلق اللازمة بالسابق محفوظ، والتصنيف المحلي ليس إجماعا تفسيريا.",
+    "الحدود العددية تطابق مواقع النص، لكنها لا تثبت سبب اختيار العدد أو تعليل أبواب الجنان والنار.",
+    "لم تحقق أسانيد الأخبار ولا تقابل جميع الصفحات الإلكترونية بصور طبعات؛ التعليق لا يمنح اعتماد نشر مستقل.",
+    "السياق الخام في 55:1 يضم البسملة الافتتاحية كما في المصدر؛ سياسة العد تستثنيها ولا تغير نص الملف."
+  ]
+}

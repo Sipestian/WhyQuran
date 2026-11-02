@@ -1,0 +1,27 @@
+{
+  "protocol_commit": "eacece6f9cc3a0f5782457db542e0e6336477eea",
+  "protocol_json_sha256": "9be400bbd565dc7b173c3b4083277d27f4cdac2368267240c13e3f5161c2d50b",
+  "protocol_md_sha256": "069bf721b04c5414a02255fb463b481c99cf2c59db1b126f7456bf4df0678744",
+  "source_hashes": {
+    "simple-clean": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+    "uthmani": "bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8"
+  },
+  "metadata_sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+  "python_version": "3.14.4",
+  "unicode_version": "16.0.0",
+  "rng": "random.Random / Mersenne Twister MT19937",
+  "seed": 20261102,
+  "replicates": 10000,
+  "started_at_utc": "2026-11-02T09:49:51.457445+00:00",
+  "completed_at_utc": "2026-11-02T09:49:55.434803+00:00",
+  "script_sha256": "7a8830016537653554905f459f8b88f5d2e1b24d056790d4dc9dcf9ebb0fd084",
+  "test_script_sha256": "5750efde4addb3dfdd92e12bba1aee44262fd900e11ea04d5576425bdae8d9e1",
+  "artifact_hashes": {
+    "pools.json": "835fbf1983d11c6b6eb4f910b4ef3569bb1908ed50c7f32c0da2d0e17ac4e0e8",
+    "draws.jsonl": "67b9bd1805a82129b6bde4b7152a6aa4909856548b3a6681ce227ebf49aa7f6c",
+    "summary.json": "e2cf79e4dec4d5c3209cc2833c4b1054e4a216d34e3045e90fad8480903165b5",
+    "validation.json": "51c906a45099518275ea570b2aeffa2556ff1707620e056c05ef36ac249dad33"
+  },
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n",
+  "protocol_deviations": []
+}

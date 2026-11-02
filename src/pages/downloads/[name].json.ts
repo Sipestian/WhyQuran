@@ -7,6 +7,10 @@ const downloads: Record<string, string> = {
   'day-month': 'research/annotations/day-month.json',
   'wife-wording': 'research/annotations/wife-wording.json',
   'light-wording': 'research/annotations/light-wording.json',
+  'rahman-context': 'research/annotations/rahman-context.json',
+  'divorce-terms-schools': 'research/annotations/divorce-terms-schools.json',
+  'chromosome-controls': 'research/experiments/chromosome-controls/summary.json',
+  'chromosome-controls-protocol': 'research/experiments/chromosome-controls/protocol.json',
 };
 export function getStaticPaths() {
   return Object.keys(downloads).map((name) => ({ params: { name } }));

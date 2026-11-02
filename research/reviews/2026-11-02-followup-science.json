@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "rahman-refrain-context": {
+      "body_sha256": "3a5476b355635632d6087463dbf48d2c6f35fab7efec0481eeeeea9e980a6bf1",
+      "reviewers": [
+        "science_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "قرئت السورة وكل الصفوف الـ31؛ أعيد عد العبارة من أسطر المصدر والتحقق من النصين والسياقات والمواقع وتقسيم 8/7/8/8. فتحت المصادر الأصلية المنسوبة، ومنها ابن عاشور 13 و28 و32 و38 والقاسمي عند 78 والرازي عند 13. الصياغة تحفظ الخلاف وحدود التعليل العددي، ولا توجد ملاحظة مانعة. لا تعد المراجعة تحكيما بشريا خارجيا.",
+      "review_document": "research/reviews/2026-11-02-followup-science.md",
+      "reviewed_draft_sha256": "c21973215269e87508f71e711e5ee8bcbd08718981be087c261a42f039fd79ec"
+    }
+  }
+}

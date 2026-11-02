@@ -58,8 +58,8 @@
     },
     {
       "topic_id": "rahman-refrain",
-      "article_slug": "word-counts",
-      "owner": "existing",
+      "article_slug": "rahman-refrain-context",
+      "owner": "arabic_wording",
       "wave": 0
     },
     {
@@ -247,6 +247,18 @@
       "article_slug": "testing-discovery-claims",
       "owner": "root",
       "wave": 1
+    },
+    {
+      "topic_id": "divorce-terms-schools",
+      "article_slug": "divorce-terms-and-schools",
+      "owner": "family_law_reading",
+      "wave": 4
+    },
+    {
+      "topic_id": "chromosome-controls",
+      "article_slug": "chromosome-controls",
+      "owner": "science_reading",
+      "wave": 4
     }
   ]
 }

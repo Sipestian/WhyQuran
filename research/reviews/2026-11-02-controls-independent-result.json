@@ -1,0 +1,99 @@
+{
+  "status": "passed",
+  "reader_id": "family_law_reading",
+  "independent_of_run_py_and_corpus_module": true,
+  "checked_draws": 10000,
+  "replay_refs_sha256": "72974aa6f6fa69a5b14f95bdc3c3c472bf1014a5c67edc9be88aa9f3fe388d0d",
+  "original_totals": {
+    "C0": {
+      "A": 845,
+      "B": 516
+    },
+    "C1": {
+      "A": 838,
+      "B": 509
+    },
+    "C2": {
+      "A": 831,
+      "B": 509
+    },
+    "C3": {
+      "A": 828,
+      "B": 506
+    }
+  },
+  "basmalas_removed_per_corpus": {
+    "simple-clean": 112,
+    "uthmani": 112
+  },
+  "pool_sizes": {
+    "0": 1155,
+    "1": 1634,
+    "2": 1349,
+    "5": 303,
+    "13": 6
+  },
+  "joint_46_counts": {
+    "C0": 4,
+    "C1": 5,
+    "C2": 10,
+    "C3": 10
+  },
+  "joint_46_replicate_ids": {
+    "C0": [
+      3289,
+      4924,
+      7088,
+      8295
+    ],
+    "C1": [
+      1161,
+      2012,
+      8083,
+      8566,
+      9238
+    ],
+    "C2": [
+      124,
+      1871,
+      3223,
+      6692,
+      7016,
+      8572,
+      9271,
+      9412,
+      9497,
+      9934
+    ],
+    "C3": [
+      1539,
+      1724,
+      3434,
+      4514,
+      5244,
+      5839,
+      6750,
+      7949,
+      8950,
+      9449
+    ]
+  },
+  "rule_match_histogram": {
+    "0": 9971,
+    "1": 29,
+    "2": 0,
+    "3": 0,
+    "4": 0
+  },
+  "protocol_commit": "eacece6f9cc3a0f5782457db542e0e6336477eea",
+  "artifact_hashes": {
+    "pools.json": "835fbf1983d11c6b6eb4f910b4ef3569bb1908ed50c7f32c0da2d0e17ac4e0e8",
+    "draws.jsonl": "67b9bd1805a82129b6bde4b7152a6aa4909856548b3a6681ce227ebf49aa7f6c",
+    "summary.json": "e2cf79e4dec4d5c3209cc2833c4b1054e4a216d34e3045e90fad8480903165b5",
+    "validation.json": "51c906a45099518275ea570b2aeffa2556ff1707620e056c05ef36ac249dad33"
+  },
+  "audit_script_sha256": "c60ebf1bcd67ded0dbc80e6d4bd44ccf4419282959923305389e158481278e73",
+  "python_version": "3.14.4",
+  "unicode_version": "16.0.0",
+  "scope_ar": "إعادة حساب مستقلة من المصدرين ومطابقة جميع الأحواض والسحوبات والمجاميع والبواقي والجداول؛ لا تثبت صلاحية المرجع لاستدلال عن قصد النص."
+}
