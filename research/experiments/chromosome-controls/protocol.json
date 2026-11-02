@@ -1,0 +1,404 @@
+{
+  "id": "chromosome-controls-v1",
+  "version": 1,
+  "created_at_utc": "2026-11-02T09:35:43Z",
+  "author": "science_reading",
+  "stage": "protocol_only",
+  "status": "submitted_for_review",
+  "question_ar": "كم يتكرر انقسام مجموعي حروف مجموعتين من12و5آيات على46معا تحتC3، في مرجع وصفي يحفظ3آيات مشتركة وطبقات أطوال الآيات المحددة؟",
+  "provenance_ar": "الأصل ومجموعا828و506 ونتائجC0–C3 معروفة مسبقا. هذا تسجيل محلي قبل تشغيل المقارنة الجديدة، لا تسجيل مستقل أعمى ولا استدلال على احتمال المصادفة أو قصد النص. تستعمل القراءة الكاملة السابقة؛ لم تحصل قراءة كاملة جديدة بهذه الخطوة.",
+  "execution_gate": {
+    "independent_review_required": true,
+    "frozen_commit_required": true,
+    "new_execution_assignment_required": true,
+    "pool_sizes_computed": false,
+    "comparison_results_computed": false,
+    "rule_ar": "لا يبنى المرجع ولا تحسب أحجام أحواضه ولا تسحب عينات حتى يراجع الجذر الملفين ويجمدهما فيcommit ويأذن بالتنفيذ. يسجل التنفيذcommit وبصمتي البروتوكول فيmanifest مستقل؛ لا يغير البروتوكول المجمد."
+  },
+  "inputs": {
+    "corpora": {
+      "simple-clean": {
+        "path": "data/source/tanzil-simple-clean.txt",
+        "sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610"
+      },
+      "uthmani": {
+        "path": "data/source/tanzil-uthmani.txt",
+        "sha256": "bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8"
+      }
+    },
+    "metadata": {
+      "path": "data/source/quran-data.xml",
+      "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a"
+    },
+    "expected_verses": 6236,
+    "expected_surahs": 114,
+    "reading_ledger": "research/readings/science_reading.json",
+    "previous_audit": "research/notes/chromosome-claims-audit.md",
+    "previous_record": "research/records/science-chromosome-claims.json",
+    "previous_audit_sha256": "bb1acc490ad0318b3beaaf58c818704f133043d24434ed3db03f976e98441506",
+    "include_opening_basmalas": false,
+    "preprocessing_ar": "اقرأ حقل النص وحده لكل سطرسورة|آية|نص. في الآيةالأولى من السورعدا1و9 احذف من نسخةالعمل الكلمات الأربع الأولى بعد التحقق أنها البسملة الافتتاحية وفقcorpus.py؛ تبقى1:1 و27:30. لا يغير المصدر، ولا يجرىNFCأوNFKCأوإبدال همزات أو فك شدة. لا تعد أرقام الآيات أو السور أو المسافات أو الرخصة."
+  },
+  "count_rules": [
+    {
+      "id": "C0",
+      "corpus": "simple-clean",
+      "predicate": "unicodedata.category(c).startswith('L') and c != 'ـ'",
+      "note_ar": "فئاتUnicode16.0.0؛ حرف مشدد لا يفك؛ بعض أشكال الهمزة حرف واحد كما كتب."
+    },
+    {
+      "id": "C1",
+      "corpus": "uthmani",
+      "predicate": "unicodedata.category(c).startswith('L') and c != 'ـ'",
+      "note_ar": "تدخل الحروف الصغيرة المصنفةL وتخرج العلامات المصنفةM ومنهاالألف الخنجرية."
+    },
+    {
+      "id": "C2",
+      "corpus": "uthmani",
+      "allowed_characters": "ءآأؤإئابتثجحخدذرزسشصضطظعغفقكلمنهويىةٱ",
+      "note_ar": "تعد المحارف الصريحة فقط؛لاعلامات ولاحروف صغيرة ولاتطويل."
+    },
+    {
+      "id": "C3",
+      "corpus": "uthmani",
+      "allowed_characters": "آأؤإئابتثجحخدذرزسشصضطظعغفقكلمنهويىةٱ",
+      "note_ar": "C2بعد حذفU+0621وحده؛حوامل الهمزة تبقى وحدات. أضيفت هذه القاعدة في التدقيق الأصلي بعد مشاهدة نتائجC0–C2، وهذه المعلومة تحفظ."
+    }
+  ],
+  "original_groups": {
+    "A": {
+      "title_ar": "آيات نطفة/النطفة",
+      "terms": [
+        "نطفة",
+        "النطفة"
+      ],
+      "verse_count": 12,
+      "occurrence_count": 12,
+      "verse_refs": [
+        "16:4",
+        "18:37",
+        "22:5",
+        "23:13",
+        "23:14",
+        "35:11",
+        "36:77",
+        "40:67",
+        "53:46",
+        "75:37",
+        "76:2",
+        "80:19"
+      ]
+    },
+    "B": {
+      "title_ar": "آيات علق/علقة/العلقة",
+      "terms": [
+        "علق",
+        "علقة",
+        "العلقة"
+      ],
+      "verse_count": 5,
+      "occurrence_count": 6,
+      "verse_refs": [
+        "22:5",
+        "23:14",
+        "40:67",
+        "75:38",
+        "96:2"
+      ]
+    },
+    "overlap_refs": [
+      "22:5",
+      "23:14",
+      "40:67"
+    ],
+    "excluded_form": "كالمعلقة",
+    "excluded_form_ref": "4:129",
+    "known_totals": {
+      "C0": {
+        "A": 845,
+        "B": 516
+      },
+      "C1": {
+        "A": 838,
+        "B": 509
+      },
+      "C2": {
+        "A": 831,
+        "B": 509
+      },
+      "C3": {
+        "A": 828,
+        "B": 506
+      }
+    },
+    "note_ar": "كل آية تعد مرة واحدة؛التكرار اللفظي داخل23:14لايضاعف طولها. هذه بيانات سابقة، لا نتائج مقارنة جديدة."
+  },
+  "slots": [
+    {
+      "slot_id": "s01",
+      "original_ref": "16:4",
+      "membership": "A_only",
+      "original_C0_length": 30,
+      "length_bin": 1
+    },
+    {
+      "slot_id": "s02",
+      "original_ref": "18:37",
+      "membership": "A_only",
+      "original_C0_length": 57,
+      "length_bin": 2
+    },
+    {
+      "slot_id": "s03",
+      "original_ref": "22:5",
+      "membership": "shared",
+      "original_C0_length": 262,
+      "length_bin": 13
+    },
+    {
+      "slot_id": "s04",
+      "original_ref": "23:13",
+      "membership": "A_only",
+      "original_C0_length": 22,
+      "length_bin": 1
+    },
+    {
+      "slot_id": "s05",
+      "original_ref": "23:14",
+      "membership": "shared",
+      "original_C0_length": 104,
+      "length_bin": 5
+    },
+    {
+      "slot_id": "s06",
+      "original_ref": "35:11",
+      "membership": "A_only",
+      "original_C0_length": 115,
+      "length_bin": 5
+    },
+    {
+      "slot_id": "s07",
+      "original_ref": "36:77",
+      "membership": "A_only",
+      "original_C0_length": 42,
+      "length_bin": 2
+    },
+    {
+      "slot_id": "s08",
+      "original_ref": "40:67",
+      "membership": "shared",
+      "original_C0_length": 118,
+      "length_bin": 5
+    },
+    {
+      "slot_id": "s09",
+      "original_ref": "53:46",
+      "membership": "A_only",
+      "original_C0_length": 13,
+      "length_bin": 0
+    },
+    {
+      "slot_id": "s10",
+      "original_ref": "75:37",
+      "membership": "A_only",
+      "original_C0_length": 18,
+      "length_bin": 0
+    },
+    {
+      "slot_id": "s11",
+      "original_ref": "75:38",
+      "membership": "B_only",
+      "original_C0_length": 17,
+      "length_bin": 0
+    },
+    {
+      "slot_id": "s12",
+      "original_ref": "76:2",
+      "membership": "A_only",
+      "original_C0_length": 49,
+      "length_bin": 2
+    },
+    {
+      "slot_id": "s13",
+      "original_ref": "80:19",
+      "membership": "A_only",
+      "original_C0_length": 15,
+      "length_bin": 0
+    },
+    {
+      "slot_id": "s14",
+      "original_ref": "96:2",
+      "membership": "B_only",
+      "original_C0_length": 15,
+      "length_bin": 0
+    }
+  ],
+  "reference_design": {
+    "unit": "numbered_complete_verse",
+    "group_A_size": 12,
+    "group_B_size": 5,
+    "shared_size": 3,
+    "union_size": 14,
+    "A_only_size": 9,
+    "B_only_size": 2,
+    "eligible_ar": "جميع الآيات المرقمة من المصدر المثبت عدااتحادآيات الأصل الأربععشرة؛تحذف البسملات المضافة كما سبق. لا استبعاد معنوي آخر ولا بناء مجموعات ألفاظ بديلة. تستعمل فقط طبقات الأطوال التي تتطلبها المواضع.",
+    "length_rule": "C0",
+    "bin_width": 20,
+    "bin_id_formula": "C0_length // 20",
+    "bin_bounds_formula": "[20*k, 20*k+19] inclusive",
+    "required_bins": [
+      0,
+      1,
+      2,
+      5,
+      13
+    ],
+    "matching_ar": "لكل موضع فيslots آية مسحوبة من طبقة طوله الأصلية نفسها. يحفظ توزيع الطبقات داخلAوداخلBوداخل المشترك بالضبط، ولا يحفظ الطول الحرفي أو المجموع الدقيق. الفرق المطلق لكل موضع تحتC0لايتجاوز19حرفا؛لايوجد ضمان مماثل لقواعدالرسم الأخرى.",
+    "pool_order": "ascending numeric (surah, ayah)",
+    "slot_order": "ascending numeric (original_surah, original_ayah)",
+    "insufficient_pool_action": "stop_without_widening_or_replacement",
+    "preserved": [
+      "group_sizes",
+      "exact_overlap_size_and_slots",
+      "per_membership_C0_length_bin_histogram"
+    ],
+    "not_preserved_ar": [
+      "المعنى والموضوع والتراكيب النحوية ووحدة القصة",
+      "التواتر الطبيعي لكلمة أو جذر واختيار زوج ألفاظ من معجم",
+      "عدد السور والمسافات بين الآيات والتجاور الزمني أو المكاني",
+      "الأطوال الدقيقة وعدد الكلمات وتوزيع العلامات والهمزات",
+      "تاريخ فضاء الاختيارات لدى صاحب الدعوى ومجموع قواعده غير المرصودة"
+    ]
+  },
+  "sampling": {
+    "replicates": 10000,
+    "seed": 20261102,
+    "seed_selection_ar": "قيمة تاريخية معلنة في المناقشة، لم تجرب بذور بديلة ولم تنتق على أساس المخرجات.",
+    "python_implementation": "CPython",
+    "python_version": "3.14.4",
+    "unicode_version": "16.0.0",
+    "rng": "random.Random / Mersenne Twister MT19937",
+    "seed_call": "rng = random.Random(20261102)",
+    "single_rng_instance": true,
+    "parallel_rng": false,
+    "within_replicate_replacement": false,
+    "between_replicate_replacement": true,
+    "bin_order": [
+      0,
+      1,
+      2,
+      5,
+      13
+    ],
+    "algorithm_ar": [
+      "بعد التجميد تحقق من البصمات والتغطية ومجاميع الأصل، ثم احسب أطوالC0وأنشئ الأحواض المرتبة. افحص كفاية كل حوض قبل إنشاءأي سحب؛أي نقص يوقف العمل ولايغير الطبقات.",
+      "أنشئrngمرةواحدة بالبذرة المحددة. نفذالتكرارات1إلى10000والطبقات بالترتيب المثبت.",
+      "لكل طبقةخذجميعمواضعهاk. استدعrng.sample(pool,k)مرةواحدة. رتّب المراجع الناتجة رقميا، ثمrng.shuffle(selected)مرةواحدة؛أسند الناتج بالترتيب إلىمواضع الطبقة المرتبة. لا تملأAثمBبسحوبات منفصلة.",
+      "تدخل آيةالموضعsharedفيالمجموعتين نفسها. تعادالأحواض الكاملة فيالتكرارالتالي؛يسمحبتكرار زوج مجموعات عبرالتكرارات ولايحذف.",
+      "بعد اكتمال تعيينالمراجع احسبC0–C3علىالمراجع نفسها. لاتعدسحبًا بسببنتيجةحرفية أو باقيقسمة أو بعدمجموع عنالأصل؛لاتستخدمRNGفيحسابالنتائج أوالرسوم."
+    ],
+    "resumption_ar": "عند انقطاع تقني، إما استئناف حالةgetstateالمحفوظة عندحد تكرار كامل، أو إعادة التشغيل منالبذرة نفسها مع التحقق من تطابق بادئةالسحوبات. لا بذرة جديدة، ولازيادةNبسبب قلةالموافقات. اختلافنسخةPythonأوUnicodeيوقف التنفيذ حتىتعديل بروتوكول معلن ومجمد قبل أيحساب جديد."
+  },
+  "analysis": {
+    "primary": {
+      "rule": "C3",
+      "divisor": 46,
+      "event": "(sum_A % 46 == 0) and (sum_B % 46 == 0)",
+      "summary": "hits / 10000",
+      "interpretation_ar": "نسبة تحقق الحدث داخل مولد المقارنة المحدد فقط؛ليستp-valueلمصدرالقرآن أو لاحتمال القصد أو المعجزة."
+    },
+    "fixed_secondary": {
+      "per_rule": [
+        "sum_A",
+        "sum_B",
+        "A_divisible_by_46",
+        "B_divisible_by_46",
+        "both_divisible_by_46",
+        "both_divisible_by_23",
+        "both_divisible_by_23_but_not_both_by_46"
+      ],
+      "across_rules": [
+        "number_of_rules_with_both_divisible_by_46",
+        "any_rule_with_both_divisible_by_46",
+        "all_rules_with_both_divisible_by_46"
+      ],
+      "descriptive_summaries_ar": "لكلقاعدةومجموعةانشرالأصل وأدنى/وسيط/أعلى مجموع منالسحوبات. انشرعددونسبةكلحدثمثبت، وجدولتوزيععددالقواعدالموافقة0إلى4. حفظكلالأعدادحتىالمخالفة؛لااختيارأفضلقاعدةأوباقيأوبذرة."
+    },
+    "dependence_ar": "الحدث46جزءمنالحدث23؛لاتضربنسبهما ولا تعدهما شاهدينمستقلين. المجموعتانتشتركانفي3آيات، والقواعدالأربعةتعملعلىالسحوبات نفسها؛لاتضربالهامشينAوBلاستخراجالمشترك. نتيجةany-rule وصف لحساسيةالقواعدالأربع، وليستتصحيحا لجميعانتقاءاتالتاريخغيرالمعروفة.",
+    "monte_carlo_ar": "أبلغ البسطوالمقام،ودقةالعد1/10000. لايسمىصفرالموافقاتاستحالة. لايفترضتساويالبواقيأوأنالتكراريساوي1/46أو1/46². لاتطبقعتبةدلالةإحصائيةولاادعاءتصحيحشامللتعددالمقارنات.",
+    "no_other_targets": [
+      7,
+      19,
+      365
+    ],
+    "no_exact_sum_target_ar": "828و506مجموعاالأصل المعروفان؛الهدفالمقارنالمثبتقابليةالقسمةعلى46،لامطابقةهذينالمجموعينبالضبطولاالبحثعنمضاعفاتمفضلة.23تابعوصفي."
+  },
+  "future_artifacts": {
+    "directory": "research/experiments/chromosome-controls",
+    "files": [
+      "run-manifest.json",
+      "pools.json",
+      "draws.jsonl",
+      "summary.json",
+      "validation.json"
+    ],
+    "draws_required_fields": [
+      "replicate_id",
+      "slot_refs",
+      "totals_by_rule",
+      "remainders_by_rule",
+      "event_flags"
+    ],
+    "draws_ar": "سطرلكلتكرار،slot_refsمصفوفة14مرجعابترتيبslots؛تستعادعضويةA/Bمنالبروتوكول. احفظالسحوباتالعشرةآلافكاملة،دونانتقاءالناجحمنها.",
+    "pools_ar": "احفظكلحوضبالترتيبومراجعهوأطوالC0واحتياجاتالطبقةوبصمته؛يمكنإعادةتوليدهمنالمصدر.",
+    "manifest_required": [
+      "protocol_commit",
+      "protocol_json_sha256",
+      "protocol_md_sha256",
+      "source_hashes",
+      "python_version",
+      "unicode_version",
+      "rng",
+      "seed",
+      "replicates",
+      "script_sha256",
+      "artifact_hashes"
+    ],
+    "download_summary_route": "/downloads/chromosome-controls.json",
+    "download_protocol_route": "/downloads/chromosome-controls-protocol.json",
+    "publication_ar": "هذهتسميةمخرجاتمستقبليةفقط؛لاتنشأفيالمرحلةالأولى،ولاينشرمقالأوبياناتإلابعدالمراجعةالمستقلة.احفظإشعارمصدرالتنزيلمعأيإخراجيتضمننصا."
+  },
+  "validation_plan_ar": [
+    "تحققالملفينوالXMLو6236آيةو114سورة؛مطابقةمراجعالأصلوالقواعدالأربعلمجاميعالتدقيقالسابق.",
+    "مطابقةكلسحبلـ14آيةمميزة،A12وB5وتقاطعهما3،واستبعادالأصلوكفايةالطبقاتومطابقةكلslotلطبقته.",
+    "إعادةتوليد10000سحببالبذرةنفسهاومقارنةالمراجعبالكامل؛لايعدهذازيادةفيعينةالدراسة.",
+    "إعادةحسابمجاميعالسحوباتمنالمصدرومقارنتهابالمحفوظ؛فحصعلاقةJ46⊆J23وتناسقالهوامشوالمشتركومجاميعالجداول.",
+    "مراجعآخرمستقلعنكاتبالتنفيذيقرأالبروتوكولويعيدالتحققالحسابي؛المراجعةليستإثباتالتبادلالعشوائيبينمجموعاتمعنوية."
+  ],
+  "limitations_ar": [
+    "التصميممشروطبنصواحدوروايةورسمينوقواعدمعلومة،لااختبارلكلالقراءاتأوالمخطوطات.",
+    "مطابقةالطبقاتتقللالفروقفيالأطوالولاتثبتتبادلمجموعاتالآياتدلاليا.",
+    "الأصلانتقيبألفاظبعينها،بينماالمرجعيسحبآيات؛لايمثلفضاءأزواجالألفاظالطبيعية.",
+    "معرفةالنتيجةالأصليةوسجلتعديلC3لاتزولبتجميدمقارنةلاحقة.",
+    "العددالصغيرأوالكبيرللموافقاتلايثبتقصدًاوراثيًّاولاينفيقيمةالمعنىالديني؛يصفهذاالمرجعفقط.",
+    "لاتستخرجاحتمالمصادفةعالمياولامعاملBayesولانموذجتوليدلغة،ولاتستنتجأنالبواقيمنتظمة.",
+    "لايزالمصطلحالرسمالأولفيالدعوىيحتاجتحقيقاتاريخيامستقلا،ولاتجيبالمقارنةالحاليةعنه."
+  ],
+  "method_sources": [
+    {
+      "id": "python-random",
+      "url": "https://docs.python.org/3.14/library/random.html",
+      "title": "Python3.14 — random",
+      "accessed_at": "2026-11-02",
+      "read_scope_ar": "مقدمةالمولد،seed،sampleوshuffle؛الصفحةالحيةتعرض3.14.10،أماالتنفيذفمثبتعلىالإصدارالمحلي3.14.4وتسجلبصمةشفرتهمعه."
+    },
+    {
+      "id": "asa-2016",
+      "url": "https://www.stat.berkeley.edu/~aldous/Real_World/ASA_statement.pdf",
+      "title": "Wasserstein and Lazar2016 — ASAStatement",
+      "accessed_at": "2026-11-02",
+      "read_scope_ar": "نسخةالورقةالأصلية؛صفحات131–132،تعريفp-valueومبادئالنموذجوالشفافيةوعدممساواتهباحتمالالمصادفة.لايزعمهذاالمرجعالموافقةعلىتصميمناهنا."
+    }
+  ],
+  "access_limits_ar": "تعذراسترجاعصفحةPNASوPMCلمقالThepreregistrationrevolution؛لميعتمدنصه. تعذرتصفحةناشرASAففتحتنسخةالورقةنفسهاالمستضافةببيركلي. لاخطوةحسابيةمتوقفةعلىمصدرغيرمقروء."
+}
