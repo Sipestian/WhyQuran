@@ -16,7 +16,7 @@ def source_notice(corpus='simple-clean'):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='WhyQaraan — فهرسة النص العربي والتحقق من الأدلة')
+    parser = argparse.ArgumentParser(description='WhyQuran — فهرسة النص العربي والتحقق من الأدلة')
     subs = parser.add_subparsers(dest='command', required=True)
     subs.add_parser('verify', help='التحقق من المصدرين وجميع مراجع الآيات')
     subs.add_parser('build', help='التحقق من سجلات الأدلة والقراءة وتصدير JSON')
@@ -36,7 +36,7 @@ def main():
     args = parser.parse_args()
     try:
         if args.command == 'verify':
-            result = {'project': 'WhyQaraan', 'verified': True, 'corpora': {c: len(load_corpus(ROOT, c)) for c in CORPORA}, 'surahs': 114}
+            result = {'project': 'WhyQuran', 'verified': True, 'corpora': {c: len(load_corpus(ROOT, c)) for c in CORPORA}, 'surahs': 114}
         elif args.command == 'universe':
             groups = json.loads((ROOT / 'research/universe-terms.json').read_text())
             groups = universe_results(load_corpus(ROOT), groups)

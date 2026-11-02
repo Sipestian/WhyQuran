@@ -1,4 +1,6 @@
-# WhyQaraan — لماذا هذا اللفظ هنا؟
+# WhyQuran — لماذا هذا اللفظ هنا؟
+
+المستودع العام: [Sipestian/WhyQuran](https://github.com/Sipestian/WhyQuran).
 
 موقع ومختبر بحث عربي في استعمال ألفاظ القرآن، واختلاف التعبير بين الآيات، والنظم والبلاغة، والأسماء والأعداد، وصلات محتملة بالعلم والوراثة، وبناء أحكام الأسرة. يولد Astro صفحات ثابتة قليلة الموارد، وتنتج أدوات Python نتائج البحث القابلة للمراجعة.
 
@@ -12,7 +14,7 @@
 - 37 مقالة عربية اجتازت مراجعة بحثية داخلية مستقلة عن مؤلفها، و41 سجل أدلة، و50 استعلاما، وتغطية تحريرية لجميع 43 موضوعا محفوظا للموقع مع السؤال التالي وحدود كل نتيجة.
 - دراسات موثقة لليوم والشهر، وزوج وامرأة، ونور وضياء وسراج؛ أضيفت متابعة لسياقات لازمة الرحمن والمصطلح الفقهي، مع جداول مواضع في `research/annotations/` ومراجعات في `research/reviews/`.
 - [تجربة مقارنة الصبغيات](research/experiments/chromosome-controls/README.md): بروتوكول مجمد قبل السحب و10000 مقارنة محفوظة وتدقيق مستقل قابل لإعادة التشغيل؛ نتيجة وصفية محدودة، لا اكتشاف وراثي مثبت.
-- واجهة عربية RTL للمقالات والعد والمنهج وخريطة البحث؛ لا خادم تطبيق أو قاعدة بيانات عند القراءة. النسخة الثانية منشورة للعامة في [WhyQaraan](https://whyqaraan.cometgleam256.chatgpt.site). [سجل النشر الحالي](research/deployments/2026-11-02-followup-release.json) يحفظ النسخة ومعرف النشر وcommit المصدر المطابق؛ يبقى [سجل الإصدار الأول](research/deployments/2026-11-02-first-release.json) محفوظا.
+- واجهة عربية RTL للمقالات والعد والمنهج وخريطة البحث؛ لا خادم تطبيق أو قاعدة بيانات عند القراءة. النسخة الثانية منشورة للعامة في [WhyQuran](https://whyqaraan.cometgleam256.chatgpt.site). [سجل النشر الحالي](research/deployments/2026-11-02-followup-release.json) يحفظ النسخة ومعرف النشر وcommit المصدر المطابق؛ يبقى [سجل الإصدار الأول](research/deployments/2026-11-02-first-release.json) محفوظا.
 - [منهج البحث](docs/methodology.md)، و[اختيار تقنية الموقع](docs/website.md)، و[سجل الفرضيات](research/hypotheses.json)، و[تقدم العمل](research/PROGRESS.md).
 - [موضوعات الموقع المحفوظة](research/WEBSITE-BACKLOG.md): سجل دائم للأفكار والمقالات ومصادرها وحدودها والخطوة التالية لكل موضوع؛ تقرأ الواجهة بياناته من research/website-backlog.json.
 
@@ -21,7 +23,8 @@
 لأدوات البحث يلزم Python 3.11 أو أحدث، بلا حزم Python خارجية. اختبر التوافق على Python 3.14.4. لبناء الموقع يلزم Node.js24 أو أحدث، وnpm9.6.5 أو أحدث، وPython3 وmake حتى عند تشغيل astro build مباشرة؛ اختبر البناء على Node.js26.7.0 وnpm11.19.0. لا حساب سحابي ولا قاعدة بيانات للتشغيل المحلي. استضافة النسخة العامة تستخدم Sites لملفات dist الثابتة.
 
 ```bash
-cd /home/amari/Projects/WhyQaraan
+git clone https://github.com/Sipestian/WhyQuran.git
+cd WhyQuran
 python3 -m unittest discover -s tests -v
 python3 -m quran_research verify
 python3 -m quran_research count 'فبأي آلاء ربكما تكذبان' --surah 55

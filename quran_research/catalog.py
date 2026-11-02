@@ -216,7 +216,7 @@ def build_catalog(root):
             result['reproduced'] = result['count'] == query['expected_count']
         results.append(result)
     return {
-        'project': 'WhyQaraan', 'schema_version': 1,
+        'project': 'WhyQuran', 'schema_version': 1,
         'source': manifest, 'source_notice': (root / 'data/SOURCE-LICENSE.txt').read_text(),
         'reading_notice_ar': 'سجلات القراءة إقرارات من الباحثين مع تغطية قابلة للتحقق؛ لا تثبت الفهم أو تمنع ضغط السياق، ولا يغني فحصها البرمجي عن مراجعة النص والمصادر.',
         'readers': readers, 'records': records, 'queries': results,
