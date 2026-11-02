@@ -51,6 +51,22 @@ try {
     assert.deepEqual(dependencyCacheSnapshot(), dependencyCachesBefore, 'Integration builds must not mutate shared dependency caches');
     console.log(`Real Astro ${showDrafts ? 'preview' : 'production'} build passed: ${result.htmlPages} pages; synthetic draft ${showDrafts ? 'visible with noindex and notice' : 'has no direct route'}.`);
   }
+  const annotationName = readdirSync(join(work, 'research/annotations')).filter((file) => file.endsWith('.json')).sort()[0];
+  const annotationPath = join(work, 'research/annotations', annotationName);
+  const annotationText = readFileSync(annotationPath, 'utf8');
+  const invalidAnnotation = JSON.parse(annotationText);
+  assert.ok(invalidAnnotation.occurrences.length > 0, 'The annotation rejection check needs a real occurrence');
+  invalidAnnotation.occurrences.pop();
+  writeFileSync(annotationPath, JSON.stringify(invalidAnnotation));
+  assert.throws(() => validateResearch(work), (error) => error.message.includes(annotationName) && error.message.includes('ناقص 1'),
+    'The canonical validator must identify the file and exactly one missing occurrence');
+  assert.throws(() => execFileSync(process.execPath, [join(work, 'node_modules/astro/bin/astro.mjs'), 'build'], {
+    cwd: work, env: { ...process.env, ASTRO_TELEMETRY_DISABLED: '1' },
+    stdio: ['ignore', 'pipe', 'pipe'], timeout: 120_000,
+  }), (error) => error.status === 1,
+  'Direct Astro builds must reject a missing corpus occurrence');
+  writeFileSync(annotationPath, annotationText);
+  console.log('Direct Astro build rejected a missing annotation occurrence.');
   const ledgerPath = join(work, 'research/readings/arabic_wording.json');
   const invalidLedger = JSON.parse(readFileSync(ledgerPath, 'utf8'));
   invalidLedger.blocks = [];

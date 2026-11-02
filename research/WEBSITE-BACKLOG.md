@@ -62,12 +62,15 @@
 
 ### زوج وامرأة في سياقات الأسرة
 
-- المعرّف: `wife-wording`؛ الحالة: قيد البحث.
+- المعرّف: `wife-wording`؛ الحالة: اجتاز مراجعة داخلية.
 - السؤال: هل يفسر السياق اختيار زوج أو امرأة؟
 - الأساس الحالي: اقتراح بحث يحتاج استقصاء جميع المواضع والأمثلة المضادة.
 - مواضع الانطلاق: `3:35`، `11:71`، `21:90`، `66:10`، `66:11`. ليست بديلا عن استقصاء المواضع.
-- الخطوة التالية: جمع الاستعمالات ومراجعة دعوى الوفاق والخلاف دون انتقاء.
-- القيد الذي يجب ألا يضيع: لا توجد قاعدة معتمدة للمشروع بعد.
+- الأدلة الحالية: [wording-wife-context](records/wording-wife-context.json).
+- المصادر المفتوحة: [المصدر 1](https://tanzil.net)، [المصدر 2](https://www.islamweb.net/ar/fatwa/print.php?id=112313)، [المصدر 3](https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya90.html)، [المصدر 4](https://quran.ksu.edu.sa/tafseer/tabary/sura66-aya10.html)، [المصدر 5](https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya102.html)، [المصدر 6](https://quran.ksu.edu.sa/tafseer/tabary/sura3-aya35.html)، [المصدر 7](https://quran.ksu.edu.sa/tafseer/tabary/sura64-aya14.html)، [المصدر 8](https://quran.ksu.edu.sa/tafseer/tabary/sura37-aya22.html)، [المصدر 9](https://quran.ksu.edu.sa/tafseer/tabary/sura81-aya7.html).
+- المقال: [zawj-and-imraa](../content/articles/zawj-and-imraa.md).
+- الخطوة التالية: قراءة الفصول الأصلية المنسوب إليها التعليل بقيودها الفعلية، ثم توسيع المقارنة إلى بعل وصاحبة ونساء ببروتوكول منفصل؛ لا تعمم مناسبة محلية على سائر المواضع.
+- القيد الذي يجب ألا يضيع: 76اسمًا من زوج وأزواج و5أفعال و26صيغة امرأة، مع11مستبعدا. هذه أعداد ألفاظ لا زوجات. راجعت الدراسة كل موضع، وفصلت النص الصريح عن استنتاج حال العلاقة، وحفظت قيد المصادر الحديثة غير المقروءة.
 
 ### لماذا تختلف العبارة حين تتكرر القصة؟
 
@@ -80,14 +83,15 @@
 
 ### نور وضياء وسراج بين الحس والهداية
 
-- المعرّف: `light-vocabulary`؛ الحالة: قيد البحث.
+- المعرّف: `light-vocabulary`؛ الحالة: اجتاز مراجعة داخلية.
 - السؤال: هل تعطي المفردات تعريفات ضوئية حصرية في جميع السياقات؟
 - الأساس الحالي: مذكرة الألفاظ والعلم تجمع الوصف السماوي والوحي والسراج المنير.
 - مواضع الانطلاق: `10:5`، `21:48`، `24:35`، `33:46`، `71:16`. ليست بديلا عن استقصاء المواضع.
-- الأدلة الحالية: [science-moon-light](records/science-moon-light.json).
-- المصادر المفتوحة: [المصدر 1](https://quran.ksu.edu.sa/tafseer/tabary/sura33-aya46.html).
-- الخطوة التالية: حصر المشتقات وترميز السياقات الحسية والمجازية ومراجعة الحالات المختلف فيها.
-- القيد الذي يجب ألا يضيع: الاستعمال المجازي لا ينفي الفرق في السياق الحسي، ولا يثبت اختصاصا فيزيائيا مطلقا.
+- الأدلة الحالية: [wording-light-context](records/wording-light-context.json)، [science-moon-light](records/science-moon-light.json).
+- المصادر المفتوحة: [المصدر 1](https://tanzil.net/)، [المصدر 2](https://www.islamweb.net/ar/fatwa/print.php?id=12479)، [المصدر 3](https://tafsir.app/ibn-aashoor/10/5)، [المصدر 4](https://quran.ksu.edu.sa/tafseer/katheer/sura10-aya5.html)، [المصدر 5](https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya17.html)، [المصدر 6](https://quran.ksu.edu.sa/tafseer/tabary/sura5-aya15.html)، [المصدر 7](https://quran.ksu.edu.sa/tafseer/qortobi/sura5-aya15.html)، [المصدر 8](https://quran.ksu.edu.sa/tafseer/tabary/sura6-aya1.html)، [المصدر 9](https://quran.ksu.edu.sa/tafseer/tabary/sura13-aya16.html)، [المصدر 10](https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya48.html)، [المصدر 11](https://quran.ksu.edu.sa/tafseer/tabary/sura24-aya35.html)، [المصدر 12](https://quran.ksu.edu.sa/tafseer/tabary/sura25-aya61.html)، [المصدر 13](https://quran.ksu.edu.sa/tafseer/tabary/sura28-aya71.html)، [المصدر 14](https://quran.ksu.edu.sa/tafseer/tabary/sura33-aya46.html)، [المصدر 15](https://quran.ksu.edu.sa/tafseer/tabary/sura35-aya20.html)، [المصدر 16](https://quran.ksu.edu.sa/tafseer/tabary/sura39-aya69.html)، [المصدر 17](https://quran.ksu.edu.sa/tafseer/tabary/sura57-aya12.html)، [المصدر 18](https://quran.ksu.edu.sa/tafseer/katheer/sura57-aya12.html)، [المصدر 19](https://quran.ksu.edu.sa/tafseer/tabary/sura57-aya28.html)، [المصدر 20](https://quran.ksu.edu.sa/tafseer/qortobi/sura57-aya28.html)، [المصدر 21](https://quran.ksu.edu.sa/tafseer/tabary/sura78-aya13.html)، [المصدر 22](https://corpus.quran.com/qurandictionary.jsp?q=nwr)، [المصدر 23](https://corpus.quran.com/qurandictionary.jsp?q=srj).
+- المقال: [nur-diya-siraj](../content/articles/nur-diya-siraj.md).
+- الخطوة التالية: مقارنة الدلالة بمعاجم وشواهد عربية مؤرخة، ثم بروتوكول مستقل لتوسيع العينة إلى النار والمصباح والبرق والسنا وأشرق؛ تحفظ الحالات المختلف فيها.
+- القيد الذي يجب ألا يضيع: 59وقوعا في43آية لقوائم ألفاظ محددة، مع جميع المواضع والسياقات والمراجعة المستقلة. لا تحصر المفردات في تعريف فيزيائي؛ والاستعارة لا تبطل وحدها فرقا محليا في السياق الفلكي.
 
 ## الأسماء والكلمات والحروف والأعداد
 
@@ -134,12 +138,15 @@
 
 ### اليوم 365 والشهر 12: فحص الدعوى المشهورة
 
-- المعرّف: `day-month-claims`؛ الحالة: قيد البحث.
+- المعرّف: `day-month-claims`؛ الحالة: اجتاز مراجعة داخلية.
 - السؤال: أي صيغ تدخل في هذين العددين وأيها تستبعد؟
 - الأساس الحالي: لم يختبر المشروع الدعوى؛ الموجود عد حرفي استكشافي لصيغة يوم فقط.
 - مواضع الانطلاق: `9:36`. ليست بديلا عن استقصاء المواضع.
-- الخطوة التالية: العثور على أقدم صياغة موثقة للدعوى وتثبيت مجموعة الصيغ قبل العد.
-- القيد الذي يجب ألا يضيع: لا تعرض الأرقام المشهورة بوصفها نتيجة محسوبة للمشروع.
+- الأدلة الحالية: [counts-day-month](records/counts-day-month.json).
+- المصادر المفتوحة: [المصدر 1](https://tanzil.net/)، [المصدر 2](https://quranbynumbers.com/method/)، [المصدر 3](https://qurantalkblog.com/2023/02/28/day-mentioned-365-times-in-quran/)، [المصدر 4](https://www.alwaraq.net/Core/dg/dg_topic?ID=3896&order=asc&sort=u.publish_time)، [المصدر 5](https://corpus.quran.com/qurandictionary.jsp?root=ywm)، [المصدر 6](https://corpus.quran.com/qurandictionary.jsp?root=%24hr)، [المصدر 7](https://aa.usno.navy.mil/faq/leap_years)، [المصدر 8](https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/calendar.html).
+- المقال: [day-month-counts](../content/articles/day-month-counts.md).
+- الخطوة التالية: توثيق أقدم صياغة للدعوى من مصدر أصلي، ثم اختبار مجموعة كلمات تحت سياسة واحدة معلنة سلفا مع حفظ المخالفات وتعدد المقارنات.
+- القيد الذي يجب ألا يضيع: أعيد إنتاج365 و12 تحت القاعدة المقيدة؛ مع الضمائر يصبح مفرد اليوم375، ودون يومئذ بجميع الصيغ405، ومعها475. جميع صيغ الشهر21. المطابقة ليست احتمالا إحصائيا أو اكتشافا فلكيا حديثا.
 
 ### الأسماء والصفات والألقاب في شبكة المقارنات
 
@@ -197,10 +204,10 @@
 - السؤال: هل اختلاف اللفظ يحدد مصدر الضوء؟
 - الأساس الحالي: انعكاس الضوء صحيح ومعروف في نص أفلاطون قبل الإسلام؛ المصادر الأولية فُحصت.
 - مواضع الانطلاق: `10:5`، `71:16`. ليست بديلا عن استقصاء المواضع.
-- الأدلة الحالية: [science-moon-light](records/science-moon-light.json).
+- الأدلة الحالية: [science-moon-light](records/science-moon-light.json)، [wording-light-context](records/wording-light-context.json).
 - المصادر المفتوحة: [المصدر 1](https://classics.mit.edu/Plato/cratylus.html)، [المصدر 2](https://science.nasa.gov/moon/moonlight/)، [المصدر 3](https://quran.ksu.edu.sa/tafseer/tabary/sura10-aya5.html).
 - المقال: [moon-and-modern-science](../content/articles/moon-and-modern-science.md).
-- الخطوة التالية: حفظ المصادر في سجل دليل ومراجعة جميع استعمالات نور وضياء وسراج.
+- الخطوة التالية: فحص تاريخ دلالة النور والضياء في معاجم وشواهد عربية مؤرخة؛ اكتمل جرد الاستعمالات القرآنية ومراجعته في دراسة نور وضياء وسراج.
 - القيد الذي يجب ألا يضيع: ليست معرفة ظهرت خلال آخر مئة سنة؛ نور لا يعني منعكسا حصرا.
 
 ### انشقاق القمر والصور الجيولوجية المتداولة

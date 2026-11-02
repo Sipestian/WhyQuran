@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "day-month-counts": {
+      "body_sha256": "25568bf39bec6ff578fea4d34c021a91018219397c26fe5285d2cce8f8dd6f91",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة للقاعدة والمصادر وجميع717صفا و496موضعا مع معالجة ملاحظات الإعراب. حدود الوصول والمقارنة محفوظة في المراجعة التفصيلية.",
+      "review_document": "research/reviews/2026-11-02-day-month-independent.md",
+      "reviewed_draft_sha256": "05b0235ed86796d3b42e3718644bc169c487fc6db849399e3e3d33b60b9caabc"
+    },
+    "nur-diya-siraj": {
+      "body_sha256": "d5d5777bcaaa0a0b67c318945bdab975a6610c4ac77ce88df165f93c7866f45d",
+      "reviewers": [
+        "science_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة لكل59وقوعا و43آية وتصنيفاتها ومصادرها و122آية سياق بالرسمين. عدلت الخاتمة بعد اكتمال المراجعة؛ بقي الخلاف الدلالي وكيفية النور الأخروي معلنين.",
+      "review_document": "research/reviews/2026-11-02-light-independent.md",
+      "reviewed_draft_sha256": "ad1b93ea18cc83589a17b6eaf3935b706d5f6f7c97b7044813a166a72ae189a9"
+    },
+    "zawj-and-imraa": {
+      "body_sha256": "3d3ce407a99a9993c819b662e935f2337f5e710566a09988bf6286422d34d0bf",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة لجميع107مدرجات و11مستبعدا والسياقات والتصنيفات والمصادر. تحفظ حالات الازدواج غير المعين بعقد، ولا يستنتج الإيمان أو الانسجام أو العقم من اللفظ وحده.",
+      "review_document": "research/reviews/2026-11-02-wife-independent.md",
+      "reviewed_draft_sha256": "8bf9b3fd209e6b833e35f631a9f0e334d15887ae1d11e270ae5fe34f00e71452"
+    }
+  }
+}

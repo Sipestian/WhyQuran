@@ -85,7 +85,7 @@
     "id": "wife-wording",
     "title_ar": "زوج وامرأة في سياقات الأسرة",
     "category": "wording",
-    "status": "research",
+    "status": "reviewed",
     "question_ar": "هل يفسر السياق اختيار زوج أو امرأة؟",
     "baseline_ar": "اقتراح بحث يحتاج استقصاء جميع المواضع والأمثلة المضادة.",
     "verse_refs": [
@@ -95,11 +95,23 @@
       "66:10",
       "66:11"
     ],
-    "evidence_ids": [],
-    "source_urls": [],
-    "article_slug": null,
-    "next_step_ar": "جمع الاستعمالات ومراجعة دعوى الوفاق والخلاف دون انتقاء.",
-    "qualification_ar": "لا توجد قاعدة معتمدة للمشروع بعد.",
+    "evidence_ids": [
+      "wording-wife-context"
+    ],
+    "source_urls": [
+      "https://tanzil.net",
+      "https://www.islamweb.net/ar/fatwa/print.php?id=112313",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya90.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura66-aya10.html",
+      "https://quran.ksu.edu.sa/tafseer/katheer/sura2-aya102.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura3-aya35.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura64-aya14.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura37-aya22.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura81-aya7.html"
+    ],
+    "article_slug": "zawj-and-imraa",
+    "next_step_ar": "قراءة الفصول الأصلية المنسوب إليها التعليل بقيودها الفعلية، ثم توسيع المقارنة إلى بعل وصاحبة ونساء ببروتوكول منفصل؛ لا تعمم مناسبة محلية على سائر المواضع.",
+    "qualification_ar": "76اسمًا من زوج وأزواج و5أفعال و26صيغة امرأة، مع11مستبعدا. هذه أعداد ألفاظ لا زوجات. راجعت الدراسة كل موضع، وفصلت النص الصريح عن استنتاج حال العلاقة، وحفظت قيد المصادر الحديثة غير المقروءة.",
     "updated_at": "2026-11-02"
   },
   {
@@ -200,17 +212,28 @@
     "id": "day-month-claims",
     "title_ar": "اليوم 365 والشهر 12: فحص الدعوى المشهورة",
     "category": "counts",
-    "status": "research",
+    "status": "reviewed",
     "question_ar": "أي صيغ تدخل في هذين العددين وأيها تستبعد؟",
     "baseline_ar": "لم يختبر المشروع الدعوى؛ الموجود عد حرفي استكشافي لصيغة يوم فقط.",
     "verse_refs": [
       "9:36"
     ],
-    "evidence_ids": [],
-    "source_urls": [],
-    "article_slug": null,
-    "next_step_ar": "العثور على أقدم صياغة موثقة للدعوى وتثبيت مجموعة الصيغ قبل العد.",
-    "qualification_ar": "لا تعرض الأرقام المشهورة بوصفها نتيجة محسوبة للمشروع.",
+    "evidence_ids": [
+      "counts-day-month"
+    ],
+    "source_urls": [
+      "https://tanzil.net/",
+      "https://quranbynumbers.com/method/",
+      "https://qurantalkblog.com/2023/02/28/day-mentioned-365-times-in-quran/",
+      "https://www.alwaraq.net/Core/dg/dg_topic?ID=3896&order=asc&sort=u.publish_time",
+      "https://corpus.quran.com/qurandictionary.jsp?root=ywm",
+      "https://corpus.quran.com/qurandictionary.jsp?root=%24hr",
+      "https://aa.usno.navy.mil/faq/leap_years",
+      "https://www.ucl.ac.uk/museums-static/digitalegypt/chronology/calendar.html"
+    ],
+    "article_slug": "day-month-counts",
+    "next_step_ar": "توثيق أقدم صياغة للدعوى من مصدر أصلي، ثم اختبار مجموعة كلمات تحت سياسة واحدة معلنة سلفا مع حفظ المخالفات وتعدد المقارنات.",
+    "qualification_ar": "أعيد إنتاج365 و12 تحت القاعدة المقيدة؛ مع الضمائر يصبح مفرد اليوم375، ودون يومئذ بجميع الصيغ405، ومعها475. جميع صيغ الشهر21. المطابقة ليست احتمالا إحصائيا أو اكتشافا فلكيا حديثا.",
     "updated_at": "2026-11-02"
   },
   {
@@ -304,7 +327,8 @@
       "71:16"
     ],
     "evidence_ids": [
-      "science-moon-light"
+      "science-moon-light",
+      "wording-light-context"
     ],
     "source_urls": [
       "https://classics.mit.edu/Plato/cratylus.html",
@@ -312,7 +336,7 @@
       "https://quran.ksu.edu.sa/tafseer/tabary/sura10-aya5.html"
     ],
     "article_slug": "moon-and-modern-science",
-    "next_step_ar": "حفظ المصادر في سجل دليل ومراجعة جميع استعمالات نور وضياء وسراج.",
+    "next_step_ar": "فحص تاريخ دلالة النور والضياء في معاجم وشواهد عربية مؤرخة؛ اكتمل جرد الاستعمالات القرآنية ومراجعته في دراسة نور وضياء وسراج.",
     "qualification_ar": "ليست معرفة ظهرت خلال آخر مئة سنة؛ نور لا يعني منعكسا حصرا.",
     "updated_at": "2026-11-02"
   },
@@ -687,7 +711,7 @@
     "id": "light-vocabulary",
     "title_ar": "نور وضياء وسراج بين الحس والهداية",
     "category": "wording",
-    "status": "research",
+    "status": "reviewed",
     "question_ar": "هل تعطي المفردات تعريفات ضوئية حصرية في جميع السياقات؟",
     "baseline_ar": "مذكرة الألفاظ والعلم تجمع الوصف السماوي والوحي والسراج المنير.",
     "verse_refs": [
@@ -698,14 +722,37 @@
       "71:16"
     ],
     "evidence_ids": [
+      "wording-light-context",
       "science-moon-light"
     ],
     "source_urls": [
-      "https://quran.ksu.edu.sa/tafseer/tabary/sura33-aya46.html"
+      "https://tanzil.net/",
+      "https://www.islamweb.net/ar/fatwa/print.php?id=12479",
+      "https://tafsir.app/ibn-aashoor/10/5",
+      "https://quran.ksu.edu.sa/tafseer/katheer/sura10-aya5.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura2-aya17.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura5-aya15.html",
+      "https://quran.ksu.edu.sa/tafseer/qortobi/sura5-aya15.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura6-aya1.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura13-aya16.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya48.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura24-aya35.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura25-aya61.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura28-aya71.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura33-aya46.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura35-aya20.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura39-aya69.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura57-aya12.html",
+      "https://quran.ksu.edu.sa/tafseer/katheer/sura57-aya12.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura57-aya28.html",
+      "https://quran.ksu.edu.sa/tafseer/qortobi/sura57-aya28.html",
+      "https://quran.ksu.edu.sa/tafseer/tabary/sura78-aya13.html",
+      "https://corpus.quran.com/qurandictionary.jsp?q=nwr",
+      "https://corpus.quran.com/qurandictionary.jsp?q=srj"
     ],
-    "article_slug": null,
-    "next_step_ar": "حصر المشتقات وترميز السياقات الحسية والمجازية ومراجعة الحالات المختلف فيها.",
-    "qualification_ar": "الاستعمال المجازي لا ينفي الفرق في السياق الحسي، ولا يثبت اختصاصا فيزيائيا مطلقا.",
+    "article_slug": "nur-diya-siraj",
+    "next_step_ar": "مقارنة الدلالة بمعاجم وشواهد عربية مؤرخة، ثم بروتوكول مستقل لتوسيع العينة إلى النار والمصباح والبرق والسنا وأشرق؛ تحفظ الحالات المختلف فيها.",
+    "qualification_ar": "59وقوعا في43آية لقوائم ألفاظ محددة، مع جميع المواضع والسياقات والمراجعة المستقلة. لا تحصر المفردات في تعريف فيزيائي؛ والاستعارة لا تبطل وحدها فرقا محليا في السياق الفلكي.",
     "updated_at": "2026-11-02"
   },
   {

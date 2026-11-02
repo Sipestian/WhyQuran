@@ -1,0 +1,4673 @@
+{
+  "id": "day-month",
+  "title_ar": "جميع مواضع اليوم والشهر تحت قواعد العد المعلنة",
+  "date": "2026-11-02",
+  "corpus": "simple-clean",
+  "corpus_sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+  "include_opening_basmalas": false,
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n",
+  "method_ar": "قوائم مجمدة قبل الحساب المحلي، ثم مسح جميع الآيات مباشرة ومقارنة مستقلة بحدود الكلمات؛ راجعت الأشكال والسياقات الملتبسة. هذا ليس ادعاء قراءة جديدة.",
+  "position_note_ar": "source_word_position موضع الوحدة المفصولة بالمسافة في الآية الأصلية، يبدأ من1، ويحفظ إزاحة البسملة الافتتاحية إن وجدت رغم استبعادها من العد.",
+  "overlap_note_ar": "day-exact يتداخل مع day-claim-singular، وmonth-exact مع month-singular. يظهر الموضع مرة لكل query_id؛ لا تجمع صفوف الجدول للحصول على مجموع الكلمات المتميزة. المجموعات الأخرى متمايزة.",
+  "queries": [
+    {
+      "id": "day-exact",
+      "title_ar": "الصيغة المكتوبة يوم دون سوابق أو تصريفات",
+      "terms": [
+        "يوم"
+      ],
+      "scope_note_ar": "استكشاف كامل لصيغة واحدة، وليس اختبارا لدعوى 365؛ اليوم ويوما ويومئذ وغيرها خارج التعريف."
+    },
+    {
+      "id": "day-claim-singular",
+      "title_ar": "يوم: المفرد دون ضمير ودون يومئذ",
+      "terms": [
+        "اليوم",
+        "باليوم",
+        "بيوم",
+        "فاليوم",
+        "ليوم",
+        "واليوم",
+        "وباليوم",
+        "ويوم",
+        "يوم",
+        "يوما"
+      ],
+      "expected_count": 365,
+      "scope_note_ar": "إعادة إنتاج القاعدة المنشورة المقيدة؛ تقبل التعريف والتنكير واللواصق السابقة، وتستبعد الضمائر ويومئذ والمثنى والجمع. ليست جميع المفرد ولا مجموع الجذر."
+    },
+    {
+      "id": "day-pronouns",
+      "title_ar": "يوم: المفرد المتصل بضمير",
+      "terms": [
+        "يومكم",
+        "يومهم"
+      ],
+      "expected_count": 10,
+      "scope_note_ar": "صيغتان مفردتان تستبعدهما قاعدة365، وتعرضان مستقلا لحفظ أثر هذا الاستثناء."
+    },
+    {
+      "id": "day-idha-compound",
+      "title_ar": "يومئذ: التركيب وأشكاله المتصلة",
+      "terms": [
+        "فيومئذ",
+        "ويومئذ",
+        "يومئذ"
+      ],
+      "expected_count": 70,
+      "scope_note_ar": "تركيب يومئذ وأشكاله المتصلة؛ يعرض مستقلا عن المفرد البسيط وعن المثنى والجمع."
+    },
+    {
+      "id": "day-dual",
+      "title_ar": "يومين: المثنى",
+      "terms": [
+        "يومين"
+      ],
+      "expected_count": 3,
+      "scope_note_ar": "المثنى يستبعد من قاعدة365 ويعرض مستقلا."
+    },
+    {
+      "id": "day-plural",
+      "title_ar": "أيام: جميع أشكال الجمع الصريحة",
+      "terms": [
+        "أيام",
+        "أياما",
+        "الأيام",
+        "بأيام",
+        "وأياما"
+      ],
+      "expected_count": 27,
+      "scope_note_ar": "جمع يوم مع الأشكال المكتوبة ولواصقها؛ لا تدخل الأيامى المتعلقة بالزواج."
+    },
+    {
+      "id": "month-exact",
+      "title_ar": "الصيغة المكتوبة شهر وحدها",
+      "terms": [
+        "شهر"
+      ],
+      "expected_count": 4,
+      "scope_note_ar": "ضابط حرفي لا يشمل الشهر وشهرا واللواصق؛ ليس اختبارا منفردا للدعوى12."
+    },
+    {
+      "id": "month-singular",
+      "title_ar": "شهر: المفرد الصرفي بأشكاله",
+      "terms": [
+        "الشهر",
+        "بالشهر",
+        "شهر",
+        "شهرا",
+        "والشهر"
+      ],
+      "expected_count": 12,
+      "scope_note_ar": "المفرد الصرفي مع اللواصق، ويشمل شهرا المنصوبة تمييزا في9:36 و46:15، وشهر المجرورة بالإضافة بعد ألف في97:3؛ لا يعني أن مدلول كل موضع شهر واحد."
+    },
+    {
+      "id": "month-dual",
+      "title_ar": "شهرين: المثنى",
+      "terms": [
+        "شهرين"
+      ],
+      "expected_count": 2,
+      "scope_note_ar": "المثنى يستبعد من قاعدة12 ويعرض مستقلا."
+    },
+    {
+      "id": "month-plural",
+      "title_ar": "أشهر وشهور: الجمع",
+      "terms": [
+        "أشهر",
+        "الأشهر",
+        "الشهور"
+      ],
+      "expected_count": 7,
+      "scope_note_ar": "كل صيغ جمع اسم الشهر في النص المثبت؛ منفصلة عن المفرد والمثنى."
+    }
+  ],
+  "occurrences": [
+    {
+      "query_id": "day-exact",
+      "verse_ref": "1:4",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "2:113",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "2:174",
+      "source_word_position": 23,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "2:212",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "2:254",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "2:259",
+      "source_word_position": 31,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:30",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:55",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:77",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:106",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:155",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:161",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:166",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:180",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:185",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "3:194",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "4:87",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "4:109",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "4:141",
+      "source_word_position": 28,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "5:14",
+      "source_word_position": 18,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "5:36",
+      "source_word_position": 17,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "5:64",
+      "source_word_position": 32,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "5:109",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "5:119",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "6:12",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "6:15",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "6:73",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "6:141",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "6:158",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:32",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:53",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:59",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:163",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:167",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "7:172",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "8:41",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "8:41",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "9:3",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "9:35",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "9:36",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "9:77",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "9:108",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "10:15",
+      "source_word_position": 38,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "10:60",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "10:93",
+      "source_word_position": 19,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:3",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:8",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:26",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:77",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:84",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:98",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:103",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:103",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "11:105",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "14:18",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "14:31",
+      "source_word_position": 16,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "14:41",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "14:44",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "14:48",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "15:35",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "15:36",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "15:38",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:25",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:27",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:80",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:92",
+      "source_word_position": 27,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:111",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "16:124",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:13",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:52",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:58",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:62",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:71",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "17:97",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "18:19",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "18:105",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:15",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:33",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:37",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:38",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:39",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:85",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "19:95",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "20:59",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "20:100",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "20:101",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "20:102",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "20:124",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "21:104",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "22:2",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "22:9",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "22:17",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "22:55",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "22:69",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "23:16",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "23:100",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "23:113",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "24:24",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "25:22",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "25:69",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:38",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:82",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:87",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:88",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:135",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:155",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:156",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:189",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "26:189",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "28:61",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "28:71",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "28:72",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "29:13",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "29:25",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "29:55",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "30:43",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "30:56",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "30:56",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "32:5",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "32:25",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "32:29",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "33:44",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "33:66",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "34:30",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "37:20",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "37:21",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "37:144",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "38:16",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "38:26",
+      "source_word_position": 30,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "38:78",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "38:79",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "38:81",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:13",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:15",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:24",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:31",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:47",
+      "source_word_position": 16,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "39:67",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:15",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:16",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:18",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:30",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:32",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:33",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "40:52",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "41:40",
+      "source_word_position": 18,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "42:7",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "42:45",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "42:47",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "43:65",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "44:10",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "44:16",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "44:40",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "44:41",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "45:17",
+      "source_word_position": 19,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "45:26",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "46:5",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "46:21",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "46:35",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:20",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:30",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:34",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:41",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:42",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:42",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "50:44",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "51:12",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "51:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "52:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "52:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "52:46",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "54:6",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "54:8",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "54:19",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "54:48",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "55:29",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "56:50",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "56:56",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "57:12",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "57:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "58:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "58:7",
+      "source_word_position": 41,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "58:18",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "60:3",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "62:9",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "64:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "64:9",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "66:8",
+      "source_word_position": 22,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "68:39",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "68:42",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "70:4",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "70:8",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "70:43",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "73:14",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "74:9",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "75:6",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "77:12",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "77:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "77:35",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "77:38",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "78:17",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "78:18",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "78:38",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "78:40",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "79:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "79:35",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "79:46",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "80:34",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "82:15",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "82:17",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "82:18",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "82:19",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "83:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "86:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "90:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-exact",
+      "verse_ref": "101:4",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "1:4",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:8",
+      "source_word_position": 7,
+      "source_token": "وباليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:48",
+      "source_word_position": 2,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:62",
+      "source_word_position": 11,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:85",
+      "source_word_position": 39,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:113",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:123",
+      "source_word_position": 2,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:126",
+      "source_word_position": 17,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:174",
+      "source_word_position": 23,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:177",
+      "source_word_position": 14,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:212",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:228",
+      "source_word_position": 20,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:232",
+      "source_word_position": 23,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:249",
+      "source_word_position": 40,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:254",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:259",
+      "source_word_position": 28,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:259",
+      "source_word_position": 31,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:264",
+      "source_word_position": 18,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "2:281",
+      "source_word_position": 2,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:9",
+      "source_word_position": 5,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:25",
+      "source_word_position": 4,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:30",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:55",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:77",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:106",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:114",
+      "source_word_position": 3,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:155",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:161",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:166",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:180",
+      "source_word_position": 21,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:185",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "3:194",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:38",
+      "source_word_position": 10,
+      "source_token": "باليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:39",
+      "source_word_position": 6,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:59",
+      "source_word_position": 24,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:87",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:109",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:136",
+      "source_word_position": 24,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:141",
+      "source_word_position": 28,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:159",
+      "source_word_position": 10,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "4:162",
+      "source_word_position": 21,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:3",
+      "source_word_position": 31,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:3",
+      "source_word_position": 40,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:5",
+      "source_word_position": 1,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:14",
+      "source_word_position": 18,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:36",
+      "source_word_position": 17,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:64",
+      "source_word_position": 32,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:69",
+      "source_word_position": 11,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:109",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "5:119",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:12",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:15",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:22",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:73",
+      "source_word_position": 7,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:73",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:93",
+      "source_word_position": 35,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:128",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:141",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "6:158",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:32",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:51",
+      "source_word_position": 9,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:53",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:59",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:163",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:163",
+      "source_word_position": 18,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:167",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "7:172",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "8:41",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "8:41",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "8:48",
+      "source_word_position": 10,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:3",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:18",
+      "source_word_position": 8,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:19",
+      "source_word_position": 10,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:25",
+      "source_word_position": 7,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:29",
+      "source_word_position": 7,
+      "source_token": "باليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:35",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:36",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:44",
+      "source_word_position": 6,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:45",
+      "source_word_position": 7,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:77",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:99",
+      "source_word_position": 6,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "9:108",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:15",
+      "source_word_position": 38,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:28",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:45",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:60",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:92",
+      "source_word_position": 1,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "10:93",
+      "source_word_position": 19,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:3",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:8",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:26",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:43",
+      "source_word_position": 11,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:60",
+      "source_word_position": 6,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:77",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:84",
+      "source_word_position": 26,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:98",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:99",
+      "source_word_position": 5,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:103",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:103",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "11:105",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "12:54",
+      "source_word_position": 11,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "12:92",
+      "source_word_position": 5,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:18",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:31",
+      "source_word_position": 16,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:41",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:42",
+      "source_word_position": 10,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:44",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "14:48",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "15:35",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "15:36",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "15:38",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:25",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:27",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:27",
+      "source_word_position": 18,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:63",
+      "source_word_position": 14,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:80",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:80",
+      "source_word_position": 16,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:84",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:89",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:92",
+      "source_word_position": 27,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:111",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "16:124",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:13",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:14",
+      "source_word_position": 5,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:52",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:58",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:62",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:71",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "17:97",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "18:19",
+      "source_word_position": 12,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "18:19",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "18:47",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "18:52",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "18:105",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:15",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:15",
+      "source_word_position": 5,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:15",
+      "source_word_position": 7,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:26",
+      "source_word_position": 17,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:33",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:33",
+      "source_word_position": 5,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:33",
+      "source_word_position": 7,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:37",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:38",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:38",
+      "source_word_position": 8,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:39",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:85",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "19:95",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:59",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:64",
+      "source_word_position": 8,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:100",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:101",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:102",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:104",
+      "source_word_position": 12,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:124",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "20:126",
+      "source_word_position": 7,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "21:47",
+      "source_word_position": 4,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "21:104",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:2",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:9",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:17",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:47",
+      "source_word_position": 8,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:55",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "22:69",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:16",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:65",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:100",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:111",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:113",
+      "source_word_position": 3,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "23:113",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "24:2",
+      "source_word_position": 20,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "24:24",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "24:37",
+      "source_word_position": 15,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "24:64",
+      "source_word_position": 13,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:14",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:17",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:22",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:25",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:26",
+      "source_word_position": 6,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:27",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "25:69",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:38",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:82",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:87",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:88",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:135",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:155",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:156",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:189",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "26:189",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "27:83",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "27:87",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:41",
+      "source_word_position": 6,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:42",
+      "source_word_position": 6,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:61",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:62",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:65",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:71",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:72",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "28:74",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "29:13",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "29:25",
+      "source_word_position": 14,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "29:36",
+      "source_word_position": 11,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "29:55",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:12",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:14",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:43",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:55",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:56",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "30:56",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "31:33",
+      "source_word_position": 7,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "32:5",
+      "source_word_position": 11,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "32:25",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "32:29",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "33:21",
+      "source_word_position": 13,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "33:44",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "33:66",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "34:30",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "34:40",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "34:42",
+      "source_word_position": 1,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "35:14",
+      "source_word_position": 11,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "36:54",
+      "source_word_position": 1,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "36:55",
+      "source_word_position": 4,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "36:59",
+      "source_word_position": 2,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "36:64",
+      "source_word_position": 2,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "36:65",
+      "source_word_position": 1,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "37:20",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "37:21",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "37:26",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "37:144",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:16",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:26",
+      "source_word_position": 30,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:53",
+      "source_word_position": 4,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:78",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:79",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "38:81",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:13",
+      "source_word_position": 8,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:15",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:24",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:31",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:47",
+      "source_word_position": 16,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:60",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "39:67",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:15",
+      "source_word_position": 15,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:16",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:16",
+      "source_word_position": 12,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:17",
+      "source_word_position": 1,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:17",
+      "source_word_position": 9,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:18",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:27",
+      "source_word_position": 12,
+      "source_token": "بيوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:29",
+      "source_word_position": 5,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:30",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:32",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:33",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:46",
+      "source_word_position": 6,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:49",
+      "source_word_position": 11,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:51",
+      "source_word_position": 9,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "40:52",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "41:19",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "41:40",
+      "source_word_position": 18,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "41:47",
+      "source_word_position": 19,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "42:7",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "42:45",
+      "source_word_position": 20,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "42:47",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "43:39",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "43:65",
+      "source_word_position": 10,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "43:68",
+      "source_word_position": 6,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "44:10",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "44:16",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "44:40",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "44:41",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:17",
+      "source_word_position": 19,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:26",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:27",
+      "source_word_position": 5,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:28",
+      "source_word_position": 10,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:34",
+      "source_word_position": 2,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "45:35",
+      "source_word_position": 10,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:5",
+      "source_word_position": 13,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:20",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:20",
+      "source_word_position": 14,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:21",
+      "source_word_position": 24,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:34",
+      "source_word_position": 1,
+      "source_token": "ويوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "46:35",
+      "source_word_position": 12,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:20",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:22",
+      "source_word_position": 11,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:30",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:34",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:41",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:42",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:42",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "50:44",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "51:12",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "51:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "52:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "52:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "52:46",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "54:6",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "54:8",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "54:19",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "54:48",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "55:29",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "56:50",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "56:56",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "57:12",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "57:12",
+      "source_word_position": 11,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "57:13",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "57:15",
+      "source_word_position": 1,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "58:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "58:7",
+      "source_word_position": 41,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "58:18",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "58:22",
+      "source_word_position": 6,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "60:3",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "60:6",
+      "source_word_position": 11,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "62:9",
+      "source_word_position": 9,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "64:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "64:9",
+      "source_word_position": 3,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "64:9",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "65:2",
+      "source_word_position": 23,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "66:7",
+      "source_word_position": 7,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "66:8",
+      "source_word_position": 22,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "68:24",
+      "source_word_position": 4,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "68:39",
+      "source_word_position": 7,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "68:42",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "69:35",
+      "source_word_position": 3,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "70:4",
+      "source_word_position": 6,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "70:8",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "70:26",
+      "source_word_position": 3,
+      "source_token": "بيوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "70:43",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "70:44",
+      "source_word_position": 6,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "73:14",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "73:17",
+      "source_word_position": 5,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "74:9",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "74:46",
+      "source_word_position": 3,
+      "source_token": "بيوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "75:1",
+      "source_word_position": 7,
+      "source_token": "بيوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "75:6",
+      "source_word_position": 3,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "76:7",
+      "source_word_position": 4,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "76:10",
+      "source_word_position": 5,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "76:11",
+      "source_word_position": 5,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "76:27",
+      "source_word_position": 7,
+      "source_token": "يوما"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "77:12",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "77:13",
+      "source_word_position": 1,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "77:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "77:35",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "77:38",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "78:17",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "78:18",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "78:38",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "78:39",
+      "source_word_position": 2,
+      "source_token": "اليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "78:40",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "79:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "79:35",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "79:46",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "80:34",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "82:15",
+      "source_word_position": 2,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "82:17",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "82:18",
+      "source_word_position": 5,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "82:19",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "83:5",
+      "source_word_position": 1,
+      "source_token": "ليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "83:6",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "83:11",
+      "source_word_position": 3,
+      "source_token": "بيوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "83:34",
+      "source_word_position": 1,
+      "source_token": "فاليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "85:2",
+      "source_word_position": 1,
+      "source_token": "واليوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "86:9",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "90:14",
+      "source_word_position": 4,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-claim-singular",
+      "verse_ref": "101:4",
+      "source_word_position": 1,
+      "source_token": "يوم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "6:130",
+      "source_word_position": 14,
+      "source_token": "يومكم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "7:51",
+      "source_word_position": 14,
+      "source_token": "يومهم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "21:103",
+      "source_word_position": 8,
+      "source_token": "يومكم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "32:14",
+      "source_word_position": 5,
+      "source_token": "يومكم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "39:71",
+      "source_word_position": 25,
+      "source_token": "يومكم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "43:83",
+      "source_word_position": 6,
+      "source_token": "يومهم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "45:34",
+      "source_word_position": 7,
+      "source_token": "يومكم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "51:60",
+      "source_word_position": 5,
+      "source_token": "يومهم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "52:45",
+      "source_word_position": 4,
+      "source_token": "يومهم"
+    },
+    {
+      "query_id": "day-pronouns",
+      "verse_ref": "70:42",
+      "source_word_position": 6,
+      "source_token": "يومهم"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "3:167",
+      "source_word_position": 20,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "4:42",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "6:16",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "7:8",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "8:16",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "11:66",
+      "source_word_position": 13,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "14:49",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "16:87",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "18:99",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "18:100",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "20:102",
+      "source_word_position": 7,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "20:108",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "20:109",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "22:56",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "23:101",
+      "source_word_position": 8,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "24:25",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "25:22",
+      "source_word_position": 6,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "25:24",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "25:26",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "27:89",
+      "source_word_position": 10,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "28:66",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "30:4",
+      "source_word_position": 10,
+      "source_token": "ويومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "30:14",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "30:43",
+      "source_word_position": 15,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "30:57",
+      "source_word_position": 1,
+      "source_token": "فيومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "37:33",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "40:9",
+      "source_word_position": 6,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "42:47",
+      "source_word_position": 17,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "43:67",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "45:27",
+      "source_word_position": 8,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "52:11",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "55:39",
+      "source_word_position": 1,
+      "source_token": "فيومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "69:15",
+      "source_word_position": 1,
+      "source_token": "فيومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "69:16",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "69:17",
+      "source_word_position": 8,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "69:18",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "70:11",
+      "source_word_position": 8,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "74:9",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:10",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:12",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:13",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:22",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:24",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "75:30",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:15",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:19",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:24",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:28",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:34",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:37",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:40",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:45",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:47",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "77:49",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "79:8",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "80:37",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "80:38",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "80:40",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "82:19",
+      "source_word_position": 8,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "83:10",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "83:15",
+      "source_word_position": 5,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "88:2",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "88:8",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "89:23",
+      "source_word_position": 2,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "89:23",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "89:25",
+      "source_word_position": 1,
+      "source_token": "فيومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "99:4",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "99:6",
+      "source_word_position": 1,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "100:11",
+      "source_word_position": 4,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-idha-compound",
+      "verse_ref": "102:8",
+      "source_word_position": 3,
+      "source_token": "يومئذ"
+    },
+    {
+      "query_id": "day-dual",
+      "verse_ref": "2:203",
+      "source_word_position": 9,
+      "source_token": "يومين"
+    },
+    {
+      "query_id": "day-dual",
+      "verse_ref": "41:9",
+      "source_word_position": 8,
+      "source_token": "يومين"
+    },
+    {
+      "query_id": "day-dual",
+      "verse_ref": "41:12",
+      "source_word_position": 5,
+      "source_token": "يومين"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:80",
+      "source_word_position": 6,
+      "source_token": "أياما"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:184",
+      "source_word_position": 1,
+      "source_token": "أياما"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:184",
+      "source_word_position": 12,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:185",
+      "source_word_position": 26,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:196",
+      "source_word_position": 50,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "2:203",
+      "source_word_position": 4,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "3:24",
+      "source_word_position": 8,
+      "source_token": "أياما"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "3:41",
+      "source_word_position": 12,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "3:140",
+      "source_word_position": 10,
+      "source_token": "الأيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "5:89",
+      "source_word_position": 31,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "7:54",
+      "source_word_position": 10,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "10:3",
+      "source_word_position": 10,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "10:102",
+      "source_word_position": 5,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "11:7",
+      "source_word_position": 8,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "11:65",
+      "source_word_position": 7,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "14:5",
+      "source_word_position": 13,
+      "source_token": "بأيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "22:28",
+      "source_word_position": 8,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "25:59",
+      "source_word_position": 9,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "32:4",
+      "source_word_position": 10,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "34:18",
+      "source_word_position": 16,
+      "source_token": "وأياما"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "41:10",
+      "source_word_position": 13,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "41:16",
+      "source_word_position": 6,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "45:14",
+      "source_word_position": 8,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "50:38",
+      "source_word_position": 9,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "57:4",
+      "source_word_position": 8,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "69:7",
+      "source_word_position": 6,
+      "source_token": "أيام"
+    },
+    {
+      "query_id": "day-plural",
+      "verse_ref": "69:24",
+      "source_word_position": 7,
+      "source_token": "الأيام"
+    },
+    {
+      "query_id": "month-exact",
+      "verse_ref": "2:185",
+      "source_word_position": 1,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-exact",
+      "verse_ref": "34:12",
+      "source_word_position": 4,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-exact",
+      "verse_ref": "34:12",
+      "source_word_position": 6,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-exact",
+      "verse_ref": "97:3",
+      "source_word_position": 6,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "2:185",
+      "source_word_position": 1,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "2:185",
+      "source_word_position": 16,
+      "source_token": "الشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "2:194",
+      "source_word_position": 1,
+      "source_token": "الشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "2:194",
+      "source_word_position": 3,
+      "source_token": "بالشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "2:217",
+      "source_word_position": 3,
+      "source_token": "الشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "5:2",
+      "source_word_position": 10,
+      "source_token": "الشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "5:97",
+      "source_word_position": 8,
+      "source_token": "والشهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "9:36",
+      "source_word_position": 8,
+      "source_token": "شهرا"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "34:12",
+      "source_word_position": 4,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "34:12",
+      "source_word_position": 6,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "46:15",
+      "source_word_position": 13,
+      "source_token": "شهرا"
+    },
+    {
+      "query_id": "month-singular",
+      "verse_ref": "97:3",
+      "source_word_position": 6,
+      "source_token": "شهر"
+    },
+    {
+      "query_id": "month-dual",
+      "verse_ref": "4:92",
+      "source_word_position": 52,
+      "source_token": "شهرين"
+    },
+    {
+      "query_id": "month-dual",
+      "verse_ref": "58:4",
+      "source_word_position": 5,
+      "source_token": "شهرين"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "2:197",
+      "source_word_position": 2,
+      "source_token": "أشهر"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "2:226",
+      "source_word_position": 7,
+      "source_token": "أشهر"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "2:234",
+      "source_word_position": 9,
+      "source_token": "أشهر"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "9:2",
+      "source_word_position": 5,
+      "source_token": "أشهر"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "9:5",
+      "source_word_position": 3,
+      "source_token": "الأشهر"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "9:36",
+      "source_word_position": 3,
+      "source_token": "الشهور"
+    },
+    {
+      "query_id": "month-plural",
+      "verse_ref": "65:4",
+      "source_word_position": 11,
+      "source_token": "أشهر"
+    }
+  ],
+  "query_summaries": [
+    {
+      "query_id": "day-exact",
+      "count": 217,
+      "verse_count": 211,
+      "forms": [
+        {
+          "form": "يوم",
+          "count": 217
+        }
+      ]
+    },
+    {
+      "query_id": "day-claim-singular",
+      "count": 365,
+      "verse_count": 341,
+      "forms": [
+        {
+          "form": "اليوم",
+          "count": 41
+        },
+        {
+          "form": "باليوم",
+          "count": 2
+        },
+        {
+          "form": "بيوم",
+          "count": 5
+        },
+        {
+          "form": "فاليوم",
+          "count": 8
+        },
+        {
+          "form": "ليوم",
+          "count": 8
+        },
+        {
+          "form": "واليوم",
+          "count": 23
+        },
+        {
+          "form": "وباليوم",
+          "count": 1
+        },
+        {
+          "form": "ويوم",
+          "count": 44
+        },
+        {
+          "form": "يوم",
+          "count": 217
+        },
+        {
+          "form": "يوما",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "query_id": "day-pronouns",
+      "count": 10,
+      "verse_count": 10,
+      "forms": [
+        {
+          "form": "يومكم",
+          "count": 5
+        },
+        {
+          "form": "يومهم",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "query_id": "day-idha-compound",
+      "count": 70,
+      "verse_count": 69,
+      "forms": [
+        {
+          "form": "فيومئذ",
+          "count": 4
+        },
+        {
+          "form": "ويومئذ",
+          "count": 1
+        },
+        {
+          "form": "يومئذ",
+          "count": 65
+        }
+      ]
+    },
+    {
+      "query_id": "day-dual",
+      "count": 3,
+      "verse_count": 3,
+      "forms": [
+        {
+          "form": "يومين",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "query_id": "day-plural",
+      "count": 27,
+      "verse_count": 26,
+      "forms": [
+        {
+          "form": "أيام",
+          "count": 20
+        },
+        {
+          "form": "أياما",
+          "count": 3
+        },
+        {
+          "form": "الأيام",
+          "count": 2
+        },
+        {
+          "form": "بأيام",
+          "count": 1
+        },
+        {
+          "form": "وأياما",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "query_id": "month-exact",
+      "count": 4,
+      "verse_count": 3,
+      "forms": [
+        {
+          "form": "شهر",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "query_id": "month-singular",
+      "count": 12,
+      "verse_count": 9,
+      "forms": [
+        {
+          "form": "الشهر",
+          "count": 4
+        },
+        {
+          "form": "بالشهر",
+          "count": 1
+        },
+        {
+          "form": "شهر",
+          "count": 4
+        },
+        {
+          "form": "شهرا",
+          "count": 2
+        },
+        {
+          "form": "والشهر",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "query_id": "month-dual",
+      "count": 2,
+      "verse_count": 2,
+      "forms": [
+        {
+          "form": "شهرين",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "query_id": "month-plural",
+      "count": 7,
+      "verse_count": 7,
+      "forms": [
+        {
+          "form": "أشهر",
+          "count": 5
+        },
+        {
+          "form": "الأشهر",
+          "count": 1
+        },
+        {
+          "form": "الشهور",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "excluded_candidates": [
+    {
+      "verse_ref": "2:255",
+      "source_word_position": 7,
+      "source_token": "القيوم",
+      "reason_ar": "ليس من اسم اليوم؛ التشابه الكتابي لا يكفي لإدراج جذور أخرى."
+    },
+    {
+      "verse_ref": "3:2",
+      "source_word_position": 7,
+      "source_token": "القيوم",
+      "reason_ar": "ليس من اسم اليوم؛ التشابه الكتابي لا يكفي لإدراج جذور أخرى."
+    },
+    {
+      "verse_ref": "20:111",
+      "source_word_position": 4,
+      "source_token": "القيوم",
+      "reason_ar": "ليس من اسم اليوم؛ التشابه الكتابي لا يكفي لإدراج جذور أخرى."
+    },
+    {
+      "verse_ref": "24:32",
+      "source_word_position": 2,
+      "source_token": "الأيامى",
+      "reason_ar": "ليس من اسم اليوم؛ التشابه الكتابي لا يكفي لإدراج جذور أخرى."
+    }
+  ],
+  "scope_totals": {
+    "day_claim": 365,
+    "day_singular_including_pronouns_without_yawmaidh": 375,
+    "day_lemma_scope_without_yawmaidh": 405,
+    "day_with_yawmaidh": 475,
+    "month_singular": 12,
+    "month_all": 21
+  },
+  "external_comparison_ar": "تتفق المجاميع405 و21 مع صفحتي جذر يوم وشهر في QAC. لم تجر مطابقة آلية شاملة لكل موضع مع QAC؛ الترقيم المحلي ليس ادعاء مطابقته لتجزئة QAC.",
+  "limitations_ar": [
+    "القوائم تعرف النطاق ولا تثبت قصد الترميز أو ندرة إحصائية.",
+    "365 لا يشمل الضمائر رغم أنها مفردة، ولا يشمل يومئذ.",
+    "التصنيف الصرفي لا يحصر اليوم في24ساعة أو الشهر في كمية واحدة."
+  ],
+  "reviewed_by": [
+    "science_reading"
+  ],
+  "reader_id": "science_reading"
+}

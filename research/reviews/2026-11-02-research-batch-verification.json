@@ -1,0 +1,240 @@
+{
+  "date": "2026-11-02",
+  "branch": "website-research",
+  "review_type": "internal_ai",
+  "scope_ar": "تحقق الجولة البحثية الثلاثية والموقع المحلي؛ لا استضافة خارجية ولا اعتماد أكاديمي بشري.",
+  "articles": 13,
+  "published_articles": 13,
+  "evidence_records": 19,
+  "queries": 39,
+  "topic_register": 41,
+  "source_manifest": {
+    "version": 1,
+    "source_name": "Tanzil",
+    "source_url": "https://tanzil.net",
+    "accessed_at": "2026-11-02",
+    "text_version": "1.1",
+    "reading": "حفص عن عاصم؛ ترقيم مصحف المدينة وفق بيانات تنزيل",
+    "license_url": "https://tanzil.net/docs/text_license",
+    "basmala_policy_ar": "تُحفظ ملفات المصدر حرفيا؛ يستثني العد الافتراضي البسملة الافتتاحية المضافة إلى الآية الأولى من السور عدا الفاتحة والتوبة. تبقى الفاتحة 1:1 وبسملة النمل 27:30 محسوبتين.",
+    "files": {
+      "tanzil-simple-clean.txt": {
+        "sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+        "bytes": 781176,
+        "url": "https://tanzil.net/pub/download/index.php?quranType=simple-clean&outType=txt-2&agree=true"
+      },
+      "tanzil-uthmani.txt": {
+        "sha256": "bf4f57b968d03f4131c070b1e285da9be0e0a108a21c910e872801ca273312c8",
+        "bytes": 1370878,
+        "url": "https://tanzil.net/pub/download/index.php?quranType=uthmani&outType=txt-2&agree=true"
+      },
+      "quran-data.xml": {
+        "sha256": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+        "bytes": 77234,
+        "url": "https://tanzil.net/res/text/metadata/quran-data.xml"
+      }
+    },
+    "reading_source_url": "https://tanzil.net/docs/faq#quran_text"
+  },
+  "annotations": [
+    {
+      "path": "research/annotations/day-month.json",
+      "sha256": "c249c0b72eec1fc0b7f07809669d4c69df1ec98e0e339f24fd44ddc6492ce637",
+      "rows": 717,
+      "distinct_positions": 496
+    },
+    {
+      "path": "research/annotations/wife-wording.json",
+      "sha256": "929cd90d5c2df80ecb30675b6e27e2f75b1290187e64347da1608149423324f2",
+      "rows": 107,
+      "distinct_positions": 107
+    },
+    {
+      "path": "research/annotations/light-wording.json",
+      "sha256": "4a3b3638ab9e15ac6cf39585cdaf9babe5a4d3ff8427d6f2df3c033f117dca8f",
+      "rows": 59,
+      "distinct_positions": 59
+    }
+  ],
+  "tests": {
+    "python": 32,
+    "node": 32,
+    "astro_errors": 0,
+    "astro_warnings": 0,
+    "astro_hints": 0
+  },
+  "publication_builds": {
+    "production_passed": true,
+    "preview_passed": true,
+    "missing_occurrence_rejected": true,
+    "invalid_reading_rejected": true,
+    "shared_dependency_caches_unchanged": true,
+    "snapshot_notice_ar": "اختبر بناء التكامل قبل اعتماد مقال الزوجية:18صفحة إنتاج و20معاينة تشمل المسودة الاصطناعية. البناء النهائي هنا19صفحة بعد اعتماد المقالات الثلاث. تحقق سبب نقص الوقوع في المدقق الأصلي ثم رفضCLI؛ لا يعتمد الاختبار على إخراجCLI النصي."
+  },
+  "site": {
+    "errors": [],
+    "htmlPages": 19,
+    "localLinks": 358,
+    "scriptBytes": 0,
+    "largestHtmlBytes": 53370
+  },
+  "metrics": {
+    "total_bytes": 1839517,
+    "css_bytes": 11057,
+    "home_bytes": 7067,
+    "day_month_article_bytes": 14865
+  },
+  "browser": {
+    "results": [
+      {
+        "path": "/articles/day-month-counts/",
+        "width": 1440,
+        "title": "يوم 365 وشهر 12: أي كلمات تدخل في العدد؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "يوم 365 وشهر 12: أي كلمات تدخل في العدد؟",
+        "scrollWidth": 1425,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 30,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nدفتر بحث مفتوح / بالعربية\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الأعدا"
+      },
+      {
+        "path": "/articles/nur-diya-siraj/",
+        "width": 1440,
+        "title": "نور وضياء وسراج: ماذا يضيف جمع السياقات إلى فهم الألفاظ؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "نور وضياء وسراج: ماذا يضيف جمع السياقات إلى فهم الألفاظ؟",
+        "scrollWidth": 1425,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 52,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nدفتر بحث مفتوح / بالعربية\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الألفا"
+      },
+      {
+        "path": "/articles/zawj-and-imraa/",
+        "width": 1440,
+        "title": "زوج وامرأة: هل تكشف الكلمة وحدها حال العلاقة؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "زوج وامرأة: هل تكشف الكلمة وحدها حال العلاقة؟",
+        "scrollWidth": 1425,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 45,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nدفتر بحث مفتوح / بالعربية\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الألفا"
+      },
+      {
+        "path": "/articles/",
+        "width": 1440,
+        "title": "المقالات · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "مقالات تبدأ بسؤال",
+        "scrollWidth": 1425,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 28,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nدفتر بحث مفتوح / بالعربية\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nدفتر القراءة\nمقال"
+      },
+      {
+        "path": "/research/",
+        "width": 1440,
+        "title": "خريطة البحث · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "خريطة البحث",
+        "scrollWidth": 1425,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 119,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nدفتر بحث مفتوح / بالعربية\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nسجل العمل المفتوح"
+      },
+      {
+        "path": "/articles/day-month-counts/",
+        "width": 390,
+        "title": "يوم 365 وشهر 12: أي كلمات تدخل في العدد؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "يوم 365 وشهر 12: أي كلمات تدخل في العدد؟",
+        "scrollWidth": 390,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 30,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الأعداد والتكرار\nيوم 365 وشهر 12"
+      },
+      {
+        "path": "/articles/nur-diya-siraj/",
+        "width": 390,
+        "title": "نور وضياء وسراج: ماذا يضيف جمع السياقات إلى فهم الألفاظ؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "نور وضياء وسراج: ماذا يضيف جمع السياقات إلى فهم الألفاظ؟",
+        "scrollWidth": 390,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 52,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الألفاظ والسياق\nنور وضياء وسراج:"
+      },
+      {
+        "path": "/articles/zawj-and-imraa/",
+        "width": 390,
+        "title": "زوج وامرأة: هل تكشف الكلمة وحدها حال العلاقة؟ · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "زوج وامرأة: هل تكشف الكلمة وحدها حال العلاقة؟",
+        "scrollWidth": 390,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 45,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nالمقالات / الألفاظ والسياق\nزوج وامرأة: هل ت"
+      },
+      {
+        "path": "/articles/",
+        "width": 390,
+        "title": "المقالات · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "مقالات تبدأ بسؤال",
+        "scrollWidth": 390,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 28,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nدفتر القراءة\nمقالات تبدأ بسؤال\n\nقراءة متأني"
+      },
+      {
+        "path": "/research/",
+        "width": 390,
+        "title": "خريطة البحث · لماذا القرآن؟",
+        "lang": "ar",
+        "dir": "rtl",
+        "h1": "خريطة البحث",
+        "scrollWidth": 390,
+        "hasMain": true,
+        "scripts": [],
+        "brokenImages": 0,
+        "links": 119,
+        "content": "انتقل إلى المحتوى\n؟\nلماذا القرآن؟\nقراءة في اللفظ والسياق والدليل\nالرئيسية\nالمقالات\nالعدّ والألفاظ\nخريطة البحث\nالمنهج\nسجل العمل المفتوح\nخريطة البحث\n\n٤١ موضوعًا، "
+      }
+    ],
+    "errors": []
+  },
+  "review_record": "research/reviews/2026-11-02-research-batch.json",
+  "limitations_ar": [
+    "المراجعات داخلية بواسطة وكلاء أتموا القراءة وفق سجلاتهم؛ ليست تحكيما بشريا أو ترميزا أعمى.",
+    "تحقق البناء يثبت المطابقة تحت قوائم معلنة ولا يثبت دلالة التعليقات أو اختيار القوائم معرفيا.",
+    "قوبلت النصوص السياقية وإحالات المصادر مرة مستقلة في هذه الجولة؛ ليست هذه الحقول كلها ثوابت فحص آلي في كل بناء.",
+    "لم تنجز مطابقة خارجية آلية شاملة معQAC، ولم تقرأ الفصول الحديثة المتعذرة في دراسة الزوجية؛ الحدود موثقة.",
+    "قياسات الحجم قبل ضغط النقل؛ لم يقس أداء استضافة خارجية."
+  ]
+}

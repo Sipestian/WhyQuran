@@ -42,6 +42,49 @@ def validate_query_links(records, query_ids):
             raise ValueError('الدليل العددي يحتاج استعلاما قابلا للإعادة')
 
 
+def validate_annotations(annotation, verses, sha256, registered_queries=None):
+    """تحقق من اكتمال الوقوع تحت القوائم المعلنة؛ لا يحكم على تصنيف المعنى."""
+    if annotation.get('corpus') != 'simple-clean' or annotation.get('corpus_sha256') != sha256:
+        raise ValueError('مصدر التعليقات لا يطابق النص المثبت')
+    include_basmalas = annotation.get('include_opening_basmalas')
+    if type(include_basmalas) is not bool:
+        raise ValueError('يلزم التصريح بسياسة البسملة في التعليقات')
+    queries = annotation.get('queries')
+    validate_queries(queries)
+    if not queries:
+        raise ValueError('ملف التعليقات بلا قوائم ألفاظ')
+    registry = {query['id']: query for query in registered_queries} if registered_queries is not None else None
+    expected = set()
+    for query in queries:
+        terms = query['terms']
+        if len(terms) != len(set(terms)) or any(term.split() != [term] for term in terms):
+            raise ValueError('قوائم التعليقات تحتاج كلمات مفردة غير مكررة')
+        if 'include_opening_basmalas' in query and query['include_opening_basmalas'] != include_basmalas:
+            raise ValueError('سياسة البسملة متعارضة داخل ملف التعليقات')
+        if registry is not None:
+            registered = registry.get(query['id'])
+            if registered is None or set(registered['terms']) != set(terms) or registered.get('surah') != query.get('surah') or registered.get('include_opening_basmalas', False) != include_basmalas:
+                raise ValueError(f'قائمة التعليقات تختلف عن الاستعلام المسجل: {query["id"]}')
+        result = count_matches(verses, terms, include_opening_basmalas=include_basmalas, surah=query.get('surah'))
+        for match in result['matches']:
+            expected.update((query['id'], match['ref'], position, match['term']) for position in match['token_positions'])
+    occurrences = annotation.get('occurrences')
+    if not isinstance(occurrences, list):
+        raise ValueError('يلزم جدول وقوع في ملف التعليقات')
+    actual = set()
+    for row in occurrences:
+        if not isinstance(row, dict) or any(not isinstance(row.get(key), str) or not row[key] for key in ['query_id', 'verse_ref', 'source_token']):
+            raise ValueError('بيانات وقوع ناقصة')
+        if type(row.get('source_word_position')) is not int or row['source_word_position'] < 1:
+            raise ValueError('موقع الكلمة يجب أن يكون عددا صحيحا يبدأ من 1')
+        key = (row['query_id'], row['verse_ref'], row['source_word_position'], row['source_token'])
+        if key in actual:
+            raise ValueError(f'وقوع مكرر في التعليقات: {key}')
+        actual.add(key)
+    if actual != expected:
+        raise ValueError(f'التعليقات لا تغطي القوائم المعلنة: ناقص {len(expected - actual)}، زائد أو مختلف {len(actual - expected)}')
+
+
 def universe_results(verses, groups):
     queries = []
     for group in groups:
@@ -137,6 +180,23 @@ def build_catalog(root):
     queries = json.loads((root / 'research/queries.json').read_text())
     validate_queries(queries)
     validate_query_links(records, {q['id'] for q in queries})
+    annotation_summaries = []
+    for path in sorted((root / 'research/annotations').glob('*.json')):
+        annotation = json.loads(path.read_text())
+        try:
+            validate_annotations(annotation, verses, sha256, queries)
+        except ValueError as error:
+            raise ValueError(f'{path.name}: {error}') from error
+        if annotation.get('reader_id') not in {r['reader_id'] for r in readers}:
+            raise ValueError('التعليقات تعتمد على باحث لم يكمل القراءة')
+        if annotation.get('source_notice') != (root / 'data/SOURCE-LICENSE.txt').read_text():
+            raise ValueError(f'إشعار المصدر ناقص في {path.name}')
+        annotation_summaries.append({
+            'file': f'research/annotations/{path.name}',
+            'query_ids': [q['id'] for q in annotation['queries']],
+            'occurrence_rows': len(annotation['occurrences']),
+            'notice_ar': 'تم التحقق من اكتمال المطابقة ومواقع الكلمات تحت القوائم المعلنة؛ تصنيفات المعنى تحتاج مراجعة مستقلة.',
+        })
     results = []
     ids = set()
     for query in queries:
@@ -154,4 +214,5 @@ def build_catalog(root):
         'source': manifest, 'source_notice': (root / 'data/SOURCE-LICENSE.txt').read_text(),
         'reading_notice_ar': 'سجلات القراءة إقرارات من الباحثين مع تغطية قابلة للتحقق؛ لا تثبت الفهم أو تمنع ضغط السياق، ولا يغني فحصها البرمجي عن مراجعة النص والمصادر.',
         'readers': readers, 'records': records, 'queries': results,
+        'annotations': annotation_summaries,
     }
