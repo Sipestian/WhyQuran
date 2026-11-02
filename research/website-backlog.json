@@ -85,7 +85,7 @@
     "id": "wife-wording",
     "title_ar": "زوج وامرأة في سياقات الأسرة",
     "category": "wording",
-    "status": "idea",
+    "status": "research",
     "question_ar": "هل يفسر السياق اختيار زوج أو امرأة؟",
     "baseline_ar": "اقتراح بحث يحتاج استقصاء جميع المواضع والأمثلة المضادة.",
     "verse_refs": [
@@ -200,7 +200,7 @@
     "id": "day-month-claims",
     "title_ar": "اليوم 365 والشهر 12: فحص الدعوى المشهورة",
     "category": "counts",
-    "status": "idea",
+    "status": "research",
     "question_ar": "أي صيغ تدخل في هذين العددين وأيها تستبعد؟",
     "baseline_ar": "لم يختبر المشروع الدعوى؛ الموجود عد حرفي استكشافي لصيغة يوم فقط.",
     "verse_refs": [
@@ -687,7 +687,7 @@
     "id": "light-vocabulary",
     "title_ar": "نور وضياء وسراج بين الحس والهداية",
     "category": "wording",
-    "status": "idea",
+    "status": "research",
     "question_ar": "هل تعطي المفردات تعريفات ضوئية حصرية في جميع السياقات؟",
     "baseline_ar": "مذكرة الألفاظ والعلم تجمع الوصف السماوي والوحي والسراج المنير.",
     "verse_refs": [
