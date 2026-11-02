@@ -10,6 +10,7 @@ from .corpus import CORPORA, load_corpus, verify_sources, concordance, count_mat
 
 STATUSES = {'documented_interpretation', 'scientific_comparison', 'reproduced_observation', 'hypothesis', 'needs_verification'}
 CATEGORIES = {'wording', 'counts', 'science', 'family_law'}
+GENERATED_REPORT_IDS = {'repetition-summary', 'characters-simple-clean', 'characters-uthmani', 'universe', 'audit'}
 
 
 def validate_queries(queries):
@@ -38,8 +39,13 @@ def validate_query_links(records, query_ids):
             raise ValueError('إحالات الاستعلامات يجب أن تكون قائمة معرفات')
         if len(links) != len(set(links)) or not set(links) <= query_ids:
             raise ValueError('إحالة استعلام مفقودة أو مكررة')
-        if record['category'] == 'counts' and not links:
-            raise ValueError('الدليل العددي يحتاج استعلاما قابلا للإعادة')
+        reports = record.get('report_ids', [])
+        if not isinstance(reports, list) or any(not isinstance(link, str) for link in reports):
+            raise ValueError('إحالات التقارير يجب أن تكون قائمة معرفات')
+        if len(reports) != len(set(reports)) or not set(reports) <= GENERATED_REPORT_IDS:
+            raise ValueError('إحالة تقرير مفقودة أو مكررة')
+        if record['category'] == 'counts' and not (links or reports):
+            raise ValueError('الدليل العددي يحتاج استعلاما أو تقريرا قابلا للإعادة')
 
 
 def validate_annotations(annotation, verses, sha256, registered_queries=None):

@@ -1,0 +1,129 @@
+{
+  "id": "embryology-and-language",
+  "title_ar": "ألفاظ أطوار الخلق وحدود المطابقة بمراحل الأجنة",
+  "category": "science",
+  "claim_ar": "تقارن مقالةSaadat2009 علقة ومضغة وعظاما ولحما بمراحل جنينية محددة، وتضع الهيكل في السابع وبدء تمايز العضلات في الثامن. نفحص هذه المطابقة المحددة، ولا نعمم الحكم على كل تأويل.",
+  "observation_ar": "يعرض23:12–16 الخلق ثم الموت والبعث، و22:5–7 الخلق والنمو وإحياء الأرض حجة للبعث. يختصر40:67 بعض الأطوار. تفسيرات مخلقة وخلقا آخر متعددة، فلا تعين قائمة مخبرية واحدة من ألفاظ النص وحدها.",
+  "interpretation_ar": "التطور المرحلي حقيقة عامة، لكن عظم/غضروف ولحم/سلف عضلي ليست مترادفات اصطلاحية. تبين الأطالس البشرية تمايزات متداخلة ومكانية؛ لا تسند صورة اكتمال جميع العظام قبل وجود أي مسار عضلي. لا يثبت ذلك قصد معنى بعينه، ولا يصح تحويل الفاء إلى عدد أيام دون دليل مستقل.",
+  "status": "scientific_comparison",
+  "verse_refs": [
+    "22:5",
+    "22:6",
+    "22:7",
+    "23:12",
+    "23:13",
+    "23:14",
+    "23:15",
+    "23:16",
+    "40:67",
+    "75:37",
+    "75:38",
+    "75:39",
+    "96:1",
+    "96:2",
+    "4:129"
+  ],
+  "sources": [
+    {
+      "id": "quran-tanzil",
+      "title": "القرآن الكريم: تنزيل",
+      "url": "https://tanzil.net/",
+      "kind": "quran",
+      "locator": "22:5–7؛23:12–16؛40:67؛75:37–39؛96:1–2؛4:129",
+      "supports_ar": "السياق وألفاظ الخلق؛ قرئت المواضع بالرسمين بعد القراءة الكاملة السابقة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "saadat-embryology-2009",
+      "title": "Saadat: Human Embryology and the Holy Quran: An Overview (2009)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3068791/",
+      "kind": "claim",
+      "locator": "القسمان2.3 و2.4",
+      "supports_ar": "يوثق ربط الهيكل بالأسبوع السابع وبدء تمايز العضلات بالثامن؛ وجود المقال فيPMC ليس اعتمادا منNIH للتأويل.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "qortobi-22-5",
+      "title": "القرطبي: الحج5",
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura22-aya5.html",
+      "kind": "tafsir",
+      "locator": "شرح النطفة والعلقة والمضغة",
+      "supports_ar": "معان لغوية تاريخية متصلة بالقلة والدم والقطعة؛ ليست تسميات نسيجية حديثة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-22-5",
+      "title": "الطبري: الحج5",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura22-aya5.html",
+      "kind": "tafsir",
+      "locator": "أقوال مخلقة وغير مخلقة وترجيحه",
+      "supports_ar": "يعرض التصوير والتمام والسقط، ويضع المقطع في حجة البعث.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-23-14",
+      "title": "الطبري: المؤمنون14",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura23-aya14.html",
+      "kind": "tafsir",
+      "locator": "أقوال خلقا آخر",
+      "supports_ar": "يرجح نفخ الروح ويعرض أحوال ما بعد الولادة والشباب.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "qortobi-23-14",
+      "title": "القرطبي: المؤمنون14",
+      "url": "https://quran.ksu.edu.sa/tafseer/qortobi/sura23-aya14.html",
+      "kind": "tafsir",
+      "locator": "المسألة الثالثة",
+      "supports_ar": "يختار عموما في أحوال الإنسان، ولا يحصر اللفظ في الأسبوع التاسع.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "zhang-limb-atlas",
+      "title": "Zhang et al.: A human embryonic limb cell atlas resolved in space and time",
+      "url": "https://www.pure.ed.ac.uk/ws/portalfiles/portal/403947701/423987_2_attach_27_13075.pdf",
+      "kind": "research",
+      "locator": "نسخة المؤلف المحكمة بمستودع إدنبرة، ص10 وFig4؛doi10.1038/s41586-023-06806-x؛النشر الإلكتروني2023-12-06،مجلد635عام2024",
+      "supports_ar": "مسارات عضلية وتمايزات خلوية في أطراف بشرية؛ قرئت الأقسام المعنية، لا كل الملاحق ولا أعيد تحليل البيانات.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "to-skeletal-atlas",
+      "title": "To et al.: A multi-omic atlas of human embryonic skeletal development (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11578895/",
+      "kind": "research",
+      "locator": "Abstract؛Cellular taxonomy؛Trajectories of skeletal osteogenesis؛2024-11-20",
+      "supports_ar": "يرصد تمايز الهيكل عبر5–11أسبوعا بعد الإخصاب، واختلاف التعظم الغشائي وداخل الغضروف ومناطق الجسم.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "hdac-carnegie-stages",
+      "title": "National Museum of Health and Medicine: Developmental Stages in Human Embryoes",
+      "url": "https://medicalmuseum.health.mil/assets/documents/collections/hdac/developmental_stages_in_human_embryoes.pdf",
+      "kind": "science",
+      "locator": "جدول23مرحلة،3صفحات",
+      "supports_ar": "يربط المراحل بصفاتشكلية وأعمار تقريبية مختلفة بين عمودي العمر، لا بمفردات قرآنية.",
+      "accessed_at": "2026-11-02"
+    }
+  ],
+  "limitations_ar": [
+    "لا قراءة جديدة كاملة؛ استؤنف البحث من سجل القراءة السابقة مع قراءة مركزة للرسمين.",
+    "فشل فتحNature المباشر ونسخةPMC للأطراف؛ قرئت نسخة المؤلف المحكمة في مستودع إدنبرة، وورقة الهيكل فيPMC. لم تفحص كل صور المقالات أو يعاد تحليل بياناتها.",
+    "لا يثبت استعمال مادةعلق في كالمعلقة أن96:2 تعني الانغراس تقنيا؛ ولا يحسم التشابه البصري هوية مرحلة.",
+    "لم ينجز تاريخ شامل لعلم الأجنة القديم؛ لا دعوى بأن التطور في أطوار لم يعرف قبل القرن العشرين.",
+    "المقارنة لا تتناول صحة جميع الأحاديث أو توقيت النفخ ولا تقدم نصيحة طبية أو حكما فقهيا."
+  ],
+  "next_questions_ar": [
+    "حدد مسبقا هل عظام تعني نموذجا غضروفيا أم نسيجا متعظما، وهل لحما تعني الخلية السلفية أم الليف العضلي؛ ثم قارن سلسلة بشرية مؤرخة كاملة.",
+    "هل توجد نافذة بلا أي تمايز عضلي بعد اكتمال الهيكل كله؟ يلزم تعريف اكتمال ومؤشرات قابلة للقياس قبل مشاهدة الصور.",
+    "اختبر مقدار اتفاق مراجعين مستقلين على ترميز المعاني العربية دون عرض صور الأجنة عليهم؛ احتفظ بالتفسيرات المخالفة."
+  ],
+  "baseline_ids": [
+    "science-dna-inheritance",
+    "science-sex-development"
+  ],
+  "novelty": "previously_published",
+  "reviewed_by": [
+    "science_reading"
+  ]
+}

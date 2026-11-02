@@ -37,6 +37,13 @@ class CatalogTests(unittest.TestCase):
             with self.subTest(extra=extra), self.assertRaises(ValueError):
                 validate_queries([dict(query, **extra)])
 
+    def test_count_evidence_can_reference_a_generated_nonconcordance_report(self):
+        record = {'id': 'letters', 'category': 'counts', 'report_ids': ['characters-simple-clean', 'characters-uthmani']}
+        validate_query_links([record], set())
+        for reports in [['missing'], ['characters-simple-clean', 'characters-simple-clean'], 'characters-simple-clean', [1]]:
+            with self.subTest(reports=reports), self.assertRaises(ValueError):
+                validate_query_links([dict(record, report_ids=reports)], set())
+
     def setUp(self):
         self.verses = parse_text('1|1|أ\n1|2|ب\n2|1|ج\n')
         self.ledger = {'reader_id': 'reader', 'corpus_sha256': 'abc', 'method': 'model_visible_complete_text', 'completed': True, 'compaction_note_ar': 'لا ضمان لبقاء كل النص في سياق واحد.', 'blocks': [

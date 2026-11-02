@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "sex-development": {
+      "body_sha256": "b2efe9849fb1040b350d465cf86419ebfebf86b97de325f38673a6a2d60378bc",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "أجيز بعد التحقق من مصادر التفسير وNHGRI/MedlinePlus وملخصSinclair، وتصحيح لغوي:لم يُتح. حدود التعميم مصرح بها.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "2d975a0dbfe23fa74874eb06464dd493e23d1e8260b023b6256b27377bf141c8"
+    },
+    "fluid-and-context": {
+      "body_sha256": "96cf634a2807d55bba1d0ce9e5848632b592c3d98d0fa567774401641bf3c142",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "أجيز بعد مقارنة نصوص المفسرين وجواب الدعوى وصفحاتNCI؛ فصل المنشأ الجنيني عن الإنتاج والخروج صحيح، ولا ملاحظة مانعة.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "2baacddf660c8f742b98e360652da802e9b2160d6c4884d949dfdb37f8f1fbc9"
+    },
+    "chromosomes-and-counts": {
+      "body_sha256": "2d2b8c0a83afff71d383e586d9f2d2678739927f04b80afb7001352298af2834",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "أعيدت القواعد الأربع من المصدر الخام وطابقت الجداول؛ فحصت صفحات منهج المؤلف وورقة1956 والمصادر العلمية. لا تصحيح مطلوب، ولا ادعاء شفرة أو احتمال محسوب.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "cf7ec54775c52cc3b2b7f6f23eceb3fddaf07691c0d12b0f547b434586e0b39c"
+    },
+    "embryology-and-language": {
+      "body_sha256": "556db21a79da1524fc90269cba23cb581917f497fbee5a008d36fd45bad14806",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "فحصت التفسير والدعوى المنشورة وأطلسي الأطراف والهيكل وجدول كارنيغي. اختلاف المعاني والأزمنة ومواضع العينات محفوظ؛ لا تصحيح مانع. لم أعد تحليل البيانات الخلوية الخام.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "0f7379f49b6496f0dfde4ce1c18db4a3332e43c4ec98d9d599d481a88a36d20d"
+    },
+    "cosmic-origins": {
+      "body_sha256": "4115a190a03f031365faa5d4168e9bf9eda7407c37803721884cf1be5eb7d86d",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "راجعت الدعوى والتفسير والقياس الأصلي لعام1965 ومصادرNASA وESA. فصل المراحل وحدود المقارنة صحيح. لا تعديل للمتن ولا ملاحظة مانعة باقية.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "26706aa0c7ef67aa6a1a322c3d6ece401066d056481d8a15e24d83745420ab9c"
+    },
+    "science-in-the-last-century": {
+      "body_sha256": "09b36eeb7763a673d2abd55e16bd7b19f859a18110cbdbc2eb46e4cb83f475cd",
+      "reviewers": [
+        "family_law_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "راجعت مصادرNASA وNHGRI ورسالةهابل ومقطعأفلاطون؛ التسلسل الزمني وحدود التفسير صحيحان. أضيف مصدران تاريخيان للسجلين وإحالة سجل انشقاق القمر للبيانات الوصفية؛ المتن ثابت. نُقلت المسودة إلى المقالات.",
+      "review_document": "research/reviews/2026-11-02-release-family.md",
+      "reviewed_draft_sha256": "09609961a055bb995401bbef84daed213805de6aeb87133725b8ce3b2042dd5c"
+    }
+  }
+}

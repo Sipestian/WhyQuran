@@ -1,0 +1,70 @@
+{
+  "id": "counts-written-units",
+  "title_ar": "عدد الوحدات المكتوبة: الحروف والمحارف والرسم",
+  "category": "counts",
+  "status": "reproduced_observation",
+  "claim_ar": "لا يمكن نسبة عدد مطلق للحروف والكلمات دون تثبيت الرواية والرسم ووحدة العد وسياسة البسملة.",
+  "observation_ar": "بعد استثناء 112 بسملة افتتاحية غير مرقمة، نص Simple Clean المثبت يحوي 77,800 وحدة مفصولة بالمسافات و14,868 صيغة مكتوبة و330,709 نقاط ترميز غير بيضاء. النص العثماني يحوي 623,952 نقطة غير بيضاء، منها 327,600 حرف دون التطويل و295,540 علامة و812 تطويلا. التقارير مولدة من كامل المصدر المثبت.",
+  "interpretation_ar": "هذه أعداد لتمثيلين من نص حفص نفسه وليست مقارنة قراءتين. اختلاف الرسم والتشكيل والتقسيم يغير العد؛ لا تتحول نقاط الترميز إلى أصوات أو حروف تراثية تلقائيا.",
+  "verse_refs": [
+    "1:1",
+    "27:30"
+  ],
+  "report_ids": [
+    "characters-simple-clean",
+    "characters-uthmani",
+    "repetition-summary"
+  ],
+  "sources": [
+    {
+      "id": "tanzil-types",
+      "title": "Tanzil: Quran Text Types",
+      "url": "https://tanzil.net/docs/quran_text_types",
+      "kind": "research",
+      "locator": "Simple and Uthmani text types",
+      "supports_ar": "تعريف التمثيلين الكتابيين والمبسط المجرد.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "unicode-characters",
+      "title": "Unicode: Characters and Combining Marks",
+      "url": "https://www.unicode.org/faq/char_combmark.html",
+      "kind": "research",
+      "locator": "Combining Marks; How are characters counted",
+      "supports_ar": "تمييز نقاط الترميز من وحدات الكتابة المرئية والعلامات.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tanzil-faq",
+      "title": "Tanzil FAQ",
+      "url": "https://tanzil.net/docs/faq",
+      "kind": "research",
+      "locator": "Quran text and reading",
+      "supports_ar": "مصدر تعيين الرواية المحفوظ فيdata/manifest.json؛ تعيين النص لا يثبت مقارنة قراءات متعددة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tanzil-license",
+      "title": "Tanzil Text License",
+      "url": "https://tanzil.net/docs/text_license",
+      "kind": "research",
+      "locator": "Terms of use",
+      "supports_ar": "وجوب حفظ النسخة دون تغيير ونسبة النص وملاحظة الترخيص.",
+      "accessed_at": "2026-11-02"
+    }
+  ],
+  "limitations_ar": [
+    "تصنيفUnicode16.0.0؛ لا دمج همزات أو تطبيع قبل عد المحارف.",
+    "لم تحسب قراءات أخرى؛ كلا المصدرين لرواية حفص.",
+    "العدد وصف للملف والسياسة، ولا يثبت ترميزا علميا أو دلالة إحصائية.",
+    "كاتب المتن root؛ راجع arabic_wording المتن والمصادر وأعاد الحساب مستقلا وفق السياسة المعلنة. هذه المراجعة تستند إلى سجل القراءة الكاملة السابق ولا تدعي قراءة جديدة كاملة أو بقاء النص كله في سياق واحد."
+  ],
+  "next_questions_ar": [
+    "كيف تختلف الأعداد عند تطبيق تعريف معلن للحرف المنطوق أو المقارنة بين روايات موثقة؟"
+  ],
+  "baseline_ids": [],
+  "novelty": "not_assessed",
+  "reviewed_by": [
+    "arabic_wording"
+  ]
+}

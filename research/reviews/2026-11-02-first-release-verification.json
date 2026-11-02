@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-02",
+  "status": "verified_for_publication",
+  "verification_complete": true,
+  "scope": "First editorial release:34articles covering41registeredtopics; no original scientific discovery claimed.",
+  "checks": {
+    "python_tests": 33,
+    "node_tests": 35,
+    "astro_diagnostics": {
+      "errors": 0,
+      "warnings": 0,
+      "hints": 0
+    },
+    "preliminary_production_build": {
+      "html_pages": 19,
+      "browser_js_bytes": 0,
+      "draft_routes_excluded": true
+    },
+    "diagnostic_publication_builds": {
+      "production": "passed",
+      "preview": "passed",
+      "sitemap_excludes_drafts": true,
+      "preview_sitemap_empty": true,
+      "missing_occurrence_rejected": true,
+      "invalid_reading_ledger_rejected": true,
+      "dependency_caches_unchanged": true
+    },
+    "publication_builds": {
+      "production_pages": 40,
+      "preview_pages_with_synthetic_draft": 41,
+      "production_draft_excluded": true,
+      "preview_draft_notice_and_noindex": true,
+      "sitemap_excludes_drafts": true,
+      "preview_sitemap_empty": true,
+      "missing_occurrence_rejected": true,
+      "invalid_reading_ledger_rejected": true,
+      "dependency_caches_unchanged": true,
+      "exit_code": 0
+    },
+    "production_build": {
+      "html_pages": 40,
+      "local_links": 782,
+      "browser_js_bytes": 0,
+      "largest_html_bytes": 69904,
+      "total_dist_bytes": 2381326,
+      "home_html_bytes": 7634,
+      "exit_code": 0
+    },
+    "release_coverage": {
+      "topics": 41,
+      "articles": 34,
+      "evidence_records": 38,
+      "queries": 46,
+      "canonical_and_sitemap": true,
+      "exit_code": 0
+    },
+    "browser": {
+      "cases": 78,
+      "widths": [
+        390,
+        1440
+      ],
+      "pages": 39,
+      "overflows": 0,
+      "runtime_errors": 0,
+      "broken_images": 0,
+      "checks": [
+        "Arabic lang and RTL",
+        "main and h1 present",
+        "navigation completed",
+        "all count and research disclosures opened",
+        "no document horizontal overflow"
+      ],
+      "results_file": "research/reviews/2026-11-02-release-browser.json",
+      "visual_review": [
+        "home mobile",
+        "chromosome article mobile",
+        "letter-count article desktop"
+      ]
+    }
+  },
+  "limits": [
+    "Reviews are internal AI research reviews, not external scholarly peer review.",
+    "No previously unknown scientific discovery or verified hidden genetic code is claimed.",
+    "Native deployment outcome is recorded separately after publication."
+  ],
+  "notes_ar": "تغطية تحريرية ومراجعة داخلية وليست إثبات كل دعوى أو تحكيما بشريا خارجيا.",
+  "history": [
+    "Initial isolated build failed without diagnostics while content was being authored. Diagnostic rerun and frozen-content final publication suite both passed. No reproducible code fault identified; no speculative fix applied.",
+    "Initial browser check sampled a document at readyState interactive after a fixed500ms. The QA script now waits for completed navigation and matching path; all78cases passed without site changes."
+  ],
+  "dist_manifest": "research/reviews/2026-11-02-dist-manifest.json"
+}

@@ -4,6 +4,7 @@ import { showDrafts } from '../lib/articles';
 interface Props { title: string; description: string; noindex?: boolean; }
 const { title, description, noindex = false } = Astro.props;
 const path = Astro.url.pathname;
+const canonical = new URL(path, Astro.site);
 const navigation = [
   ['/', 'الرئيسية'], ['/articles/', 'المقالات'], ['/counts/', 'العدّ والألفاظ'],
   ['/research/', 'خريطة البحث'], ['/methodology/', 'المنهج'],
@@ -16,6 +17,12 @@ const navigation = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <meta name="theme-color" content="#173c31" />
+    {!(noindex || showDrafts) && <link rel="canonical" href={canonical.href} />}
+    <meta property="og:title" content={`${title} · لماذا القرآن؟`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:locale" content="ar_AR" />
+    <meta property="og:type" content="website" />
+    {!(noindex || showDrafts) && <meta property="og:url" content={canonical.href} />}
     {(noindex || showDrafts) && <meta name="robots" content="noindex, nofollow" />}
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} · لماذا القرآن؟</title>

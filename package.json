@@ -14,6 +14,7 @@
     "check": "astro check && node --test --test-isolation=none tests/site*.test.mjs",
     "test": "node --test --test-isolation=none tests/site*.test.mjs",
     "test:publication-builds": "node scripts/check-publication-builds.mjs",
+    "check:release": "node scripts/check-release.mjs",
     "preview": "astro preview --host 127.0.0.1"
   },
   "dependencies": {

@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "iddah-and-context": {
+      "body_sha256": "a1e7edd5131b6df7207590777aed2eb2adfb89fb16605cdf9277f61b3ff56cce",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "اعتماد عرض الحالات والخلاف مع التمييز بين الطلاق والوفاة، وبين العدة والسكن، وعدم تحويله إلى فتوى شخصية. روجعت مصادر سبيعة والقروء وآية الحول مباشرة.",
+      "review_document": "research/reviews/2026-11-02-release-arabic.md",
+      "reviewed_draft_sha256": "9d5c02775241bd40fa6b326f2e8acc39026871b15e355b6f4bc6bb825d75bc14"
+    },
+    "marriage-covenant": {
+      "body_sha256": "80293edd99229da42ece36be344e4d17070f3d9dd615bc3adc67860e62d8dbda",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "اعتماد ربط الميثاق الغليظ بسياق الصداق والمعروف ومنع الضرر، مع نسبة الترجيح إلى الطبري وإبقاء خلاف الفاحشة واستقلال أبواب الحقوق.",
+      "review_document": "research/reviews/2026-11-02-release-arabic.md",
+      "reviewed_draft_sha256": "2e381690cc774fbf3880f6a6400f3c05b47298b4e3d2b5f01131cb1e93b47d91"
+    },
+    "reading-family-law": {
+      "body_sha256": "842471d0fd909f2726c2a54eef00606dc36a2dac734f466efbe8e82804c9bed4",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "اعتماد المنهج التطبيقي؛ تحقق الفرق بين نص البخاري 5318 العربي وترجمته الإنجليزية في نسبة القول بآخر الأجلين، وتمييز التخصيص والخلاف والتفسير من النص.",
+      "review_document": "research/reviews/2026-11-02-release-arabic.md",
+      "reviewed_draft_sha256": "f8f47364d20f1f0f620980a591bfa7d664bc2832279708636aafd5e6e476fc28"
+    },
+    "letters-and-readings": {
+      "body_sha256": "49d3168465db5fe9293184f1d9c8f4dd16b519f5a529b445d9b283e2c4ef7d86",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "اعتماد الأعداد بعد إعادة حساب مستقلة من المصدرين المثبتين، مع تثبيت استثناء البسملات الافتتاحية ووحدة Unicode 16.0.0 وعدم وصف الرسمين بأنهما قراءتان مختلفتان.",
+      "review_document": "research/reviews/2026-11-02-release-arabic.md",
+      "reviewed_draft_sha256": "16b2dd0979202b8587dd9ea16c011739aa36f6f2c9344802fdd8333425246bbe"
+    },
+    "testing-discovery-claims": {
+      "body_sha256": "0e7faa5826e59079c46985f5abf63d24b969c73111b429e21d9100bc6eb7e92a",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "اعتماد البروتوكول المقترح وحدوده؛ روجعت مبادئ ASA 2016 مباشرة. لا يدعي المقال اختبارا احتماليا منفذا أو اكتشافا جديدا أو أن المرجع الإحصائي بحث القرآن.",
+      "review_document": "research/reviews/2026-11-02-release-arabic.md",
+      "reviewed_draft_sha256": "3694c9d4095e347e51445dc332a21952ea4f0730e2000380037a9c24db60c91a"
+    }
+  }
+}

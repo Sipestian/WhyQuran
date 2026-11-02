@@ -4,6 +4,8 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getArticles } from '../lib/articles';
 import { backlog, number } from '../lib/data';
 const articles = await getArticles();
+const featured = ['why-tastati-tasti', 'day-month-counts', 'chromosomes-and-counts']
+  .flatMap(id => articles.filter(article => article.id === id));
 ---
 <Base title="قراءة تبدأ بالسؤال" description="دفتر بحث عربي في ألفاظ القرآن وسياقاتها وأعدادها، مع المصادر وحدود الاستنتاج.">
   <div class="container">
@@ -12,7 +14,7 @@ const articles = await getArticles();
       <aside class="hero-note"><span class="eyebrow">كيف نقرأ؟</span><span class="big-question" aria-hidden="true">؟</span><h2>السؤال الجيد<br />يحتاج إلى دليل واضح.</h2><p>نجمع المواضع، وننسب التفسير إلى صاحبه، ونختبر الأمثلة المخالفة. وتبقى الأسئلة التي لم تُحسم مفتوحة للبحث.</p><div class="note-footer"><span>{number(backlog.length)} موضوعًا في خريطة البحث</span><a href="/research/">استكشف الخريطة ←</a></div></aside>
     </section>
     <section class="section" aria-labelledby="latest-title"><div class="section-header"><div><span class="eyebrow">من دفتر القراءة</span><h2 id="latest-title">مقالات وأسئلة</h2></div><a class="text-link" href="/articles/">جميع المقالات ←</a></div>
-      {articles.length ? <div class="article-grid">{articles.slice(0, 3).map((article, index) => <ArticleCard article={article} index={index} />)}</div> : <div class="empty-state"><h3>المقالات في طور المراجعة</h3><p>تُعرض المقالات هنا بعد اكتمال مراجعتها البحثية الداخلية. يمكنك متابعة الأسئلة والعمل الجاري الآن.</p><a href="/research/">اطّلع على خريطة البحث ←</a></div>}
+      {featured.length ? <div class="article-grid">{featured.map((article, index) => <ArticleCard article={article} index={index} />)}</div> : <div class="empty-state"><h3>المقالات في طور المراجعة</h3><p>تُعرض المقالات هنا بعد اكتمال مراجعتها البحثية الداخلية. يمكنك متابعة الأسئلة والعمل الجاري الآن.</p><a href="/research/">اطّلع على خريطة البحث ←</a></div>}
     </section>
   </div>
   <section class="method-band"><div class="container method-grid"><div><span>٠١ / النص</span><h3>نقرأ قبل أن نختار</h3><p>نحفظ النص المصدر، ونقرأ السياق، ونجمع المواضع ذات الصلة بالسؤال.</p></div><div><span>٠٢ / الدليل</span><h3>نميّز درجات القول</h3><p>الملاحظة النصية شيء، والتوجيه التفسيري شيء آخر. لكل منهما مصدر وحدود.</p></div><div><span>٠٣ / المراجعة</span><h3>نترك البحث قابلًا للفحص</h3><p>نرفق المصادر وسجلات الأدلة، ونوضح قاعدة العد قبل عرض أي نتيجة.</p></div></div></section>

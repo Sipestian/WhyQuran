@@ -1,0 +1,252 @@
+{
+  "date": "2026-11-02",
+  "scope_ar": "تغطية تحريرية مراجعة لجميع الموضوعات المحفوظة؛ المراجعة لا تعني إثبات كل دعوى أو حسم كل سؤال.",
+  "entries": [
+    {
+      "topic_id": "word-choice-kahf",
+      "article_slug": "why-tastati-tasti",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "wall-ability",
+      "article_slug": "wall-and-ability",
+      "owner": "arabic_wording",
+      "wave": 1
+    },
+    {
+      "topic_id": "year-vocabulary",
+      "article_slug": "sanah-and-aam",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "quran-nazm",
+      "article_slug": "quran-nazm",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "wife-wording",
+      "article_slug": "zawj-and-imraa",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "story-repetition",
+      "article_slug": "story-variation",
+      "owner": "arabic_wording",
+      "wave": 1
+    },
+    {
+      "topic_id": "word-counts",
+      "article_slug": "word-counts",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "letter-counts",
+      "article_slug": "letters-and-readings",
+      "owner": "root",
+      "wave": 1
+    },
+    {
+      "topic_id": "adam-isa",
+      "article_slug": "word-counts",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "rahman-refrain",
+      "article_slug": "word-counts",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "day-month-claims",
+      "article_slug": "day-month-counts",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "name-network",
+      "article_slug": "names-and-context",
+      "owner": "arabic_wording",
+      "wave": 2
+    },
+    {
+      "topic_id": "opening-letters",
+      "article_slug": "opening-letters",
+      "owner": "arabic_wording",
+      "wave": 1
+    },
+    {
+      "topic_id": "nineteen-claims",
+      "article_slug": "nineteen-and-counting",
+      "owner": "arabic_wording",
+      "wave": 2
+    },
+    {
+      "topic_id": "universe-words",
+      "article_slug": "universe-words",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "moon-light",
+      "article_slug": "moon-and-modern-science",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "moon-splitting",
+      "article_slug": "moon-and-modern-science",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "moon-history",
+      "article_slug": "moon-and-modern-science",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "cosmic-expansion",
+      "article_slug": "cosmic-expansion",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "iron-origin",
+      "article_slug": "iron-from-stars",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "cosmic-origins",
+      "article_slug": "cosmic-origins",
+      "owner": "science_reading",
+      "wave": 3
+    },
+    {
+      "topic_id": "water-life",
+      "article_slug": "water-and-life",
+      "owner": "family_law_reading",
+      "wave": 2
+    },
+    {
+      "topic_id": "orbits",
+      "article_slug": "orbits-and-language",
+      "owner": "arabic_wording",
+      "wave": 3
+    },
+    {
+      "topic_id": "dna-amshaj",
+      "article_slug": "dna-amshaj",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "chromosome-counts",
+      "article_slug": "chromosomes-and-counts",
+      "owner": "science_reading",
+      "wave": 1
+    },
+    {
+      "topic_id": "embryology",
+      "article_slug": "embryology-and-language",
+      "owner": "science_reading",
+      "wave": 2
+    },
+    {
+      "topic_id": "divorce-wording",
+      "article_slug": "divorce-wording",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "iddah-context",
+      "article_slug": "iddah-and-context",
+      "owner": "family_law_reading",
+      "wave": 1
+    },
+    {
+      "topic_id": "marriage-ethics",
+      "article_slug": "marriage-covenant",
+      "owner": "family_law_reading",
+      "wave": 1
+    },
+    {
+      "topic_id": "law-method",
+      "article_slug": "reading-family-law",
+      "owner": "family_law_reading",
+      "wave": 1
+    },
+    {
+      "topic_id": "modern-century",
+      "article_slug": "science-in-the-last-century",
+      "owner": "root",
+      "wave": 1
+    },
+    {
+      "topic_id": "discovery-standard",
+      "article_slug": "testing-discovery-claims",
+      "owner": "root",
+      "wave": 1
+    },
+    {
+      "topic_id": "source-and-readings",
+      "article_slug": "letters-and-readings",
+      "owner": "root",
+      "wave": 1
+    },
+    {
+      "topic_id": "unexplained-questions",
+      "article_slug": "testing-discovery-claims",
+      "owner": "root",
+      "wave": 1
+    },
+    {
+      "topic_id": "light-vocabulary",
+      "article_slug": "nur-diya-siraj",
+      "owner": "existing",
+      "wave": 0
+    },
+    {
+      "topic_id": "sex-development",
+      "article_slug": "sex-development",
+      "owner": "science_reading",
+      "wave": 1
+    },
+    {
+      "topic_id": "fluid-context",
+      "article_slug": "fluid-and-context",
+      "owner": "science_reading",
+      "wave": 2
+    },
+    {
+      "topic_id": "mountain-motion",
+      "article_slug": "mountains-and-context",
+      "owner": "family_law_reading",
+      "wave": 3
+    },
+    {
+      "topic_id": "sea-boundary",
+      "article_slug": "sea-boundaries",
+      "owner": "family_law_reading",
+      "wave": 2
+    },
+    {
+      "topic_id": "spider-house",
+      "article_slug": "spider-house",
+      "owner": "family_law_reading",
+      "wave": 2
+    },
+    {
+      "topic_id": "numbers-and-constants",
+      "article_slug": "testing-discovery-claims",
+      "owner": "root",
+      "wave": 1
+    }
+  ]
+}

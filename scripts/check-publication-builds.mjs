@@ -47,6 +47,16 @@ try {
     });
     const result = inspectBuiltSite({ distDir: join(work, output), articles: [{ id: slug, draft: true }], showDrafts });
     assert.deepEqual(result.errors, [], result.errors.join('\n'));
+    const sitemap = readFileSync(join(work, output, 'sitemap.xml'), 'utf8');
+    const robots = readFileSync(join(work, output, 'robots.txt'), 'utf8');
+    assert.equal(sitemap.includes(`/articles/${slug}/`), false, 'Synthetic drafts must never enter a sitemap');
+    if (showDrafts) {
+      assert.equal(sitemap.includes('<url>'), false, 'Preview builds must emit an empty sitemap');
+      assert.match(robots, /Disallow: \/\n/, 'Preview robots must block crawling');
+    } else {
+      assert.match(sitemap, /<loc>https:\/\/whyqaraan\.cometgleam256\.chatgpt\.site\/articles\/word-counts\/<\/loc>/);
+      assert.match(robots, /Sitemap: https:\/\/whyqaraan\.cometgleam256\.chatgpt\.site\/sitemap.xml/);
+    }
     assert.equal(JSON.parse(readFileSync(join(work, output, 'downloads/repetition-summary.json'), 'utf8')).tokens, 77800, 'Direct Astro builds must replace stale reports with freshly verified counts');
     assert.deepEqual(dependencyCacheSnapshot(), dependencyCachesBefore, 'Integration builds must not mutate shared dependency caches');
     console.log(`Real Astro ${showDrafts ? 'preview' : 'production'} build passed: ${result.htmlPages} pages; synthetic draft ${showDrafts ? 'visible with noindex and notice' : 'has no direct route'}.`);

@@ -1,0 +1,134 @@
+{
+  "id": "cosmic-origins",
+  "title_ar": "الرتق والفتق والدخان: مستويات المقارنة الكونية",
+  "category": "science",
+  "claim_ar": "يقدمIslam Guide مقارنة21:30 و41:11 بأصل الكون من حالة سماها دخانا، ويستدل بصور السدم. نفحص الدلالة العربية وحدود نقل خصائص سديم متأخر إلى الكون المبكر.",
+  "observation_ar": "يرد الرتق مع الفتق والماء والحياة في21:30؛ و41:9–12 يتضمن الأرض وأقواتها ثم السماء وهي دخان وقضاء سبع سماوات. الدخان في44:10–11 في مقام آخر. يرجح الطبري المطر والنبات في21:30، ويعرض الالتصاق والتفريق؛ ابن كثير يفتتح بالاتصال ويذكر خلافات، ويفسر دخان41:11 ببخار الماء.",
+  "interpretation_ar": "الأدلة الحديثة على الكون الحار والتوسع والخلفية الإشعاعية محددة القياس والتاريخ؛ لا تعين كلمةدخان وحدها التركيب أو التأين أو الطيف. تكون النجوم والنظام الشمسي عمليات لاحقة، فلا تمثل صورة سديم مشاهدة مباشرة لبداية الكون. إمكان مقارنة عامة لا يثبت توقعا تقنيا فريدا أو قصد المعنى.",
+  "status": "scientific_comparison",
+  "verse_refs": [
+    "21:30",
+    "21:31",
+    "21:32",
+    "21:33",
+    "41:9",
+    "41:10",
+    "41:11",
+    "41:12",
+    "44:10",
+    "44:11"
+  ],
+  "sources": [
+    {
+      "id": "quran-tanzil",
+      "title": "القرآن الكريم: تنزيل",
+      "url": "https://tanzil.net/",
+      "kind": "quran",
+      "locator": "21:30–33؛41:9–12؛44:10–11",
+      "supports_ar": "قراءة السياق بالرسمين، مع فصل الدخان في مقامين مختلفين.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "islam-guide-cosmic",
+      "title": "Islam Guide: The Quran on the Origin of the Universe",
+      "url": "https://www.islam-guide.com/ch1-1-c.htm",
+      "kind": "claim",
+      "locator": "الفصل1،1C",
+      "supports_ar": "يوثق دعوى وصل الدخان والرتق بأصل الكون ومقارنة ذلك بصور سدم؛ لم يتحقق تاريخ أول نشر الصفحة أو الأشرطة المنقول عنها.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-21-30",
+      "title": "الطبري: الأنبياء30",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya30.html",
+      "kind": "tafsir",
+      "locator": "أقوال الرتق والفتق وترجيح المطر والنبات",
+      "supports_ar": "يثبت تعدد التوجيهات والترجيح السياقي، لا اتفاق المفسرين على نظرية كونية واحدة.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ibn-kathir-21-30",
+      "title": "ابن كثير: الأنبياء30",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura21-aya30.html",
+      "kind": "tafsir",
+      "locator": "افتتاح شرح الاتصال ثم الأقوال المنقولة",
+      "supports_ar": "يفتتح بالاتصال والانفصال ثم يعرض تفسيرات أخرى.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-41-11",
+      "title": "الطبري: فصلت11",
+      "url": "https://quran.com/fussilat/11/tafsirs/ar-tafsir-al-tabari",
+      "kind": "tafsir",
+      "locator": "ائتيا وطائعين",
+      "supports_ar": "قرئ الأصل التفسيري عبرQuran.com بعد تعذرKSU؛ يتناول إظهار ما خلق في السماء والأرض والاستجابة للأمر.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "ibn-kathir-41-11",
+      "title": "ابن كثير: فصلت11",
+      "url": "https://quran.ksu.edu.sa/tafseer/katheer/sura41-aya11.html",
+      "kind": "tafsir",
+      "locator": "شرح الدخان",
+      "supports_ar": "يفسره ببخار الماء؛ لا يساويه ببلازما فيزيائية أو عناصر أولية اصطلاحية.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "penzias-wilson-1965",
+      "title": "Penzias and Wilson: A Measurement of Excess Antenna Temperature at4080Mc/s",
+      "url": "https://articles.adsabs.harvard.edu/pdf/1965ApJ...142..419P",
+      "kind": "research",
+      "locator": "Astrophysical Journal142:419–421،1965؛قرئت الرسالة كاملة من عنوانها؛ لا تنسب خاتمة المقال السابق إليها",
+      "supports_ar": "قياسات من يوليو1964 إلى أبريل1965، مع عرض الفائض والضوضاء والقيود؛ اكتشاف رصدي لا تفسير لآية.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "nasa-cosmic-history",
+      "title": "NASA: The Universe’s History",
+      "url": "https://science.nasa.gov/universe/overview/",
+      "kind": "science",
+      "locator": "Big Bang and Nucleosynthesis؛Recombination؛First Stars",
+      "supports_ar": "التبريد والتحول من مادة متأينة إلى ذرات والنجوم لاحقا؛ لا تجعل كل المراحل مادة واحدة اسمها دخان.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "esa-planck",
+      "title": "ESA: Planck science highlights",
+      "url": "https://www.esa.int/Science_Exploration/Space_Science/Planck/Planck_science_highlights",
+      "kind": "science",
+      "locator": "هدف المهمة ونتائج الخلفية",
+      "supports_ar": "الخلفية تحفظ أثر مرحلة نحو380000عام بعد بداية التوسع الحار؛ انطلقتPlanckعام2009.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "nasa-solar-formation",
+      "title": "NASA: Solar System Facts",
+      "url": "https://science.nasa.gov/solar-system/solar-system-facts/",
+      "kind": "science",
+      "locator": "Formation",
+      "supports_ar": "نشأة النظام الشمسي قبل نحو4.6مليارعام من غاز وغبار؛ تفصل هذه المرحلة عن الكون المبكر.",
+      "accessed_at": "2026-11-02"
+    }
+  ],
+  "limitations_ar": [
+    "لا ادعاء أن الرتق والفتق يساويان التوسع أو التضخم أو تكون النظام الشمسي؛ لكل نموذج مستوى وزمن مختلفان.",
+    "أصل رسالة1965 مفتوح وقرئ؛ لا إعادة معايرة مستقلة للهوائي أو تحليل بياناتPlanck. خلاصة NASA عرض لأفضل النماذج الحالية وليست يقينا عن كل لحظة مبكرة.",
+    "لا تعتمد شهادة عالم المنقولة فيIslam Guide أو كتابWeinberg المنقول عنه بوصفها مقروءة في أصولها؛ لم يثبت أقدم تاريخ للدعوى.",
+    "تفسير بخار الماء تاريخي؛ لا يثبت الكيمياء الحديثة للكون المبكر ولا يعد مرادفا للبلازما.",
+    "لم يحسم هذا البحث تفاصيل تأويل الأيام أو ترتيب جميع آيات الخلق؛ صرح بها مجالا مستقلا ولا يتجاوزها بإعادة صياغة انتقائية.",
+    "استئناف من قراءة كاملة سابقة مع قراءة مركزة؛ لا إثبات جديد للإعجاز أو السبق من التشابه العام."
+  ],
+  "next_questions_ar": [
+    "ما التوقع المميز الذي يستنبط قبل عرض النموذج: طيف خلفية أو نسبة عناصر أو علاقة زمنية محددة؟ إن لم يتعين فلا يسمى تنبؤا مخصوصا.",
+    "يترجم مراجعون مستقلون رتق/فتق/دخان في كامل سياقاتها دون صور حديثة، وتسجل المعاني المخالفة.",
+    "تقارن الدعوى على مستوى الكون المبكر وتكون النجوم والنظام الشمسي كل على حدة؛ أي مستوى تفشل فيه أو يتطلب نقل معنى؟"
+  ],
+  "baseline_ids": [
+    "science-cosmic-expansion",
+    "science-iron-origin"
+  ],
+  "novelty": "previously_published",
+  "reviewed_by": [
+    "science_reading"
+  ]
+}

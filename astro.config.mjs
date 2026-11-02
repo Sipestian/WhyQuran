@@ -1,7 +1,9 @@
 import { defineConfig } from 'astro/config';
 import { prepareResearchReports } from './scripts/research-validation.mjs';
+import { siteOrigin } from './src/lib/site.mjs';
 
 export default defineConfig({
+  site: siteOrigin,
   integrations: [{
     name: 'verified-research',
     hooks: {
