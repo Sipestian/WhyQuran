@@ -2,7 +2,10 @@
 title: "لماذا تستطع ثم تسطع؟ قراءة في اللفظ والسياق"
 description: "توجيه ابن كثير لاختلاف الصيغة في سورة الكهف، وعلاقته ببيان الأحداث، وما تسمح به المقارنة وما يحتاج إلى بحث أوسع."
 date: 2026-11-02
-draft: true
+draft: false
+reviewed_by: [science_reading]
+reviewed_at: "2026-11-02"
+review_record: research/reviews/2026-11-02-articles.json
 category: wording
 evidence_ids: [wording-kahf-tastati, wording-kahf-istatau]
 ---

@@ -1,0 +1,27 @@
+{
+  "name": "whyqaraan",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=9.6.5"
+  },
+  "scripts": {
+    "dev": "astro dev --host 127.0.0.1",
+    "build": "astro build && node scripts/check-built-site.mjs",
+    "build:preview": "SHOW_DRAFTS=true astro build --outDir dist-preview && SHOW_DRAFTS=true node scripts/check-built-site.mjs dist-preview",
+    "check": "astro check && node --test --test-isolation=none tests/site*.test.mjs",
+    "test": "node --test --test-isolation=none tests/site*.test.mjs",
+    "test:publication-builds": "node scripts/check-publication-builds.mjs",
+    "preview": "astro preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@astrojs/check": "0.9.12",
+    "astro": "7.4.4",
+    "typescript": "6.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6"
+  }
+}

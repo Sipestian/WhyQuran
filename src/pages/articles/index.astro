@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getArticles } from '../../lib/articles';
+import { categories, categoryKey } from '../../lib/backlog.mjs';
+const articles = await getArticles();
+const groups = Object.entries(categories).map(([id, title]) => ({ id, title, items: articles.filter((article) => categoryKey(article.data.category) === id) })).filter((group) => group.items.length);
+---
+<Base title="المقالات" description="مقالات عربية في ألفاظ القرآن والعد والعلوم والأسرة، مرتبطة بمصادرها وأدلتها.">
+  <div class="container"><header class="page-heading"><span class="eyebrow">دفتر القراءة</span><h1>مقالات تبدأ بسؤال</h1><p class="lead">قراءة متأنية في اللفظ والسياق. تجد مع كل مقال مصادره ودرجة مراجعته، وما تثبته المقارنة وما يبقى خارج حدودها.</p></header>
+    {groups.length ? <><nav class="filter-links" aria-label="تصنيفات المقالات">{groups.map((group) => <a href={`#${group.id}`}>{group.title}</a>)}</nav>{groups.map((group) => <section class="section" id={group.id}><div class="section-header"><h2>{group.title}</h2></div><div class="article-grid">{group.items.map((article, index) => <ArticleCard article={article} index={index} />)}</div></section>)}</> : <div class="empty-state"><h2>لا مقالات منشورة بعد</h2><p>المسودات قيد المراجعة الداخلية. تظهر هنا المقالات التي اكتملت مراجعتها فقط.</p><a href="/research/">تابع موضوعات البحث</a></div>}
+  </div>
+</Base>

@@ -1,0 +1,47 @@
+---
+import '../styles/global.css';
+import { showDrafts } from '../lib/articles';
+interface Props { title: string; description: string; noindex?: boolean; }
+const { title, description, noindex = false } = Astro.props;
+const path = Astro.url.pathname;
+const navigation = [
+  ['/', 'الرئيسية'], ['/articles/', 'المقالات'], ['/counts/', 'العدّ والألفاظ'],
+  ['/research/', 'خريطة البحث'], ['/methodology/', 'المنهج'],
+];
+---
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#173c31" />
+    {(noindex || showDrafts) && <meta name="robots" content="noindex, nofollow" />}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} · لماذا القرآن؟</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">انتقل إلى المحتوى</a>
+    {showDrafts && <div class="preview-banner">معاينة تحريرية محلية · تشمل مسودات لم تكتمل مراجعتها</div>}
+    <header class="site-header">
+      <div class="container masthead">
+        <a class="brand" href="/" aria-label="لماذا القرآن؟ — الرئيسية">
+          <span class="brand-mark" aria-hidden="true">؟</span>
+          <span><strong>لماذا القرآن؟</strong><small>قراءة في اللفظ والسياق والدليل</small></span>
+        </a>
+        <span class="header-note">دفتر بحث مفتوح <span aria-hidden="true">/</span> بالعربية</span>
+      </div>
+      <nav class="container navigation" aria-label="التنقل الرئيسي">
+        {navigation.map(([href, label]) => <a href={href} aria-current={(href === '/' ? path === '/' : path.startsWith(href)) ? 'page' : undefined}>{label}</a>)}
+      </nav>
+    </header>
+    <main id="main" tabindex="-1"><slot /></main>
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="footer-brand" href="/">لماذا القرآن؟</a><p>نقرأ السياق، وننسب القول، ونُبقي حدود المعرفة ظاهرة.</p></div>
+        <div><p>النص القرآني من <a href="https://tanzil.net/">مشروع تنزيل</a>.</p><a href="/source-license.txt">إشعار المصدر والترخيص</a> <span aria-hidden="true">·</span> <a href="/methodology/">كيف نبحث؟</a></div>
+      </div>
+      <div class="container footer-note">المراجعات بحثية داخلية بمساعدة وكلاء ذكاء اصطناعي؛ لا تعني تحكيمًا علميًا خارجيًا أو فتوى متخصصة.</div>
+    </footer>
+  </body>
+</html>

@@ -62,6 +62,24 @@
       "locator": "شرح Cosmological redshift وعلاقة Hubble’s Law",
       "supports_ar": "يشرح اتساع الفضاء وأثره في أطوال موجات الضوء والعلاقة الرصدية بين المسافة والانزياح الأحمر.",
       "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "hubble-1929-original",
+      "title": "Edwin Hubble (1929), A Relation between Distance and Radial Velocity among Extra-Galactic Nebulae",
+      "url": "https://www.astro.rug.nl/~weygaert/tim1publication/cosmo2007/literature/hubble.1929.pdf",
+      "kind": "science",
+      "locator": "PNAS15(3),168–173؛ مارس1929؛ البيانات والاستنتاج الرصدي في الورقة الأصلية",
+      "supports_ar": "يدعم تاريخ نشر العلاقة الرصدية وطبيعة عينة البيانات والحاجة إلى مزيد من الرصد؛ لا يحتوي بمفرده كامل النموذج الكوني الحالي.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "nasa-dark-energy-history",
+      "title": "NASA: Dark Energy — history of the expanding universe",
+      "url": "https://science.nasa.gov/dark-energy/",
+      "kind": "science",
+      "locator": "عرض عمل لوميتر1927 وأرصاد هابل1929 في تاريخ التمدد",
+      "supports_ar": "يدعم السياق التاريخي السابق لورقة هابل وعدم اختزال تطور الفكرة في شخص واحد.",
+      "accessed_at": "2026-11-02"
     }
   ],
   "limitations_ar": [
@@ -78,6 +96,7 @@
   "baseline_ids": [],
   "novelty": "previously_published",
   "reviewed_by": [
-    "science_reading"
+    "science_reading",
+    "arabic_wording"
   ]
 }

@@ -1,0 +1,351 @@
+{
+  "id": "counts-universe-terms",
+  "title_ar": "إعادة عد ألفاظ الكون بقوائم أشكال معلنة",
+  "category": "counts",
+  "claim_ar": "يمكن إعادة إنتاج تكرار مجموعات محددة من أسماء السماء والأرض والأجرام بعد إعلان الأشكال والفصل بين المشترك اللفظي؛ الأعداد وصفية ولا تثبت ثوابت فلكية.",
+  "observation_ar": "في تنزيل Simple Clean وباستثناء البسملات الافتتاحية غير المرقمة: مفرد السماء120، السماوات190، اسم الأرض461، الشمس33، القمر27، النجم المفرد4 والنجوم9، الفُلك للسفن23، الفَلَك2، ولموسعون1. هذه أعداد مرات ظهور الكلمات لا أعداد الآيات؛ راجع تقارير المواضع وأعداد matching_verses المنفصلة.",
+  "interpretation_ar": "الحساب مبني على مطابقة الكلمة كاملة بقوائم صريحة لا على تخمين الجذر. روجعت مواضع الفلك25 في النص العثماني للفصل بين المعنيين. بقي النجم في55:6 ضمن العد اللفظي مع بيان ترجيح الطبري معنى النبات والخلاف فيه. السماء والأرض لا تحيلان في كل موضع إلى اصطلاح الكون أو الكوكب الحديث. لا يستنتج من عدد القمر مدة دورته أو من عدد الحديد خاصية ذرية.",
+  "status": "reproduced_observation",
+  "verse_refs": [
+    "2:164",
+    "14:24",
+    "16:79",
+    "21:33",
+    "22:15",
+    "29:56",
+    "36:40",
+    "51:47",
+    "55:6"
+  ],
+  "sources": [
+    {
+      "id": "tanzil-local-corpus",
+      "title": "Tanzil Simple Clean1.1 مع مراجعة العثماني",
+      "url": "https://tanzil.net",
+      "kind": "quran",
+      "locator": "data/manifest.json؛ research/universe-terms.json؛ reports/universe.json؛ SHA256 228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+      "supports_ar": "النص المثبت وقوائم الإدراج والاستبعاد وجميع المطابقات. يعيد python3 -m quran_research universe الحساب؛ أجرى المراجع عدّا مستقلا دون دوال المشروع.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-najm",
+      "title": "الطبري، الرحمن6",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura55-aya6.html",
+      "kind": "tafsir",
+      "locator": "الخلاف في النجم وترجيح النبات الذي لا ساق له",
+      "supports_ar": "سبب إبقاء الخلاف الدلالي ظاهرا مع عد اللفظ.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-falak",
+      "title": "الطبري، الأنبياء33",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura21-aya33.html",
+      "kind": "tafsir",
+      "locator": "تفسير الفلك وعرض أوجه الهيئة والتوقف عن تعيينها",
+      "supports_ar": "تمييز وصف الجريان من دعوى تعيين نموذج مداري مفصل.",
+      "accessed_at": "2026-11-02"
+    },
+    {
+      "id": "tabari-sky",
+      "title": "الطبري، الحج15",
+      "url": "https://quran.ksu.edu.sa/tafseer/tabary/sura22-aya15.html",
+      "kind": "tafsir",
+      "locator": "الأقوال في السماء ومنها سقف البيت",
+      "supports_ar": "السياق يؤثر في مدلول السماء ولا يغير عدد الصيغة المكتوبة.",
+      "accessed_at": "2026-11-02"
+    }
+  ],
+  "limitations_ar": [
+    "الأشكال معرفة في research/universe-terms.json؛ لا تمثل كل الكلمات المتعلقة بالكون أو جميع مشتقات الجذور.",
+    "العدد لا يقيس عدد الأجرام ولا يثبت ترميزا علميا أو جدة تاريخية.",
+    "القراءات والرسم ووحدة الكلمة والبسملة تغيّر سؤال العد؛ لا تعمم الأرقام على كل التعريفات."
+  ],
+  "next_questions_ar": [
+    "توسيع المعجم إلى الكواكب والشعرى وفق تعريف سابق ومراجعة السياق.",
+    "ترميز دلالة السماء والأرض في كل موضع وإظهار الحالات المختلف فيها."
+  ],
+  "baseline_ids": [],
+  "novelty": "not_assessed",
+  "reviewed_by": [
+    "arabic_wording"
+  ],
+  "count_results": [
+    {
+      "id": "universe-sky-singular",
+      "terms": [
+        "السماء",
+        "والسماء",
+        "سماء"
+      ],
+      "count": 120,
+      "matching_verses": 116,
+      "forms": [
+        {
+          "form": "السماء",
+          "count": 109
+        },
+        {
+          "form": "والسماء",
+          "count": 9
+        },
+        {
+          "form": "سماء",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universe-sky-plural",
+      "terms": [
+        "السماوات",
+        "والسماوات",
+        "سماوات"
+      ],
+      "count": 190,
+      "matching_verses": 188,
+      "forms": [
+        {
+          "form": "السماوات",
+          "count": 182
+        },
+        {
+          "form": "والسماوات",
+          "count": 3
+        },
+        {
+          "form": "سماوات",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": "universe-earth",
+      "terms": [
+        "الأرض",
+        "والأرض",
+        "أرض",
+        "أرضا",
+        "أرضكم",
+        "أرضنا",
+        "أرضهم",
+        "أرضي",
+        "وأرض",
+        "وأرضا",
+        "وللأرض"
+      ],
+      "count": 461,
+      "matching_verses": 440,
+      "forms": [
+        {
+          "form": "الأرض",
+          "count": 287
+        },
+        {
+          "form": "والأرض",
+          "count": 157
+        },
+        {
+          "form": "أرض",
+          "count": 5
+        },
+        {
+          "form": "أرضا",
+          "count": 1
+        },
+        {
+          "form": "أرضكم",
+          "count": 3
+        },
+        {
+          "form": "أرضنا",
+          "count": 3
+        },
+        {
+          "form": "أرضهم",
+          "count": 1
+        },
+        {
+          "form": "أرضي",
+          "count": 1
+        },
+        {
+          "form": "وأرض",
+          "count": 1
+        },
+        {
+          "form": "وأرضا",
+          "count": 1
+        },
+        {
+          "form": "وللأرض",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "universe-sun",
+      "terms": [
+        "الشمس",
+        "والشمس",
+        "بالشمس",
+        "للشمس",
+        "شمسا"
+      ],
+      "count": 33,
+      "matching_verses": 32,
+      "forms": [
+        {
+          "form": "الشمس",
+          "count": 20
+        },
+        {
+          "form": "والشمس",
+          "count": 9
+        },
+        {
+          "form": "بالشمس",
+          "count": 1
+        },
+        {
+          "form": "للشمس",
+          "count": 2
+        },
+        {
+          "form": "شمسا",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "universe-moon",
+      "terms": [
+        "القمر",
+        "والقمر",
+        "للقمر",
+        "وقمرا"
+      ],
+      "count": 27,
+      "matching_verses": 26,
+      "forms": [
+        {
+          "form": "القمر",
+          "count": 5
+        },
+        {
+          "form": "والقمر",
+          "count": 20
+        },
+        {
+          "form": "للقمر",
+          "count": 1
+        },
+        {
+          "form": "وقمرا",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "universe-star-singular",
+      "terms": [
+        "النجم",
+        "والنجم",
+        "وبالنجم"
+      ],
+      "count": 4,
+      "matching_verses": 4,
+      "forms": [
+        {
+          "form": "النجم",
+          "count": 1
+        },
+        {
+          "form": "والنجم",
+          "count": 2
+        },
+        {
+          "form": "وبالنجم",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "universe-stars-plural",
+      "terms": [
+        "النجوم",
+        "والنجوم"
+      ],
+      "count": 9,
+      "matching_verses": 9,
+      "forms": [
+        {
+          "form": "النجوم",
+          "count": 6
+        },
+        {
+          "form": "والنجوم",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": "universe-fulk-ships",
+      "terms": [
+        "الفلك",
+        "والفلك"
+      ],
+      "count": 23,
+      "matching_verses": 23,
+      "forms": [
+        {
+          "form": "الفلك",
+          "count": 21
+        },
+        {
+          "form": "والفلك",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universe-falak-orbit",
+      "terms": [
+        "فلك"
+      ],
+      "count": 2,
+      "matching_verses": 2,
+      "forms": [
+        {
+          "form": "فلك",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "universe-musiun",
+      "terms": [
+        "لموسعون"
+      ],
+      "count": 1,
+      "matching_verses": 1,
+      "forms": [
+        {
+          "form": "لموسعون",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "query_ids": [
+    "universe-sky-singular",
+    "universe-sky-plural",
+    "universe-earth",
+    "universe-sun",
+    "universe-moon",
+    "universe-star-singular",
+    "universe-stars-plural",
+    "universe-fulk-ships",
+    "universe-falak-orbit",
+    "universe-musiun"
+  ]
+}

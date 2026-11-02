@@ -2,7 +2,10 @@
 title: "ماذا نعدّ حين نعدّ كلمة في القرآن؟"
 description: "من آدم وعيسى إلى تكرار عبارة الرحمن: كيف تصبح الملاحظة العددية قابلة للفحص؟"
 date: 2026-11-02
-draft: true
+draft: false
+reviewed_by: [arabic_wording]
+reviewed_at: "2026-11-02"
+review_record: research/reviews/2026-11-02-articles.json
 category: counts
 evidence_ids: [counts-adam-isa, counts-rahman-refrain]
 ---

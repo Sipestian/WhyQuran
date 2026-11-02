@@ -1,0 +1,23 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { getArticles } from '../../lib/articles';
+import { categoryLabel } from '../../lib/backlog.mjs';
+import { dateLabel, evidenceById } from '../../lib/data';
+import { evidenceStatusLabel } from '../../lib/evidence-status.mjs';
+interface Props { article: CollectionEntry<'articles'>; }
+export async function getStaticPaths() {
+  return (await getArticles()).map((article) => ({ params: { slug: article.id }, props: { article } }));
+}
+const { article } = Astro.props;
+const { Content } = await render(article);
+const records = article.data.evidence_ids.map((id: string) => evidenceById.get(id)!);
+---
+<Base title={article.data.title} description={article.data.description} noindex={article.data.draft}>
+  <div class="container"><header class="article-heading"><a class="text-link" href="/articles/">المقالات</a><span aria-hidden="true"> / </span><span class="eyebrow">{categoryLabel(article.data.category)}</span><h1>{article.data.title}</h1><p class="lead">{article.data.description}</p><div class="article-meta"><time datetime={article.data.date.toISOString()}>{dateLabel(article.data.date)}</time><span class:list={['badge', { 'badge-draft': article.data.draft }]}>{article.data.draft ? 'مسودة للمراجعة' : 'مراجعة بحثية داخلية'}</span>{!article.data.draft && <span>آخر مراجعة: {dateLabel(article.data.reviewed_at!)}</span>}</div></header>
+    <div class="article-shell">{article.data.draft && <aside class="notice notice-draft" data-draft-notice><strong>مسودة غير منشورة</strong><p>هذه نسخة عمل للمراجعة المحلية. قد تتغير صياغتها ونتائجها قبل اعتمادها في الموقع.</p></aside>}<article class="prose"><Content /></article>
+      <section class="evidence-list" aria-labelledby="evidence-title"><span class="eyebrow">لمن يريد التحقق</span><h2 id="evidence-title">الأدلة وحدود الاستنتاج</h2><p class="small muted">هذه السجلات تفصل الملاحظة عن تفسيرها، وتحفظ المصادر والأسئلة التي لم تُحسم.</p>{records.map((record) => <article class="evidence-item"><span class="badge">{evidenceStatusLabel(record.status)}</span><h3>{record.title_ar}</h3><p>{record.claim_ar}</p><details><summary>حدود الاستنتاج والمصادر</summary><ul>{record.limitations_ar.map((limit: string) => <li>{limit}</li>)}</ul><ul>{record.sources.map((source) => <li><a href={source.url}>{source.title}</a></li>)}</ul></details><p class="spaced"><a class="text-link" href={`/evidence/${record.id}.json`} download>تحميل سجل الدليل (JSON) ↓</a></p></article>)}</section>
+      {!article.data.draft && <p class="small muted spaced">المراجعة البحثية الداخلية يجريها وكلاء ذكاء اصطناعي موثقو القراءة، ولا تمثل تحكيمًا أكاديميًا خارجيًا أو اعتمادًا من مختص بشري.</p>}
+    </div>
+  </div>
+</Base>

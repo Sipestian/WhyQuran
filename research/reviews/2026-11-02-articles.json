@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-02",
+  "review_type": "internal_ai",
+  "articles": {
+    "word-counts": {
+      "body_sha256": "c73317f76c46767aec740c2b1facd9ec76b22413f168ad18975c78dfbb329990",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "أعاد المراجع فحص أشكال آدم وعيسى وعد العبارة31، وقابل المصدر الخارجي ومنهج اللواصق. لا دعوى جدة أو ندرة إحصائية."
+    },
+    "universe-words": {
+      "body_sha256": "592bd15235ab90856fb4aaf0b1a32d3d472e6d21579c5748daafb8ad7c64bb84",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "أعاد المراجع العد مستقلا دون دوال المشروع، وراجع25 موضعا للفلك في العثماني ومصادر تفسير النجم والسماء. استبدل رابط ملف المذكرة بمسار counts في الموقع."
+    },
+    "dna-amshaj": {
+      "body_sha256": "2778a29525a36e91a5c5fc1bbf8026ff8621da91d3b89c957ad985a8ba398de6",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "راجع ترجيح الطبري ومصادر NHGRI ومقالة Saadat2009. الفصل بين DNA والصبغي والمشيج وبين التأويل والتجربة ظاهر."
+    },
+    "divorce-wording": {
+      "body_sha256": "11e85355bfad7657f464e2a69010bb4815e4022dd093939964c47724d17e010a",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "راجع مصادر الطبري وابن كثير وابن رشد وحديث سبيعة5319. أصلحت عبارة الذي يميز تحريريا. مقال بحثي لا فتوى شخصية."
+    },
+    "sanah-and-aam": {
+      "body_sha256": "9aade205da201bf0673c297c07f84a44d3425a7278219bc7da99f39335d92a4f",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "راجع تسلسل الخصب والجدب وشواهد عام وسنين وإعراب الاستثناء. أضيف توضيح أن الخمسين ليست مدة رخاء يثبتها الاستثناء بعد950 سنة."
+    },
+    "why-tastati-tasti": {
+      "body_sha256": "fd2caedf22fa07edce343becdb8cac4aee7913fe2a468c3b88e54f70d4b36c77",
+      "reviewers": [
+        "science_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "قرئت المقالة كاملة ثم فتحت مصادر ابن كثير والقرطبي والطبري والجرجاني ورُوجع السياق المحلي. التوجيهات منسوبة، وحدود التعميم وأنواع الحذف واضحة؛ لا تصحيح جوهري."
+    },
+    "quran-nazm": {
+      "body_sha256": "09497a24f5dac411d2e3dfd0ac3de68b8afd0a8b207ee212ca7593f8f0d665e6",
+      "reviewers": [
+        "science_reading"
+      ],
+      "verdict": "approved",
+      "notes_ar": "قرئت المقالة كاملة ثم فتحت مصادر ابن كثير والقرطبي والطبري والجرجاني ورُوجع السياق المحلي. التوجيهات منسوبة، وحدود التعميم وأنواع الحذف واضحة؛ لا تصحيح جوهري."
+    },
+    "moon-and-modern-science": {
+      "body_sha256": "5cad2ad4ebeafd30e51c5a1ac21ebb25847f50e8610ab73b2831abf14cb774d4",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة للمقال وسجلاته وفتح المصادر العلمية والتفسيرية الأولية. التواريخ وحدود الدلالة صحيحة؛ أضيف توثيق هابل وNASA إلى سجل التمدد وصححت محددات عناوين Moonlight دون تغيير الاستنتاج."
+    },
+    "cosmic-expansion": {
+      "body_sha256": "61a63664a82f94b807952de1370eb19bbcbd5d80f275cb086fd2f137807a5d4d",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة للمقال وسجلاته وفتح المصادر العلمية والتفسيرية الأولية. التواريخ وحدود الدلالة صحيحة؛ أضيف توثيق هابل وNASA إلى سجل التمدد وصححت محددات عناوين Moonlight دون تغيير الاستنتاج."
+    },
+    "iron-from-stars": {
+      "body_sha256": "6c5034f2210358beeffcfe2da079d182e38c1540c8411bde57ce5920143ccbe2",
+      "reviewers": [
+        "arabic_wording"
+      ],
+      "verdict": "approved",
+      "notes_ar": "مراجعة مستقلة للمقال وسجلاته وفتح المصادر العلمية والتفسيرية الأولية. التواريخ وحدود الدلالة صحيحة؛ أضيف توثيق هابل وNASA إلى سجل التمدد وصححت محددات عناوين Moonlight دون تغيير الاستنتاج."
+    }
+  }
+}

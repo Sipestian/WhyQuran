@@ -5,4 +5,5 @@ __pycache__/
 .superpowers/
 node_modules/
 dist/
+dist-preview/
 .astro/

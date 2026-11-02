@@ -1,0 +1,13 @@
+---
+import { categoryLabel } from '../lib/backlog.mjs';
+import { dateLabel } from '../lib/data';
+import type { CollectionEntry } from 'astro:content';
+interface Props { article: CollectionEntry<'articles'>; index?: number; }
+const { article, index = 0 } = Astro.props;
+---
+<article class="article-card">
+  <div class="card-top"><span class="eyebrow">{categoryLabel(article.data.category)}</span><span class="card-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span></div>
+  <h3><a href={`/articles/${article.id}/`}>{article.data.title}</a></h3>
+  <p>{article.data.description}</p>
+  <div class="card-bottom"><span class:list={['badge', { 'badge-draft': article.data.draft }]}>{article.data.draft ? 'مسودة للمراجعة' : 'مراجعة بحثية داخلية'}</span><time datetime={article.data.date.toISOString()}>{dateLabel(article.data.date)}</time></div>
+</article>

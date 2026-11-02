@@ -2,7 +2,10 @@
 title: 'هل تصف «نطفة أمشاج» الحمض النووي DNA؟'
 description: 'قراءة في ألفاظ النطفة وأمشاج والسلالة، تقارن التفسير القديم بعلم الوراثة وتحدد ما يلزم لإثبات مطابقة تقنية أو ترميز عددي.'
 date: 2026-11-02
-draft: true
+draft: false
+reviewed_by: [arabic_wording]
+reviewed_at: "2026-11-02"
+review_record: research/reviews/2026-11-02-articles.json
 category: science
 evidence_ids: [science-dna-inheritance]
 ---
