@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-02",
+  "project_id": "appgprj_6ae83714bccc819191c29deb2c1e9c6e",
+  "source_commit": "c1fba77e13091a095bf95c0f1d9aaced28e184e8",
+  "version_id": "appgprj_6ae83714bccc819191c29deb2c1e9c6e~appgver_803ff6e25b348191836570963d06d2d3",
+  "version_number": 2,
+  "deployment_id": "appgdep_6ae86304e4008191a83c6e8d32f38645",
+  "status": "succeeded",
+  "url": "https://whyqaraan.cometgleam256.chatgpt.site",
+  "access_mode": "public",
+  "verified_at": "2026-11-02T10:16:57.107286+00:00",
+  "archive_storage": {
+    "archive_format": "tar",
+    "sediment_file_id": "file_000000006d5082089e856957fd5a37ed",
+    "content_hash": "sha256:550bc1eda74c0b7b5d90ab1fbbb75052882dd6a55c00f678900ad7a237ca222a",
+    "size_bytes": 2744320,
+    "file_count": 103
+  },
+  "local_archive_sha256": "88ac777732efb65a5ca3a4e83741a9c452a0b23f07119b051e8a142f413c2691",
+  "artifact_matches_browser_verified_files": true,
+  "verified_static_files": 102,
+  "verification_report": "research/reviews/2026-11-02-followup-verification.json",
+  "publication_method": "Sites native saved-version deployment; exact source and archive matched before publication.",
+  "notes": [
+    "Public audience preserved from get_site; no access settings changed.",
+    "Native deploy_site_version returned succeeded with the production URL; no further status polling required.",
+    "Receipt recorded after publication; source_commit identifies the exact deployed website source."
+  ]
+}
