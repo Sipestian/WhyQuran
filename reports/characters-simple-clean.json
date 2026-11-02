@@ -1,0 +1,1067 @@
+{
+  "method_ar": "نقاط Unicode غير البيضاء في متن الآيات فقط؛ لا ترقيم ولا رخصة ولا تطبيع Unicode ولا دمج للهمزات. يعرض تصنيف الحرف والعلامة والتطويل منفصلا. هذا وصف لترميز الملف المحدد وليس عد الحروف التراثي أو الأصوات أو الأشكال المرئية.",
+  "unicode_version": "16.0.0",
+  "include_opening_basmalas": false,
+  "non_whitespace_codepoints": 330709,
+  "letter_codepoints_excluding_tatweel": 330709,
+  "mark_codepoints": 0,
+  "tatweel_codepoints": 0,
+  "characters": [
+    {
+      "character": "ا",
+      "codepoint": "U+0627",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ALEF",
+      "count": 43539
+    },
+    {
+      "character": "ل",
+      "codepoint": "U+0644",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER LAM",
+      "count": 38191
+    },
+    {
+      "character": "ن",
+      "codepoint": "U+0646",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER NOON",
+      "count": 27270
+    },
+    {
+      "character": "م",
+      "codepoint": "U+0645",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER MEEM",
+      "count": 26735
+    },
+    {
+      "character": "و",
+      "codepoint": "U+0648",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER WAW",
+      "count": 24813
+    },
+    {
+      "character": "ي",
+      "codepoint": "U+064A",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER YEH",
+      "count": 21973
+    },
+    {
+      "character": "ه",
+      "codepoint": "U+0647",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER HEH",
+      "count": 14850
+    },
+    {
+      "character": "ر",
+      "codepoint": "U+0631",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER REH",
+      "count": 12403
+    },
+    {
+      "character": "ب",
+      "codepoint": "U+0628",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER BEH",
+      "count": 11491
+    },
+    {
+      "character": "ت",
+      "codepoint": "U+062A",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER TEH",
+      "count": 10520
+    },
+    {
+      "character": "ك",
+      "codepoint": "U+0643",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER KAF",
+      "count": 10497
+    },
+    {
+      "character": "ع",
+      "codepoint": "U+0639",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER AIN",
+      "count": 9405
+    },
+    {
+      "character": "أ",
+      "codepoint": "U+0623",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ALEF WITH HAMZA ABOVE",
+      "count": 9119
+    },
+    {
+      "character": "ف",
+      "codepoint": "U+0641",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER FEH",
+      "count": 8747
+    },
+    {
+      "character": "ق",
+      "codepoint": "U+0642",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER QAF",
+      "count": 7034
+    },
+    {
+      "character": "س",
+      "codepoint": "U+0633",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER SEEN",
+      "count": 6012
+    },
+    {
+      "character": "د",
+      "codepoint": "U+062F",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER DAL",
+      "count": 5991
+    },
+    {
+      "character": "إ",
+      "codepoint": "U+0625",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ALEF WITH HAMZA BELOW",
+      "count": 5108
+    },
+    {
+      "character": "ذ",
+      "codepoint": "U+0630",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER THAL",
+      "count": 4932
+    },
+    {
+      "character": "ح",
+      "codepoint": "U+062D",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER HAH",
+      "count": 4140
+    },
+    {
+      "character": "ج",
+      "codepoint": "U+062C",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER JEEM",
+      "count": 3317
+    },
+    {
+      "character": "ى",
+      "codepoint": "U+0649",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ALEF MAKSURA",
+      "count": 2595
+    },
+    {
+      "character": "خ",
+      "codepoint": "U+062E",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER KHAH",
+      "count": 2497
+    },
+    {
+      "character": "ة",
+      "codepoint": "U+0629",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER TEH MARBUTA",
+      "count": 2344
+    },
+    {
+      "character": "ش",
+      "codepoint": "U+0634",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER SHEEN",
+      "count": 2124
+    },
+    {
+      "character": "ص",
+      "codepoint": "U+0635",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER SAD",
+      "count": 2072
+    },
+    {
+      "character": "ض",
+      "codepoint": "U+0636",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER DAD",
+      "count": 1686
+    },
+    {
+      "character": "ز",
+      "codepoint": "U+0632",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ZAIN",
+      "count": 1599
+    },
+    {
+      "character": "ء",
+      "codepoint": "U+0621",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER HAMZA",
+      "count": 1578
+    },
+    {
+      "character": "آ",
+      "codepoint": "U+0622",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ALEF WITH MADDA ABOVE",
+      "count": 1511
+    },
+    {
+      "character": "ث",
+      "codepoint": "U+062B",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER THEH",
+      "count": 1414
+    },
+    {
+      "character": "ط",
+      "codepoint": "U+0637",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER TAH",
+      "count": 1273
+    },
+    {
+      "character": "غ",
+      "codepoint": "U+063A",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER GHAIN",
+      "count": 1221
+    },
+    {
+      "character": "ئ",
+      "codepoint": "U+0626",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER YEH WITH HAMZA ABOVE",
+      "count": 1182
+    },
+    {
+      "character": "ظ",
+      "codepoint": "U+0638",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER ZAH",
+      "count": 853
+    },
+    {
+      "character": "ؤ",
+      "codepoint": "U+0624",
+      "category": "Lo",
+      "unicode_name": "ARABIC LETTER WAW WITH HAMZA ABOVE",
+      "count": 673
+    }
+  ],
+  "surahs": [
+    {
+      "surah": 1,
+      "non_whitespace_codepoints": 143,
+      "letter_codepoints_excluding_tatweel": 143,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 2,
+      "non_whitespace_codepoints": 26249,
+      "letter_codepoints_excluding_tatweel": 26249,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 3,
+      "non_whitespace_codepoints": 14985,
+      "letter_codepoints_excluding_tatweel": 14985,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 4,
+      "non_whitespace_codepoints": 16332,
+      "letter_codepoints_excluding_tatweel": 16332,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 5,
+      "non_whitespace_codepoints": 12206,
+      "letter_codepoints_excluding_tatweel": 12206,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 6,
+      "non_whitespace_codepoints": 12726,
+      "letter_codepoints_excluding_tatweel": 12726,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 7,
+      "non_whitespace_codepoints": 14435,
+      "letter_codepoints_excluding_tatweel": 14435,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 8,
+      "non_whitespace_codepoints": 5387,
+      "letter_codepoints_excluding_tatweel": 5387,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 9,
+      "non_whitespace_codepoints": 11115,
+      "letter_codepoints_excluding_tatweel": 11115,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 10,
+      "non_whitespace_codepoints": 7589,
+      "letter_codepoints_excluding_tatweel": 7589,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 11,
+      "non_whitespace_codepoints": 7817,
+      "letter_codepoints_excluding_tatweel": 7817,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 12,
+      "non_whitespace_codepoints": 7307,
+      "letter_codepoints_excluding_tatweel": 7307,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 13,
+      "non_whitespace_codepoints": 3545,
+      "letter_codepoints_excluding_tatweel": 3545,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 14,
+      "non_whitespace_codepoints": 3539,
+      "letter_codepoints_excluding_tatweel": 3539,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 15,
+      "non_whitespace_codepoints": 2882,
+      "letter_codepoints_excluding_tatweel": 2882,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 16,
+      "non_whitespace_codepoints": 7832,
+      "letter_codepoints_excluding_tatweel": 7832,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 17,
+      "non_whitespace_codepoints": 6643,
+      "letter_codepoints_excluding_tatweel": 6643,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 18,
+      "non_whitespace_codepoints": 6552,
+      "letter_codepoints_excluding_tatweel": 6552,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 19,
+      "non_whitespace_codepoints": 3935,
+      "letter_codepoints_excluding_tatweel": 3935,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 20,
+      "non_whitespace_codepoints": 5399,
+      "letter_codepoints_excluding_tatweel": 5399,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 21,
+      "non_whitespace_codepoints": 5094,
+      "letter_codepoints_excluding_tatweel": 5094,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 22,
+      "non_whitespace_codepoints": 5314,
+      "letter_codepoints_excluding_tatweel": 5314,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 23,
+      "non_whitespace_codepoints": 4483,
+      "letter_codepoints_excluding_tatweel": 4483,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 24,
+      "non_whitespace_codepoints": 5754,
+      "letter_codepoints_excluding_tatweel": 5754,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 25,
+      "non_whitespace_codepoints": 3878,
+      "letter_codepoints_excluding_tatweel": 3878,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 26,
+      "non_whitespace_codepoints": 5630,
+      "letter_codepoints_excluding_tatweel": 5630,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 27,
+      "non_whitespace_codepoints": 4790,
+      "letter_codepoints_excluding_tatweel": 4790,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 28,
+      "non_whitespace_codepoints": 5930,
+      "letter_codepoints_excluding_tatweel": 5930,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 29,
+      "non_whitespace_codepoints": 4317,
+      "letter_codepoints_excluding_tatweel": 4317,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 30,
+      "non_whitespace_codepoints": 3472,
+      "letter_codepoints_excluding_tatweel": 3472,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 31,
+      "non_whitespace_codepoints": 2171,
+      "letter_codepoints_excluding_tatweel": 2171,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 32,
+      "non_whitespace_codepoints": 1563,
+      "letter_codepoints_excluding_tatweel": 1563,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 33,
+      "non_whitespace_codepoints": 5788,
+      "letter_codepoints_excluding_tatweel": 5788,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 34,
+      "non_whitespace_codepoints": 3594,
+      "letter_codepoints_excluding_tatweel": 3594,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 35,
+      "non_whitespace_codepoints": 3238,
+      "letter_codepoints_excluding_tatweel": 3238,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 36,
+      "non_whitespace_codepoints": 3068,
+      "letter_codepoints_excluding_tatweel": 3068,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 37,
+      "non_whitespace_codepoints": 3899,
+      "letter_codepoints_excluding_tatweel": 3899,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 38,
+      "non_whitespace_codepoints": 3065,
+      "letter_codepoints_excluding_tatweel": 3065,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 39,
+      "non_whitespace_codepoints": 4869,
+      "letter_codepoints_excluding_tatweel": 4869,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 40,
+      "non_whitespace_codepoints": 5108,
+      "letter_codepoints_excluding_tatweel": 5108,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 41,
+      "non_whitespace_codepoints": 3365,
+      "letter_codepoints_excluding_tatweel": 3365,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 42,
+      "non_whitespace_codepoints": 3522,
+      "letter_codepoints_excluding_tatweel": 3522,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 43,
+      "non_whitespace_codepoints": 3609,
+      "letter_codepoints_excluding_tatweel": 3609,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 44,
+      "non_whitespace_codepoints": 1474,
+      "letter_codepoints_excluding_tatweel": 1474,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 45,
+      "non_whitespace_codepoints": 2085,
+      "letter_codepoints_excluding_tatweel": 2085,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 46,
+      "non_whitespace_codepoints": 2667,
+      "letter_codepoints_excluding_tatweel": 2667,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 47,
+      "non_whitespace_codepoints": 2423,
+      "letter_codepoints_excluding_tatweel": 2423,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 48,
+      "non_whitespace_codepoints": 2510,
+      "letter_codepoints_excluding_tatweel": 2510,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 49,
+      "non_whitespace_codepoints": 1533,
+      "letter_codepoints_excluding_tatweel": 1533,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 50,
+      "non_whitespace_codepoints": 1507,
+      "letter_codepoints_excluding_tatweel": 1507,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 51,
+      "non_whitespace_codepoints": 1546,
+      "letter_codepoints_excluding_tatweel": 1546,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 52,
+      "non_whitespace_codepoints": 1324,
+      "letter_codepoints_excluding_tatweel": 1324,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 53,
+      "non_whitespace_codepoints": 1433,
+      "letter_codepoints_excluding_tatweel": 1433,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 54,
+      "non_whitespace_codepoints": 1469,
+      "letter_codepoints_excluding_tatweel": 1469,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 55,
+      "non_whitespace_codepoints": 1647,
+      "letter_codepoints_excluding_tatweel": 1647,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 56,
+      "non_whitespace_codepoints": 1756,
+      "letter_codepoints_excluding_tatweel": 1756,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 57,
+      "non_whitespace_codepoints": 2545,
+      "letter_codepoints_excluding_tatweel": 2545,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 58,
+      "non_whitespace_codepoints": 2046,
+      "letter_codepoints_excluding_tatweel": 2046,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 59,
+      "non_whitespace_codepoints": 1970,
+      "letter_codepoints_excluding_tatweel": 1970,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 60,
+      "non_whitespace_codepoints": 1560,
+      "letter_codepoints_excluding_tatweel": 1560,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 61,
+      "non_whitespace_codepoints": 966,
+      "letter_codepoints_excluding_tatweel": 966,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 62,
+      "non_whitespace_codepoints": 768,
+      "letter_codepoints_excluding_tatweel": 768,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 63,
+      "non_whitespace_codepoints": 801,
+      "letter_codepoints_excluding_tatweel": 801,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 64,
+      "non_whitespace_codepoints": 1091,
+      "letter_codepoints_excluding_tatweel": 1091,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 65,
+      "non_whitespace_codepoints": 1203,
+      "letter_codepoints_excluding_tatweel": 1203,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 66,
+      "non_whitespace_codepoints": 1105,
+      "letter_codepoints_excluding_tatweel": 1105,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 67,
+      "non_whitespace_codepoints": 1347,
+      "letter_codepoints_excluding_tatweel": 1347,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 68,
+      "non_whitespace_codepoints": 1289,
+      "letter_codepoints_excluding_tatweel": 1289,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 69,
+      "non_whitespace_codepoints": 1133,
+      "letter_codepoints_excluding_tatweel": 1133,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 70,
+      "non_whitespace_codepoints": 971,
+      "letter_codepoints_excluding_tatweel": 971,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 71,
+      "non_whitespace_codepoints": 965,
+      "letter_codepoints_excluding_tatweel": 965,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 72,
+      "non_whitespace_codepoints": 1109,
+      "letter_codepoints_excluding_tatweel": 1109,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 73,
+      "non_whitespace_codepoints": 854,
+      "letter_codepoints_excluding_tatweel": 854,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 74,
+      "non_whitespace_codepoints": 1035,
+      "letter_codepoints_excluding_tatweel": 1035,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 75,
+      "non_whitespace_codepoints": 676,
+      "letter_codepoints_excluding_tatweel": 676,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 76,
+      "non_whitespace_codepoints": 1087,
+      "letter_codepoints_excluding_tatweel": 1087,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 77,
+      "non_whitespace_codepoints": 841,
+      "letter_codepoints_excluding_tatweel": 841,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 78,
+      "non_whitespace_codepoints": 796,
+      "letter_codepoints_excluding_tatweel": 796,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 79,
+      "non_whitespace_codepoints": 785,
+      "letter_codepoints_excluding_tatweel": 785,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 80,
+      "non_whitespace_codepoints": 552,
+      "letter_codepoints_excluding_tatweel": 552,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 81,
+      "non_whitespace_codepoints": 435,
+      "letter_codepoints_excluding_tatweel": 435,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 82,
+      "non_whitespace_codepoints": 333,
+      "letter_codepoints_excluding_tatweel": 333,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 83,
+      "non_whitespace_codepoints": 750,
+      "letter_codepoints_excluding_tatweel": 750,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 84,
+      "non_whitespace_codepoints": 445,
+      "letter_codepoints_excluding_tatweel": 445,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 85,
+      "non_whitespace_codepoints": 469,
+      "letter_codepoints_excluding_tatweel": 469,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 86,
+      "non_whitespace_codepoints": 254,
+      "letter_codepoints_excluding_tatweel": 254,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 87,
+      "non_whitespace_codepoints": 296,
+      "letter_codepoints_excluding_tatweel": 296,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 88,
+      "non_whitespace_codepoints": 382,
+      "letter_codepoints_excluding_tatweel": 382,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 89,
+      "non_whitespace_codepoints": 584,
+      "letter_codepoints_excluding_tatweel": 584,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 90,
+      "non_whitespace_codepoints": 342,
+      "letter_codepoints_excluding_tatweel": 342,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 91,
+      "non_whitespace_codepoints": 253,
+      "letter_codepoints_excluding_tatweel": 253,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 92,
+      "non_whitespace_codepoints": 314,
+      "letter_codepoints_excluding_tatweel": 314,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 93,
+      "non_whitespace_codepoints": 165,
+      "letter_codepoints_excluding_tatweel": 165,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 94,
+      "non_whitespace_codepoints": 102,
+      "letter_codepoints_excluding_tatweel": 102,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 95,
+      "non_whitespace_codepoints": 162,
+      "letter_codepoints_excluding_tatweel": 162,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 96,
+      "non_whitespace_codepoints": 288,
+      "letter_codepoints_excluding_tatweel": 288,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 97,
+      "non_whitespace_codepoints": 115,
+      "letter_codepoints_excluding_tatweel": 115,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 98,
+      "non_whitespace_codepoints": 404,
+      "letter_codepoints_excluding_tatweel": 404,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 99,
+      "non_whitespace_codepoints": 158,
+      "letter_codepoints_excluding_tatweel": 158,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 100,
+      "non_whitespace_codepoints": 169,
+      "letter_codepoints_excluding_tatweel": 169,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 101,
+      "non_whitespace_codepoints": 160,
+      "letter_codepoints_excluding_tatweel": 160,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 102,
+      "non_whitespace_codepoints": 123,
+      "letter_codepoints_excluding_tatweel": 123,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 103,
+      "non_whitespace_codepoints": 73,
+      "letter_codepoints_excluding_tatweel": 73,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 104,
+      "non_whitespace_codepoints": 134,
+      "letter_codepoints_excluding_tatweel": 134,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 105,
+      "non_whitespace_codepoints": 97,
+      "letter_codepoints_excluding_tatweel": 97,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 106,
+      "non_whitespace_codepoints": 77,
+      "letter_codepoints_excluding_tatweel": 77,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 107,
+      "non_whitespace_codepoints": 114,
+      "letter_codepoints_excluding_tatweel": 114,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 108,
+      "non_whitespace_codepoints": 43,
+      "letter_codepoints_excluding_tatweel": 43,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 109,
+      "non_whitespace_codepoints": 99,
+      "letter_codepoints_excluding_tatweel": 99,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 110,
+      "non_whitespace_codepoints": 80,
+      "letter_codepoints_excluding_tatweel": 80,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 111,
+      "non_whitespace_codepoints": 81,
+      "letter_codepoints_excluding_tatweel": 81,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 112,
+      "non_whitespace_codepoints": 47,
+      "letter_codepoints_excluding_tatweel": 47,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 113,
+      "non_whitespace_codepoints": 73,
+      "letter_codepoints_excluding_tatweel": 73,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    },
+    {
+      "surah": 114,
+      "non_whitespace_codepoints": 80,
+      "letter_codepoints_excluding_tatweel": 80,
+      "mark_codepoints": 0,
+      "tatweel_codepoints": 0
+    }
+  ],
+  "corpus": "simple-clean",
+  "source_sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+  "source_url": "https://tanzil.net",
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n"
+}

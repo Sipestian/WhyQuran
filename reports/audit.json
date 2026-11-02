@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-02",
+  "source_sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+  "verification_ar": "أعيد عد الكلمات والرموز ومجموعات الكون ببرنامج تدقيق مستقل لا يستورد أدوات quran_research؛ هذا تحقق حسابي وليس قراءة أو تفسيرا.",
+  "tokens": 77800,
+  "non_whitespace_codepoints": 330709,
+  "universe_counts": {
+    "universe-sky-singular": 120,
+    "universe-sky-plural": 190,
+    "universe-earth": 461,
+    "universe-sun": 33,
+    "universe-moon": 27,
+    "universe-star-singular": 4,
+    "universe-stars-plural": 9,
+    "universe-fulk-ships": 23,
+    "universe-falak-orbit": 2,
+    "universe-musiun": 1
+  },
+  "tests_command": "python3 -m unittest discover -s tests -v",
+  "tests_passed": 25,
+  "full_command": "make check",
+  "full_command_exit_code": 0,
+  "research_limit_ar": "لا تثبت هذه المطابقة جدة النمط أو دلالته العلمية أو الإعجازية."
+}

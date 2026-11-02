@@ -1,0 +1,134 @@
+{
+  "output": "reports/word-index.json",
+  "written_forms": 14868,
+  "tokens": 77800,
+  "forms_occurring_once": 8708,
+  "forms_repeated": 6160,
+  "top_forms": [
+    {
+      "word": "من",
+      "count": 2763
+    },
+    {
+      "word": "الله",
+      "count": 2153
+    },
+    {
+      "word": "في",
+      "count": 1185
+    },
+    {
+      "word": "ما",
+      "count": 1013
+    },
+    {
+      "word": "إن",
+      "count": 966
+    },
+    {
+      "word": "لا",
+      "count": 812
+    },
+    {
+      "word": "الذين",
+      "count": 810
+    },
+    {
+      "word": "على",
+      "count": 670
+    },
+    {
+      "word": "إلا",
+      "count": 664
+    },
+    {
+      "word": "ولا",
+      "count": 658
+    },
+    {
+      "word": "وما",
+      "count": 646
+    },
+    {
+      "word": "أن",
+      "count": 638
+    },
+    {
+      "word": "قال",
+      "count": 416
+    },
+    {
+      "word": "إلى",
+      "count": 405
+    },
+    {
+      "word": "لهم",
+      "count": 373
+    },
+    {
+      "word": "يا",
+      "count": 350
+    },
+    {
+      "word": "ومن",
+      "count": 342
+    },
+    {
+      "word": "ثم",
+      "count": 340
+    },
+    {
+      "word": "لكم",
+      "count": 337
+    },
+    {
+      "word": "به",
+      "count": 327
+    },
+    {
+      "word": "كان",
+      "count": 323
+    },
+    {
+      "word": "بما",
+      "count": 296
+    },
+    {
+      "word": "قل",
+      "count": 294
+    },
+    {
+      "word": "الأرض",
+      "count": 287
+    },
+    {
+      "word": "أو",
+      "count": 280
+    },
+    {
+      "word": "ذلك",
+      "count": 280
+    },
+    {
+      "word": "له",
+      "count": 275
+    },
+    {
+      "word": "الذي",
+      "count": 268
+    },
+    {
+      "word": "هو",
+      "count": 265
+    },
+    {
+      "word": "آمنوا",
+      "count": 263
+    }
+  ],
+  "corpus": "simple-clean",
+  "source_sha256": "228df2a717671aeb9d2ff573002bd28d6b3f973f4bc7153554e3a81663d67610",
+  "include_opening_basmalas": false,
+  "method_ar": "الصيغ المكتوبة المفصولة بالمسافات دون جمع اللواصق أو التفريق الدلالي بين الألفاظ المشتركة في الرسم؛ المصدر الكامل المثبت. ليست أعداد الجذور أو المفردات المعجمية.",
+  "source_notice": "Tanzil — https://tanzil.net\n\n# PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK\n#====================================================================\n#\n#  Tanzil Quran Text (Simple Clean, Version 1.1)\n#  Copyright (C) 2007-2026 Tanzil Project\n#  License: Creative Commons Attribution 3.0\n#\n#  This copy of the Quran text is carefully produced, highly \n#  verified and continuously monitored by a group of specialists \n#  at Tanzil Project.\n#\n#  TERMS OF USE:\n#\n#  - Permission is granted to copy and distribute verbatim copies \n#    of this text, but CHANGING IT IS NOT ALLOWED.\n#\n#  - This Quran text can be used in any website or application, \n#    provided that its source (Tanzil Project) is clearly indicated, \n#    and a link is made to tanzil.net to enable users to keep\n#    track of changes.\n#\n#  - This copyright notice shall be included in all verbatim copies \n#    of the text, and shall be reproduced appropriately in all files \n#    derived from or containing substantial portion of this text.\n#\n#  Please check updates at: http://tanzil.net/updates/\n#\n#====================================================================\n"
+}
